@@ -1,0 +1,1083 @@
+﻿Log file open, 08/28/17 17:12:00
+LogInit:Display: Running engine for game: MyProject
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(854946639) SRandInit(854946640).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.104467
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.08.28-15.12.01:181][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.28-15.12.01:181][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.28-15.12.01:195][  0]LogInit: Computer: DESKTOP-BB8153U
+[2017.08.28-15.12.01:195][  0]LogInit: User: Davide
+[2017.08.28-15.12.01:195][  0]LogInit: CPU Page size=4096, Cores=2
+[2017.08.28-15.12.01:195][  0]LogInit: High frequency timer resolution =3.728018 MHz
+[2017.08.28-15.12.01:195][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2017.08.28-15.12.01:195][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.28-15.12.01:195][  0]LogMemory: Process Physical Memory: 272.56 MB used, 272.56 MB peak
+[2017.08.28-15.12.01:195][  0]LogMemory: Process Virtual Memory: 266.23 MB used, 266.23 MB peak
+[2017.08.28-15.12.01:195][  0]LogMemory: Physical Memory: 4913.16 MB used,  11435.50 MB free, 16348.66 MB total
+[2017.08.28-15.12.01:195][  0]LogMemory: Virtual Memory: 642.14 MB used,  11435.50 MB free, 134217728.00 MB total
+[2017.08.28-15.12.01:348][  0]LogInit: Using OS detected language (it-IT).
+[2017.08.28-15.12.01:348][  0]LogInit: Using OS detected locale (it-IT).
+[2017.08.28-15.12.01:355][  0]LogTextLocalizationManager: No localization for 'it-IT' exists, so 'en' will be used for the language.
+[2017.08.28-15.12.01:356][  0]LogTextLocalizationManager: No localization for 'it-IT' exists, so 'en' will be used for the locale.
+[2017.08.28-15.12.02:950][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.28-15.12.02:987][  0]LogD3D11RHI:    0. 'Radeon(TM) RX 460 Graphics' (Feature Level 11_0)
+[2017.08.28-15.12.02:987][  0]LogD3D11RHI:       4044/0/8174 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
+[2017.08.28-15.12.02:990][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.08.28-15.12.02:991][  0]LogD3D11RHI:       0/0/8174 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.08.28-15.12.02:991][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.28-15.12.03:008][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.28-15.12.03:008][  0]LogD3D11RHI:     GPU DeviceId: 0x67ef (for the marketing name, search the web for "GPU Device Id")
+[2017.08.28-15.12.03:008][  0]LogWindows: EnumDisplayDevices:
+[2017.08.28-15.12.03:009][  0]LogWindows:    0. 'Radeon(TM) RX 460 Graphics ' (P:1 D:1)
+[2017.08.28-15.12.03:009][  0]LogWindows:    1. 'Radeon(TM) RX 460 Graphics ' (P:0 D:1)
+[2017.08.28-15.12.03:010][  0]LogWindows:    2. 'Radeon(TM) RX 460 Graphics ' (P:0 D:0)
+[2017.08.28-15.12.03:010][  0]LogWindows:    3. 'Radeon(TM) RX 460 Graphics ' (P:0 D:0)
+[2017.08.28-15.12.03:011][  0]LogWindows:    4. 'Radeon(TM) RX 460 Graphics ' (P:0 D:0)
+[2017.08.28-15.12.03:011][  0]LogWindows: DebugString: FoundDriverCount:5 
+[2017.08.28-15.12.03:011][  0]LogD3D11RHI:     Adapter Name: Radeon(TM) RX 460 Graphics
+[2017.08.28-15.12.03:011][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 17.1.1 (internal:22.19.162.4, unified:22.19.162.4)
+[2017.08.28-15.12.03:011][  0]LogD3D11RHI:      Driver Date: 4-24-2017
+[2017.08.28-15.12.03:011][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.28-15.12.03:185][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.28-15.12.03:200][  0]LogD3D11RHI: GPU Timing Frequency: 25.000000 (Debug: 2 1)
+[2017.08.28-15.12.03:201][  0]LogShaderCompilers: Guid format shader working directory is 4 characters bigger than the processId version (D:/Davide/Documenti/MasterCastle/MyProject/Intermediate/Shaders/WorkingDirectory/18756/).
+[2017.08.28-15.12.03:201][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Davide/AppData/Local/Temp/UnrealShaderWorkingDir/0947298644055510B34631AEFF1A08C5/'.
+[2017.08.28-15.12.03:201][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.08.28-15.12.05:461][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.28-15.12.05:567][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.08.28-15.12.05:696][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.28-15.12.05:843][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.08.28-15.12.06:015][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.08.28-15.12.06:195][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.28-15.12.06:354][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.28-15.12.06:505][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.28-15.12.06:612][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.08.28-15.12.06:746][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.08.28-15.12.06:937][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.28-15.12.07:056][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.28-15.12.07:183][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.28-15.12.07:336][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.28-15.12.07:471][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.28-15.12.07:725][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.28-15.12.07:725][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.28-15.12.07:839][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.08.28-15.12.08:060][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.08.28-15.12.08:141][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.08.28-15.12.08:322][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.28-15.12.08:557][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.28-15.12.08:735][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.28-15.12.08:870][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.08.28-15.12.08:870][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.08.28-15.12.10:194][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.08.28-15.12.10:432][  0]LogDerivedDataCache: Loaded boot cache 0.24s 90MB C:/Users/Davide/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.28-15.12.10:433][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Davide/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.08.28-15.12.10:433][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Davide/Documenti/MasterCastle/MyProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.28-15.12.10:433][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.28-15.12.10:433][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Davide/Documenti/MasterCastle/MyProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.28-15.12.10:433][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.28-15.12.10:477][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.28-15.12.10:504][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Davide/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.28-15.12.10:525][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.08.28-15.12.10:525][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.28-15.12.10:526][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.28-15.12.10:526][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.28-15.12.11:206][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.28-15.12.11:397][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.28-15.12.11:754][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.28-15.12.11:866][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.28-15.12.12:013][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.28-15.12.12:013][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.08.28-15.12.12:013][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.08.28-15.12.13:243][  0]LogNetVersion: MyProject , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1111101373)
+[2017.08.28-15.12.13:358][  0]LogAssetRegistry: FAssetRegistry took 0.0308 seconds to start up
+[2017.08.28-15.12.13:470][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.046697 seconds
+[2017.08.28-15.12.13:481][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.08.28-15.12.13:481][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.08.28-15.12.13:481][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.28-15.12.13:665][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.28-15.12.19:833][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.28-15.12.19:917][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.28-15.12.21:199][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.28-15.12.22:258][  0]SourceControl: Info Source control is disabled
+[2017.08.28-15.12.22:372][  0]SourceControl: Info Source control is disabled
+[2017.08.28-15.12.22:527][  0]SourceControl: Info Source control is disabled
+[2017.08.28-15.12.22:662][  0]SourceControl: Info Source control is disabled
+[2017.08.28-15.12.24:683][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.08.28-15.12.26:558][  0]LogEngine: Initializing Engine...
+[2017.08.28-15.12.26:560][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.08.28-15.12.27:079][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.28-15.12.27:079][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.28-15.12.27:467][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.28-15.12.27:488][  0]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.28-15.12.27:527][  0]LogInit: FAudioDevice initialized.
+[2017.08.28-15.12.27:626][  0]LogDerivedDataCache: Saved boot cache 0.10s 90MB C:/Users/Davide/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.28-15.12.27:659][  0]LogInit: Texture streaming: Enabled
+[2017.08.28-15.12.28:003][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.08.28-15.12.28:677][  0]LogInit: Transaction tracking system initialized
+[2017.08.28-15.12.29:628][  0]BlueprintLog: New page: Editor Load
+[2017.08.28-15.12.32:364][  0]LocalizationService: Info Localization service is disabled
+[2017.08.28-15.12.34:418][  0]LogConsoleResponse:Display: 
+[2017.08.28-15.12.34:728][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.28-15.12.34:728][  0]LogCook:Display: Mobile HDR setting 1
+[2017.08.28-15.12.35:150][  0]LogFileCache: Scanning file cache for directory 'D:/Davide/Documenti/MasterCastle/MyProject/Content/' took 0.01s
+[2017.08.28-15.12.37:521][  0]SourceControl: Info Source control is disabled
+[2017.08.28-15.12.37:521][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.28-15.12.37:522][  0]LightingResults: New page: Lighting Build
+[2017.08.28-15.12.37:643][  0]MapCheck: New page: Map Check
+[2017.08.28-15.12.37:643][  0]LightingResults: New page: Lighting Build
+[2017.08.28-15.12.38:108][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.08.28-15.12.38:110][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.28-15.12.38:117][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.28-15.12.38:166][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.28-15.12.38:270][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 103.736ms to complete.
+[2017.08.28-15.12.38:270][  0]LogFileHelpers: Loading map 'Template_Default' took 0.749
+[2017.08.28-15.12.38:534][  0]LogCollectionManager: Loaded 0 collections in 0.003180 seconds
+[2017.08.28-15.12.38:723][  0]LogFileCache: Scanning file cache for directory 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/Collections/' took 0.01s
+[2017.08.28-15.12.38:723][  0]LogFileCache: Scanning file cache for directory 'D:/Davide/Documenti/MasterCastle/MyProject/Content/Developers/Davide/Collections/' took 0.01s
+[2017.08.28-15.12.38:723][  0]LogFileCache: Scanning file cache for directory 'D:/Davide/Documenti/MasterCastle/MyProject/Content/Collections/' took 0.01s
+[2017.08.28-15.12.38:723][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2017.08.28-15.12.38:747][  0]LogContentBrowser: Native class hierarchy populated in 0.0233 seconds. Added 2329 classes and 491 folders.
+[2017.08.28-15.12.38:909][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2017.08.28-15.12.39:002][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.08.28-15.12.39:101][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.08.28-15.12.39:242][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.08.28-15.12.40:727][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.08.28-15.12.40:774][  0]LogSlate: Took 0.003034 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.28-15.12.40:779][  0]LogSlate: Took 0.001901 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.28-15.12.40:789][  0]LogSlate: Took 0.001881 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.28-15.12.41:002][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.MyProject
+[2017.08.28-15.12.41:002][  0]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.08.28-15.12.41:002][  0]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.16
+[2017.08.28-15.12.41:002][  0]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.08.28-15.12.41:002][  0]LogTemp: BranchPath = DESKTOP-BB8153U/C/Program Files/Epic Games/UE_4.16/Engine/Binaries --- GameBranchPath = DESKTOP-BB8153U/C/Program Files/Epic Games/UE_4.16/Engine/Binaries
+[2017.08.28-15.12.41:002][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Davide\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.08.28-15.12.41:002][  0]LogRenderer: Reallocating scene render targets to support 1156x576 NumSamples 1 (Frame:1).
+[2017.08.28-15.12.41:258][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.08.28-15.12.41:379][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.08.28-15.12.41:379][  0]LogLoad: (Engine Initialization) Total time: 43.37 seconds
+[2017.08.28-15.12.41:379][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.21 seconds
+[2017.08.28-15.12.41:379][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.08.28-15.12.41:720][  0]LogOcInput: OculusInput pre-init called
+[2017.08.28-15.12.41:720][  0]LogHMD: Starting GearVRController plugin
+[2017.08.28-15.12.41:740][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.08.28-15.12.42:067][  1]LogAssetRegistry: Asset discovery search completed in 28.7307 seconds
+[2017.08.28-15.12.42:069][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.08.28-15.12.42:069][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000047 seconds (updated 0 objects)
+[2017.08.28-15.12.42:730][  3]LogSlate: Took 0.003783 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.28-15.12.46:080][ 13]LogSlate: Took 0.000390 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.28-15.12.50:470][ 27]LogSynthBenchmark:Display: FSynthBenchmark (V0.95):  requested WorkScale=5.00
+[2017.08.28-15.12.50:470][ 27]LogSynthBenchmark:Display: ===============
+[2017.08.28-15.12.50:470][ 27]LogSynthBenchmark:Display: Main Processor:
+[2017.08.28-15.12.50:780][ 27]LogSynthBenchmark:Display:          ... 0.035046 s/Run 'RayIntersect'
+[2017.08.28-15.12.50:780][ 27]LogSynthBenchmark:Display:          ... 0.026964 s/Run 'Fractal'
+[2017.08.28-15.12.50:780][ 27]LogSynthBenchmark:Display: 
+[2017.08.28-15.12.50:780][ 27]LogSynthBenchmark:Display:   CompiledTarget_x_Bits: 64
+[2017.08.28-15.12.50:780][ 27]LogSynthBenchmark:Display:   UE_BUILD_SHIPPING: 0
+[2017.08.28-15.12.50:780][ 27]LogSynthBenchmark:Display:   UE_BUILD_TEST: 0
+[2017.08.28-15.12.50:780][ 27]LogSynthBenchmark:Display:   UE_BUILD_DEBUG: 0
+[2017.08.28-15.12.50:780][ 27]LogSynthBenchmark:Display:   TotalPhysicalGBRam: 16
+[2017.08.28-15.12.50:780][ 27]LogSynthBenchmark:Display:   NumberOfCores (physical): 2
+[2017.08.28-15.12.50:780][ 27]LogSynthBenchmark:Display:   NumberOfCores (logical): 4
+[2017.08.28-15.12.50:780][ 27]LogSynthBenchmark:Display:   CPU Perf Index 0: 73.1 (weight 1.00)
+[2017.08.28-15.12.50:780][ 27]LogSynthBenchmark:Display:   CPU Perf Index 1: 106.1 (weight 1.50)
+[2017.08.28-15.12.50:780][ 27]LogSynthBenchmark:Display:  
+[2017.08.28-15.12.50:780][ 27]LogSynthBenchmark:Display: Graphics:
+[2017.08.28-15.12.50:780][ 27]LogSynthBenchmark:Display:   Adapter Name: 'Radeon(TM) RX 460 Graphics'
+[2017.08.28-15.12.50:780][ 27]LogSynthBenchmark:Display:   (On Optimus the name might be wrong, memory should be ok)
+[2017.08.28-15.12.50:780][ 27]LogSynthBenchmark:Display:   Vendor Id: 0x1002
+[2017.08.28-15.12.50:780][ 27]LogSynthBenchmark:Display:   Device Id: 0x67EF
+[2017.08.28-15.12.50:780][ 27]LogSynthBenchmark:Display:   Device Revision: 0xCF
+[2017.08.28-15.12.50:780][ 27]LogSynthBenchmark:Display:   GPU Memory: 4045/0/8175 MB
+[2017.08.28-15.12.50:945][ 27]LogSynthBenchmark:Display:   GPU first test: 0.03s
+[2017.08.28-15.12.50:945][ 27]LogSynthBenchmark:Display:          ... 4.100 s/GigaPix, Confidence=100% 'ALUHeavyNoise' (likely to be very inaccurate)
+[2017.08.28-15.12.50:945][ 27]LogSynthBenchmark:Display:          ... 3.153 s/GigaPix, Confidence=100% 'TexHeavy' (likely to be very inaccurate)
+[2017.08.28-15.12.50:945][ 27]LogSynthBenchmark:Display:          ... 2.875 s/GigaPix, Confidence=100% 'DepTexHeavy' (likely to be very inaccurate)
+[2017.08.28-15.12.50:945][ 27]LogSynthBenchmark:Display:          ... 7.797 s/GigaPix, Confidence=89% 'FillOnly' (likely to be very inaccurate)
+[2017.08.28-15.12.50:945][ 27]LogSynthBenchmark:Display:          ... 0.314 s/GigaPix, Confidence=100% 'Bandwidth' (likely to be very inaccurate)
+[2017.08.28-15.12.50:945][ 27]LogSynthBenchmark:Display:          ... 1.220 s/GigaVert, Confidence=89% 'VertThroughPut1' (likely to be very inaccurate)
+[2017.08.28-15.12.50:945][ 27]LogSynthBenchmark:Display:          ... 2.264 s/GigaVert, Confidence=100% 'VertThroughPut2' (likely to be very inaccurate)
+[2017.08.28-15.12.51:329][ 27]LogSynthBenchmark:Display:   GPU second test: 0.29s
+[2017.08.28-15.12.51:329][ 27]LogSynthBenchmark:Display:          ... 5.912 s/GigaPix, Confidence=70% 'ALUHeavyNoise' (likely to be inaccurate)
+[2017.08.28-15.12.51:329][ 27]LogSynthBenchmark:Display:          ... 4.175 s/GigaPix, Confidence=89% 'TexHeavy' (likely to be inaccurate)
+[2017.08.28-15.12.51:329][ 27]LogSynthBenchmark:Display:          ... 4.030 s/GigaPix, Confidence=81% 'DepTexHeavy' (likely to be inaccurate)
+[2017.08.28-15.12.51:329][ 27]LogSynthBenchmark:Display:          ... 16.809 s/GigaPix, Confidence=89% 'FillOnly' (likely to be inaccurate)
+[2017.08.28-15.12.51:329][ 27]LogSynthBenchmark:Display:          ... 0.332 s/GigaPix, Confidence=100% 'Bandwidth' (likely to be inaccurate)
+[2017.08.28-15.12.51:329][ 27]LogSynthBenchmark:Display:          ... 1.191 s/GigaVert, Confidence=100% 'VertThroughPut1' (likely to be inaccurate)
+[2017.08.28-15.12.51:330][ 27]LogSynthBenchmark:Display:          ... 2.267 s/GigaVert, Confidence=100% 'VertThroughPut2' (likely to be inaccurate)
+[2017.08.28-15.12.51:330][ 27]LogSynthBenchmark:Display:   GPU Final Results:
+[2017.08.28-15.12.51:330][ 27]LogSynthBenchmark:Display:          ... 5.912 s/GigaPix, Confidence=70% 'ALUHeavyNoise'
+[2017.08.28-15.12.51:330][ 27]LogSynthBenchmark:Display:          ... 4.175 s/GigaPix, Confidence=89% 'TexHeavy'
+[2017.08.28-15.12.51:330][ 27]LogSynthBenchmark:Display:          ... 4.030 s/GigaPix, Confidence=81% 'DepTexHeavy'
+[2017.08.28-15.12.51:330][ 27]LogSynthBenchmark:Display:          ... 16.809 s/GigaPix, Confidence=89% 'FillOnly'
+[2017.08.28-15.12.51:330][ 27]LogSynthBenchmark:Display:          ... 0.332 s/GigaPix, Confidence=100% 'Bandwidth'
+[2017.08.28-15.12.51:330][ 27]LogSynthBenchmark:Display:          ... 1.191 s/GigaVert, Confidence=100% 'VertThroughPut1'
+[2017.08.28-15.12.51:330][ 27]LogSynthBenchmark:Display:          ... 2.267 s/GigaVert, Confidence=100% 'VertThroughPut2'
+[2017.08.28-15.12.51:330][ 27]LogSynthBenchmark:Display: 
+[2017.08.28-15.12.51:330][ 27]LogSynthBenchmark:Display:   GPU Perf Index 0: 128.5 (weight 1.00)
+[2017.08.28-15.12.51:330][ 27]LogSynthBenchmark:Display:   GPU Perf Index 1: 56.1 (weight 0.10)
+[2017.08.28-15.12.51:330][ 27]LogSynthBenchmark:Display:   GPU Perf Index 2: 104.8 (weight 0.10)
+[2017.08.28-15.12.51:330][ 27]LogSynthBenchmark:Display:   GPU Perf Index 3: 66.0 (weight 3.00)
+[2017.08.28-15.12.51:330][ 27]LogSynthBenchmark:Display:   GPU Perf Index 4: 31.0 (weight 1.00)
+[2017.08.28-15.12.51:330][ 27]LogSynthBenchmark:Display:   GPU Perf Index 5: 77.5 (weight 0.00)
+[2017.08.28-15.12.51:330][ 27]LogSynthBenchmark:Display:   GPU Perf Index 6: 128.3 (weight 0.00)
+[2017.08.28-15.12.51:330][ 27]LogSynthBenchmark:Display:   CPUIndex: 92.9
+[2017.08.28-15.12.51:330][ 27]LogSynthBenchmark:Display:   GPUIndex: 71.9
+[2017.08.28-15.12.51:330][ 27]LogSynthBenchmark:Display: 
+[2017.08.28-15.12.51:330][ 27]LogSynthBenchmark:Display:          ... Total Time: 0.859744 sec
+[2017.08.28-15.13.13:668][440]Cmd: MAP LOAD FILE="D:/Davide/Documenti/MasterCastle/MyProject/Content/FlipperMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.28-15.13.13:684][440]LogSlate: Took 0.000311 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.28-15.13.13:700][440]LightingResults: New page: Lighting Build
+[2017.08.28-15.13.13:702][440]LoadErrors: New page: Loading map: FlipperMap.umap
+[2017.08.28-15.13.13:707][440]MapCheck: New page: Map Check
+[2017.08.28-15.13.13:707][440]LightingResults: New page: Lighting Build
+[2017.08.28-15.13.14:020][440]LogAIModule: Creating AISystem for world FlipperMap
+[2017.08.28-15.13.14:120][440]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.28-15.13.14:186][440]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.28-15.13.14:287][440]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 100.966ms to complete.
+[2017.08.28-15.13.14:287][440]LogFileHelpers: Loading map 'FlipperMap' took 0.621
+[2017.08.28-15.13.16:404][582]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.28-15.13.16:440][582]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.08.28-15.13.16:440][582]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.28-15.13.16:440][582]PIE: New page: PIE session: FlipperMap (Aug 28, 2017, 7:13:16 PM)
+[2017.08.28-15.13.16:440][582]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FlipperMap
+[2017.08.28-15.13.16:453][582]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012278s)
+[2017.08.28-15.13.16:453][582]LogAIModule: Creating AISystem for world FlipperMap
+[2017.08.28-15.13.16:454][582]LogPlayLevel: PIE: World Init took: (0.001241s)
+[2017.08.28-15.13.16:454][582]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlipperMap.FlipperMap to /Game/UEDPIE_0_FlipperMap.FlipperMap (0.013840s)
+[2017.08.28-15.13.16:507][582]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.28-15.13.16:532][582]LogInit: FAudioDevice initialized.
+[2017.08.28-15.13.16:668][582]LogLoad: Game class is 'PinballGameMode_C'
+[2017.08.28-15.13.16:671][582]LogWorld: Bringing World /Game/UEDPIE_0_FlipperMap.FlipperMap up for play (max tick rate 0) at 2017.08.28-17.13.16
+[2017.08.28-15.13.16:672][582]LogWorld: Bringing up level for play took: 0.003082
+[2017.08.28-15.13.16:785][582]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 11 classes and 0 folders.
+[2017.08.28-15.13.16:787][582]PIE: Info Play in editor start time for /Game/UEDPIE_0_FlipperMap -0.284
+[2017.08.28-15.13.16:788][582]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.08.28-15.13.24:502][224]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.08.28-15.13.24:543][224]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.08.28-15.13.25:228][269]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.28-15.13.25:247][269]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.08.28-15.13.25:247][269]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.28-15.13.25:247][269]PIE: New page: PIE session: FlipperMap (Aug 28, 2017, 7:13:25 PM)
+[2017.08.28-15.13.25:247][269]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FlipperMap
+[2017.08.28-15.13.25:257][269]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009922s)
+[2017.08.28-15.13.25:258][269]LogAIModule: Creating AISystem for world FlipperMap
+[2017.08.28-15.13.25:258][269]LogPlayLevel: PIE: World Init took: (0.001135s)
+[2017.08.28-15.13.25:259][269]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlipperMap.FlipperMap to /Game/UEDPIE_0_FlipperMap.FlipperMap (0.011466s)
+[2017.08.28-15.13.25:345][269]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.28-15.13.25:369][269]LogInit: FAudioDevice initialized.
+[2017.08.28-15.13.25:409][269]LogLoad: Game class is 'PinballGameMode_C'
+[2017.08.28-15.13.25:412][269]LogWorld: Bringing World /Game/UEDPIE_0_FlipperMap.FlipperMap up for play (max tick rate 0) at 2017.08.28-17.13.25
+[2017.08.28-15.13.25:412][269]LogWorld: Bringing up level for play took: 0.003175
+[2017.08.28-15.13.25:414][269]PIE: Info Play in editor start time for /Game/UEDPIE_0_FlipperMap 0.343
+[2017.08.28-15.13.25:414][269]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.08.28-15.13.30:392][782]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.08.28-15.13.30:428][782]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.08.28-15.15.23:395][223]LogSlate: Took 0.001396 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.28-15.15.23:689][223]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0019 seconds. Added 112 classes and 0 folders.
+[2017.08.28-15.15.24:794][223]LogSlate: Took 0.001337 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.08.28-15.15.24:986][224]LogSlate: Took 0.002671 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.08.28-15.15.48:762][667]LogSlate: Took 0.006040 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.08.28-15.15.54:488][976]BlueprintLog: New page: Compile BP_Plunger
+[2017.08.28-15.16.59:535][956]LogEditorViewport: Clicking on Actor (LMB): BP_Plunger_C (BP_Plunger1)
+[2017.08.28-15.17.00:584][ 52]LogEditorViewport: Clicking on Actor (LMB): BP_Plunger_C (BP_Plunger)
+[2017.08.28-15.17.48:086][606]BlueprintLog: New page: Compile BP_Plunger
+[2017.08.28-15.18.23:037][245]BlueprintLog: New page: Compile BP_Plunger
+[2017.08.28-15.19.55:433][738]LogEditorViewport: Clicking on Actor (LMB): BP_Plunger_C (BP_Plunger)
+[2017.08.28-15.19.58:911][ 32]LogEditorViewport: Clicking on Actor (LMB): BP_Plunger_C (BP_Plunger)
+[2017.08.28-15.23.27:902][706]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlipperMap" FILE="D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/FlipperMap_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.08.28-15.23.28:196][706]LogSavePackage: Save=284.02ms
+[2017.08.28-15.23.28:196][706]LogSavePackage: Moving 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/FlipperMap_Auto145294DAD4D5C4554E21B4FA743195F12.tmp' to 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/FlipperMap_Auto1.umap'
+[2017.08.28-15.23.28:199][706]LogSavePackage:Display: Finished SavePackage D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/FlipperMap_Auto1.umap
+[2017.08.28-15.23.28:201][706]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FlipperMap' took 0.357
+[2017.08.28-15.23.28:201][706]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.357
+[2017.08.28-15.23.28:204][706]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_Plunger] ([1] browsable assets)...
+[2017.08.28-15.23.28:232][706]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Plunger.BP_Plunger]
+[2017.08.28-15.23.28:232][706]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Plunger]
+[2017.08.28-15.23.28:232][706]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Plunger" FILE="D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/Blueprints/BP_Plunger_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.08.28-15.23.28:297][706]LogSavePackage: Save=55.56ms
+[2017.08.28-15.23.28:297][706]LogSavePackage: Moving 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/BP_Plunger_Auto145A188974B97DE133AC1B9835E5605C4.tmp' to 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/Blueprints/BP_Plunger_Auto1.uasset'
+[2017.08.28-15.23.28:301][706]LogSavePackage:Display: Finished SavePackage D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/Blueprints/BP_Plunger_Auto1.uasset
+[2017.08.28-15.23.28:301][706]LogFileHelpers: Auto-saving content packages took 0.098
+[2017.08.28-15.29.02:145][956]BlueprintLog: New page: Compile BP_Plunger
+[2017.08.28-15.29.03:174][ 38]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Plunger" FILE="D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/BP_Plunger.uasset" SILENT=true
+[2017.08.28-15.29.03:234][ 38]LogSavePackage: Save=53.85ms
+[2017.08.28-15.29.03:234][ 38]LogSavePackage: Moving 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/BP_Plunger61EDB1F34DB19D5322CBD985BEDB4FA2.tmp' to 'D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/BP_Plunger.uasset'
+[2017.08.28-15.29.03:239][ 38]LogSavePackage:Display: Finished SavePackage D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/BP_Plunger.uasset
+[2017.08.28-15.29.17:628][753]LogEditorViewport: Clicking on Actor (LMB): BP_Ball_C (BP_Ball)
+[2017.08.28-15.29.20:010][984]Cmd: DELETE
+[2017.08.28-15.29.20:010][984]Cmd: ACTOR DELETE
+[2017.08.28-15.29.20:011][984]LogEditorActor: Deleted Actor: BP_Ball_C
+[2017.08.28-15.29.20:053][984]LogEditorActor: Deleted 1 Actors (0.043 secs)
+[2017.08.28-15.31.59:607][515]BlueprintLog: New page: Compile BP_Plunger
+[2017.08.28-15.33.29:696][942]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlipperMap" FILE="D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/FlipperMap_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.08.28-15.33.29:950][942]LogSavePackage: Save=245.80ms
+[2017.08.28-15.33.29:950][942]LogSavePackage: Moving 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/FlipperMap_Auto21444B71C49C730E7F797D59D3BEDF2DB.tmp' to 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/FlipperMap_Auto2.umap'
+[2017.08.28-15.33.29:955][942]LogSavePackage:Display: Finished SavePackage D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/FlipperMap_Auto2.umap
+[2017.08.28-15.33.29:958][942]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FlipperMap' took 0.312
+[2017.08.28-15.33.29:958][942]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.312
+[2017.08.28-15.33.29:961][942]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_Plunger] ([1] browsable assets)...
+[2017.08.28-15.33.29:985][942]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Plunger.BP_Plunger]
+[2017.08.28-15.33.29:985][942]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Plunger]
+[2017.08.28-15.33.29:985][942]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Plunger" FILE="D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/Blueprints/BP_Plunger_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.08.28-15.33.30:041][942]LogSavePackage: Save=50.62ms
+[2017.08.28-15.33.30:041][942]LogSavePackage: Moving 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/BP_Plunger_Auto2A089D02145BAA8C44675C5BF59A4A7E6.tmp' to 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/Blueprints/BP_Plunger_Auto2.uasset'
+[2017.08.28-15.33.30:044][942]LogSavePackage:Display: Finished SavePackage D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/Blueprints/BP_Plunger_Auto2.uasset
+[2017.08.28-15.33.30:045][942]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/PinballGameMode] ([1] browsable assets)...
+[2017.08.28-15.33.30:045][942]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/PinballGameMode]
+[2017.08.28-15.33.30:045][942]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PinballGameMode" FILE="D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/Blueprints/PinballGameMode_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.08.28-15.33.30:081][942]LogSavePackage: Save=17.75ms
+[2017.08.28-15.33.30:081][942]LogSavePackage: Moving 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/PinballGameMode_Auto258FB81E4469709A61435A18D0A556A8E.tmp' to 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/Blueprints/PinballGameMode_Auto2.uasset'
+[2017.08.28-15.33.30:083][942]LogSavePackage:Display: Finished SavePackage D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/Blueprints/PinballGameMode_Auto2.uasset
+[2017.08.28-15.33.30:083][942]LogFileHelpers: Auto-saving content packages took 0.124
+[2017.08.28-15.36.11:301][154]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.08.28-15.39.33:497][588]BlueprintLog: New page: Compile PinballGameMode
+[2017.08.28-15.39.43:182][524]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.28-15.39.43:202][524]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.08.28-15.39.43:202][524]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.28-15.39.43:202][524]PIE: New page: PIE session: FlipperMap (Aug 28, 2017, 7:39:43 PM)
+[2017.08.28-15.39.43:202][524]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FlipperMap
+[2017.08.28-15.39.43:217][524]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014996s)
+[2017.08.28-15.39.43:218][524]LogAIModule: Creating AISystem for world FlipperMap
+[2017.08.28-15.39.43:218][524]LogPlayLevel: PIE: World Init took: (0.001064s)
+[2017.08.28-15.39.43:218][524]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlipperMap.FlipperMap to /Game/UEDPIE_0_FlipperMap.FlipperMap (0.016389s)
+[2017.08.28-15.39.43:279][524]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.28-15.39.43:295][524]LogInit: FAudioDevice initialized.
+[2017.08.28-15.39.43:369][524]LogLoad: Game class is 'PinballGameMode_C'
+[2017.08.28-15.39.43:372][524]LogWorld: Bringing World /Game/UEDPIE_0_FlipperMap.FlipperMap up for play (max tick rate 0) at 2017.08.28-17.39.43
+[2017.08.28-15.39.43:373][524]LogWorld: Bringing up level for play took: 0.003022
+[2017.08.28-15.39.43:377][524]PIE: Info Play in editor start time for /Game/UEDPIE_0_FlipperMap 0.306
+[2017.08.28-15.39.43:378][524]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.08.28-15.39.43:400][524]LogRenderer: Reallocating scene render targets to support 1292x756 NumSamples 1 (Frame:1).
+[2017.08.28-15.39.58:407][821]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.08.28-15.39.58:469][821]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.08.28-15.42.52:704][866]BlueprintLog: New page: Compile PinballGameMode
+[2017.08.28-15.42.53:856][977]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PinballGameMode" FILE="D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/PinballGameMode.uasset" SILENT=true
+[2017.08.28-15.42.53:902][977]LogSavePackage: Save=37.85ms
+[2017.08.28-15.42.53:902][977]LogSavePackage: Moving 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/PinballGameMode5B2608B244D56738F8AFDDA5A9374F32.tmp' to 'D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/PinballGameMode.uasset'
+[2017.08.28-15.42.53:907][977]LogSavePackage:Display: Finished SavePackage D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/PinballGameMode.uasset
+[2017.08.28-15.43.49:138][754]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FlipperMap' took 0.057
+[2017.08.28-15.43.49:140][754]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BallResetZone] ([1] browsable assets)...
+[2017.08.28-15.43.49:140][754]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BallResetZone]
+[2017.08.28-15.43.49:140][754]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BallResetZone" FILE="D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/Blueprints/BallResetZone_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2017.08.28-15.43.49:158][754]LogSavePackage: Save=15.38ms
+[2017.08.28-15.43.49:158][754]LogSavePackage: Moving 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/BallResetZone_Auto30C2F8BA04417530C4BE6A4B3324A2B68.tmp' to 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/Blueprints/BallResetZone_Auto3.uasset'
+[2017.08.28-15.43.49:160][754]LogSavePackage:Display: Finished SavePackage D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/Blueprints/BallResetZone_Auto3.uasset
+[2017.08.28-15.43.49:161][754]LogFileHelpers: Auto-saving content packages took 0.022
+[2017.08.28-15.45.08:334][839]BlueprintLog: New page: Compile BallResetZone
+[2017.08.28-15.46.19:702][544]BlueprintLog: New page: Compile BallResetZone
+[2017.08.28-15.46.20:534][607]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BallResetZone" FILE="D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/BallResetZone.uasset" SILENT=true
+[2017.08.28-15.46.20:567][607]LogSavePackage: Save=19.08ms
+[2017.08.28-15.46.20:567][607]LogSavePackage: Moving 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/BallResetZone73B853A343826DF2AA3E6CB7483C8ED6.tmp' to 'D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/BallResetZone.uasset'
+[2017.08.28-15.46.20:571][607]LogSavePackage:Display: Finished SavePackage D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/BallResetZone.uasset
+[2017.08.28-15.47.47:344][971]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.28-15.47.47:371][971]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.08.28-15.47.47:371][971]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.28-15.47.47:371][971]PIE: New page: PIE session: FlipperMap (Aug 28, 2017, 7:47:47 PM)
+[2017.08.28-15.47.47:371][971]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FlipperMap
+[2017.08.28-15.47.47:384][971]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012083s)
+[2017.08.28-15.47.47:385][971]LogAIModule: Creating AISystem for world FlipperMap
+[2017.08.28-15.47.47:385][971]LogPlayLevel: PIE: World Init took: (0.001312s)
+[2017.08.28-15.47.47:385][971]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlipperMap.FlipperMap to /Game/UEDPIE_0_FlipperMap.FlipperMap (0.013707s)
+[2017.08.28-15.47.47:456][971]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.28-15.47.47:471][971]LogInit: FAudioDevice initialized.
+[2017.08.28-15.47.47:504][971]LogLoad: Game class is 'PinballGameMode_C'
+[2017.08.28-15.47.47:507][971]LogWorld: Bringing World /Game/UEDPIE_0_FlipperMap.FlipperMap up for play (max tick rate 0) at 2017.08.28-17.47.47
+[2017.08.28-15.47.47:509][971]LogWorld: Bringing up level for play took: 0.003748
+[2017.08.28-15.47.47:511][971]PIE: Info Play in editor start time for /Game/UEDPIE_0_FlipperMap 0.439
+[2017.08.28-15.47.47:511][971]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.08.28-15.48.08:366][321]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.08.28-15.48.08:418][321]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.08.28-15.48.09:608][416]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.08.28-15.48.10:375][479]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.08.28-15.48.10:936][527]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.08.28-15.48.12:680][678]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.08.28-15.48.13:162][718]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.08.28-15.48.14:010][793]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.08.28-15.48.14:195][807]LogEditorViewport: Clicking on Actor (double click): BallResetZone_C (BallResetZone)
+[2017.08.28-15.48.24:396][720]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.28-15.48.24:416][720]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.08.28-15.48.24:416][720]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.28-15.48.24:416][720]PIE: New page: PIE session: FlipperMap (Aug 28, 2017, 7:48:24 PM)
+[2017.08.28-15.48.24:416][720]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FlipperMap
+[2017.08.28-15.48.24:426][720]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009886s)
+[2017.08.28-15.48.24:427][720]LogAIModule: Creating AISystem for world FlipperMap
+[2017.08.28-15.48.24:427][720]LogPlayLevel: PIE: World Init took: (0.001007s)
+[2017.08.28-15.48.24:427][720]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlipperMap.FlipperMap to /Game/UEDPIE_0_FlipperMap.FlipperMap (0.011218s)
+[2017.08.28-15.48.24:521][720]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.28-15.48.24:536][720]LogInit: FAudioDevice initialized.
+[2017.08.28-15.48.24:572][720]LogLoad: Game class is 'PinballGameMode_C'
+[2017.08.28-15.48.24:575][720]LogWorld: Bringing World /Game/UEDPIE_0_FlipperMap.FlipperMap up for play (max tick rate 0) at 2017.08.28-17.48.24
+[2017.08.28-15.48.24:575][720]LogWorld: Bringing up level for play took: 0.002272
+[2017.08.28-15.48.24:577][720]PIE: Info Play in editor start time for /Game/UEDPIE_0_FlipperMap -0.495
+[2017.08.28-15.48.24:577][720]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.08.28-15.48.48:400][397]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.08.28-15.48.48:449][397]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.08.28-15.49.00:288][457]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.08.28-15.49.26:803][725]Cmd: TRANSACTION UNDO
+[2017.08.28-15.49.26:803][725]LogEditorTransaction: Undo Scale Actors
+[2017.08.28-15.49.27:433][766]Cmd: TRANSACTION UNDO
+[2017.08.28-15.49.27:433][766]LogEditorTransaction: Undo Scale Actors
+[2017.08.28-15.49.30:999][ 78]Cmd: TRANSACTION REDO
+[2017.08.28-15.49.30:999][ 78]LogEditorTransaction: Redo Scale Actors
+[2017.08.28-15.49.39:363][793]Cmd: TRANSACTION UNDO
+[2017.08.28-15.49.39:363][793]LogEditorTransaction: Undo Scale Actors
+[2017.08.28-15.49.39:633][810]Cmd: TRANSACTION UNDO
+[2017.08.28-15.49.39:633][810]LogEditorTransaction: Undo Scale Actors
+[2017.08.28-15.49.40:055][841]Cmd: TRANSACTION UNDO
+[2017.08.28-15.49.40:055][841]LogEditorTransaction: Undo Clicking on Actors
+[2017.08.28-15.49.41:538][971]Cmd: TRANSACTION REDO
+[2017.08.28-15.49.41:538][971]LogEditorTransaction: Redo Clicking on Actors
+[2017.08.28-15.49.44:545][234]LogEditorViewport: Clicking on Actor (LMB): BallResetZone_C (BallResetZone)
+[2017.08.28-15.50.04:757][ 61]Cmd: TRANSACTION UNDO
+[2017.08.28-15.50.04:757][ 61]LogEditorTransaction: Undo Scale Actors
+[2017.08.28-15.50.15:876][ 34]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.28-15.50.15:899][ 34]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.08.28-15.50.15:899][ 34]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.28-15.50.15:899][ 34]PIE: New page: PIE session: FlipperMap (Aug 28, 2017, 7:50:15 PM)
+[2017.08.28-15.50.15:899][ 34]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FlipperMap
+[2017.08.28-15.50.15:910][ 34]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011096s)
+[2017.08.28-15.50.15:911][ 34]LogAIModule: Creating AISystem for world FlipperMap
+[2017.08.28-15.50.15:911][ 34]LogPlayLevel: PIE: World Init took: (0.001039s)
+[2017.08.28-15.50.15:912][ 34]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlipperMap.FlipperMap to /Game/UEDPIE_0_FlipperMap.FlipperMap (0.012425s)
+[2017.08.28-15.50.15:977][ 34]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.28-15.50.15:993][ 34]LogInit: FAudioDevice initialized.
+[2017.08.28-15.50.16:034][ 34]LogLoad: Game class is 'PinballGameMode_C'
+[2017.08.28-15.50.16:037][ 34]LogWorld: Bringing World /Game/UEDPIE_0_FlipperMap.FlipperMap up for play (max tick rate 0) at 2017.08.28-17.50.16
+[2017.08.28-15.50.16:037][ 34]LogWorld: Bringing up level for play took: 0.002394
+[2017.08.28-15.50.16:039][ 34]PIE: Info Play in editor start time for /Game/UEDPIE_0_FlipperMap 0.968
+[2017.08.28-15.50.16:039][ 34]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.08.28-15.51.19:805][871]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.08.28-15.51.19:876][871]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.08.28-15.54.44:809][591]BlueprintLog: New page: Compile PinballGameMode
+[2017.08.28-15.54.45:815][686]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PinballGameMode" FILE="D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/PinballGameMode.uasset" SILENT=true
+[2017.08.28-15.54.45:859][686]LogSavePackage: Save=35.67ms
+[2017.08.28-15.54.45:859][686]LogSavePackage: Moving 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/PinballGameModeFB59651344B6736082A5FC8C2FBD523C.tmp' to 'D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/PinballGameMode.uasset'
+[2017.08.28-15.54.45:863][686]LogSavePackage:Display: Finished SavePackage D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/PinballGameMode.uasset
+[2017.08.28-15.54.49:741][ 63]Cmd: SELECT NONE
+[2017.08.28-15.54.51:673][267]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlipperMap" FILE="D:/Davide/Documenti/MasterCastle/MyProject/Content/FlipperMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.28-15.54.52:003][267]LogSavePackage: Save=259.07ms
+[2017.08.28-15.54.52:003][267]LogSavePackage: Moving 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/FlipperMap53B6812045F407945B5ED0908BC13BF0.tmp' to 'D:/Davide/Documenti/MasterCastle/MyProject/Content/FlipperMap.umap'
+[2017.08.28-15.54.52:008][267]LogSavePackage:Display: Finished SavePackage D:/Davide/Documenti/MasterCastle/MyProject/Content/FlipperMap.umap
+[2017.08.28-15.54.52:067][267]LogFileHelpers: Saving map 'FlipperMap' took 0.491
+[2017.08.28-15.54.52:069][267]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Plunger" FILE="D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/BP_Plunger.uasset" SILENT=true
+[2017.08.28-15.54.52:134][267]LogSavePackage: Save=57.76ms
+[2017.08.28-15.54.52:134][267]LogSavePackage: Moving 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/BP_Plunger0D7CFB4E471FD8DB2CCA958291D3D372.tmp' to 'D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/BP_Plunger.uasset'
+[2017.08.28-15.54.52:139][267]LogSavePackage:Display: Finished SavePackage D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/BP_Plunger.uasset
+[2017.08.28-15.56.34:235][693]LogEditorViewport: Clicking on Actor (LMB): Flipper_C (Fllipper)
+[2017.08.28-15.56.41:422][323]Cmd: SELECT NONE
+[2017.08.28-15.56.42:906][492]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.08.28-15.56.44:025][587]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.08.28-15.56.44:515][629]Cmd: SELECT NONE
+[2017.08.28-16.02.07:329][586]BlueprintLog: New page: Compile PinballGameMode
+[2017.08.28-16.02.14:597][214]BlueprintLog: New page: Compile PinballGameMode
+[2017.08.28-16.03.51:027][421]BlueprintLog: New page: Compile PinballGameMode
+[2017.08.28-16.04.40:034][  7]BlueprintLog: New page: Compile PinballGameMode
+[2017.08.28-16.04.40:899][ 82]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PinballGameMode" FILE="D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/PinballGameMode.uasset" SILENT=true
+[2017.08.28-16.04.40:958][ 82]LogSavePackage: Save=50.13ms
+[2017.08.28-16.04.40:958][ 82]LogSavePackage: Moving 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/PinballGameMode7954580F4702FF9F5F11DA912FB78756.tmp' to 'D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/PinballGameMode.uasset'
+[2017.08.28-16.04.40:962][ 82]LogSavePackage:Display: Finished SavePackage D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/PinballGameMode.uasset
+[2017.08.28-16.05.08:524][ 45]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FlipperMap' took 0.052
+[2017.08.28-16.05.08:527][ 45]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/PinballGameMode] ([1] browsable assets)...
+[2017.08.28-16.05.08:527][ 45]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/PinballGameMode]
+[2017.08.28-16.05.08:527][ 45]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PinballGameMode" FILE="D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/Blueprints/PinballGameMode_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2017.08.28-16.05.08:581][ 45]LogSavePackage: Save=48.01ms
+[2017.08.28-16.05.08:581][ 45]LogSavePackage: Moving 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/PinballGameMode_Auto425A14CC748543A864FB756AFF855994B.tmp' to 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/Blueprints/PinballGameMode_Auto4.uasset'
+[2017.08.28-16.05.08:583][ 45]LogSavePackage:Display: Finished SavePackage D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/Blueprints/PinballGameMode_Auto4.uasset
+[2017.08.28-16.05.08:583][ 45]LogFileHelpers: Auto-saving content packages took 0.058
+[2017.08.28-16.05.19:640][911]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.08.28-16.11.04:816][447]BlueprintLog: New page: Compile BP_Bumper
+[2017.08.28-16.11.05:465][487]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Bumper" FILE="D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/BP_Bumper.uasset" SILENT=true
+[2017.08.28-16.11.05:603][487]LogSavePackage: Save=130.35ms
+[2017.08.28-16.11.05:603][487]LogSavePackage: Moving 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/BP_Bumper7F95D6994549F866F80F829FBFC1ACEB.tmp' to 'D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/BP_Bumper.uasset'
+[2017.08.28-16.11.05:609][487]LogSavePackage:Display: Finished SavePackage D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/BP_Bumper.uasset
+[2017.08.28-16.11.59:139][787]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.28-16.11.59:165][787]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.08.28-16.11.59:165][787]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.28-16.11.59:165][787]PIE: New page: PIE session: FlipperMap (Aug 28, 2017, 8:11:59 PM)
+[2017.08.28-16.11.59:165][787]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FlipperMap
+[2017.08.28-16.11.59:177][787]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011616s)
+[2017.08.28-16.11.59:178][787]LogAIModule: Creating AISystem for world FlipperMap
+[2017.08.28-16.11.59:178][787]LogPlayLevel: PIE: World Init took: (0.001190s)
+[2017.08.28-16.11.59:179][787]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlipperMap.FlipperMap to /Game/UEDPIE_0_FlipperMap.FlipperMap (0.013788s)
+[2017.08.28-16.11.59:239][787]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.28-16.11.59:255][787]LogInit: FAudioDevice initialized.
+[2017.08.28-16.11.59:291][787]LogLoad: Game class is 'PinballGameMode_C'
+[2017.08.28-16.11.59:294][787]LogWorld: Bringing World /Game/UEDPIE_0_FlipperMap.FlipperMap up for play (max tick rate 0) at 2017.08.28-18.11.59
+[2017.08.28-16.11.59:294][787]LogWorld: Bringing up level for play took: 0.002353
+[2017.08.28-16.11.59:296][787]PIE: Info Play in editor start time for /Game/UEDPIE_0_FlipperMap 0.225
+[2017.08.28-16.11.59:296][787]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.08.28-16.12.05:563][503]LogBlueprintUserMessages: [BP_Bumper6] 10.0
+[2017.08.28-16.12.06:522][611]LogBlueprintUserMessages: [BP_Bumper6] 20.0
+[2017.08.28-16.12.06:914][656]LogBlueprintUserMessages: [BP_Bumper6] 30.0
+[2017.08.28-16.12.07:984][776]LogBlueprintUserMessages: [BP_Bumper8_540] 40.0
+[2017.08.28-16.12.13:564][409]LogBlueprintUserMessages: [BP_Bumper5] 50.0
+[2017.08.28-16.12.13:991][456]LogBlueprintUserMessages: [BP_Bumper11_561] 60.0
+[2017.08.28-16.12.14:066][463]Cmd: LevelEditor.ToggleImmersive
+[2017.08.28-16.12.14:218][464]LogRenderer: Reallocating scene render targets to support 1376x756 NumSamples 1 (Frame:1678).
+[2017.08.28-16.12.14:307][465]LogRenderer: Reallocating scene render targets to support 1920x1040 NumSamples 1 (Frame:1680).
+[2017.08.28-16.12.16:763][668]LogBlueprintUserMessages: [BP_Bumper11_561] 70.0
+[2017.08.28-16.12.17:046][692]LogBlueprintUserMessages: [BP_Bumper3] 80.0
+[2017.08.28-16.12.17:209][706]LogBlueprintUserMessages: [BP_Bumper6] 90.0
+[2017.08.28-16.12.20:602][996]LogBlueprintUserMessages: [BP_Bumper5] 100.0
+[2017.08.28-16.12.25:283][396]LogBlueprintUserMessages: [BP_Bumper3] 110.0
+[2017.08.28-16.12.27:967][625]LogBlueprintUserMessages: [BP_Bumper5] 120.0
+[2017.08.28-16.12.37:625][448]LogBlueprintUserMessages: [BP_Bumper6] 130.0
+[2017.08.28-16.12.39:179][580]LogBlueprintUserMessages: [BP_Bumper3] 140.0
+[2017.08.28-16.12.39:379][597]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.08.28-16.12.39:471][597]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.08.28-16.13.24:586][930]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Bumper" FILE="D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/BP_Bumper.uasset" SILENT=true
+[2017.08.28-16.13.24:685][930]LogSavePackage: Save=91.32ms
+[2017.08.28-16.13.24:685][930]LogSavePackage: Moving 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/BP_BumperE0C72B3C496E4BE6BC6F95AE8C5FD4A2.tmp' to 'D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/BP_Bumper.uasset'
+[2017.08.28-16.13.24:691][930]LogSavePackage:Display: Finished SavePackage D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/BP_Bumper.uasset
+[2017.08.28-16.13.26:110][ 91]BlueprintLog: New page: Compile BP_Bumper
+[2017.08.28-16.13.26:832][143]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Bumper" FILE="D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/BP_Bumper.uasset" SILENT=true
+[2017.08.28-16.13.26:931][143]LogSavePackage: Save=93.79ms
+[2017.08.28-16.13.26:931][143]LogSavePackage: Moving 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/BP_BumperC6E8B0C84889D01F89E33EB871EA5D5D.tmp' to 'D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/BP_Bumper.uasset'
+[2017.08.28-16.13.26:934][143]LogSavePackage:Display: Finished SavePackage D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/BP_Bumper.uasset
+[2017.08.28-16.13.27:518][209]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.28-16.13.27:537][209]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.08.28-16.13.27:537][209]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.28-16.13.27:537][209]PIE: New page: PIE session: FlipperMap (Aug 28, 2017, 8:13:27 PM)
+[2017.08.28-16.13.27:537][209]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FlipperMap
+[2017.08.28-16.13.27:547][209]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009926s)
+[2017.08.28-16.13.27:548][209]LogAIModule: Creating AISystem for world FlipperMap
+[2017.08.28-16.13.27:548][209]LogPlayLevel: PIE: World Init took: (0.001065s)
+[2017.08.28-16.13.27:549][209]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlipperMap.FlipperMap to /Game/UEDPIE_0_FlipperMap.FlipperMap (0.011484s)
+[2017.08.28-16.13.27:607][209]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.28-16.13.27:622][209]LogInit: FAudioDevice initialized.
+[2017.08.28-16.13.27:698][209]LogLoad: Game class is 'PinballGameMode_C'
+[2017.08.28-16.13.27:701][209]LogWorld: Bringing World /Game/UEDPIE_0_FlipperMap.FlipperMap up for play (max tick rate 0) at 2017.08.28-18.13.27
+[2017.08.28-16.13.27:702][209]LogWorld: Bringing up level for play took: 0.002916
+[2017.08.28-16.13.27:706][209]PIE: Info Play in editor start time for /Game/UEDPIE_0_FlipperMap 0.635
+[2017.08.28-16.13.27:707][209]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.08.28-16.13.34:880][820]LogBlueprintUserMessages: [BP_Bumper3] 10.0
+[2017.08.28-16.13.37:894][ 71]LogBlueprintUserMessages: [BP_Bumper11_561] 20.0
+[2017.08.28-16.13.38:185][ 95]LogBlueprintUserMessages: [BP_Bumper5] 30.0
+[2017.08.28-16.13.39:465][200]LogBlueprintUserMessages: [BP_Bumper8_540] 40.0
+[2017.08.28-16.13.40:699][300]LogBlueprintUserMessages: [BP_Bumper11_561] 50.0
+[2017.08.28-16.13.41:572][370]LogBlueprintUserMessages: [BP_Bumper11_561] 60.0
+[2017.08.28-16.13.42:295][428]LogBlueprintUserMessages: [BP_Bumper5] 70.0
+[2017.08.28-16.13.47:713][856]LogBlueprintUserMessages: [BP_Bumper11_561] 80.0
+[2017.08.28-16.13.49:311][980]LogBlueprintUserMessages: [BP_Bumper7] 90.0
+[2017.08.28-16.13.55:155][424]LogBlueprintUserMessages: [BP_Bumper11_561] 100.0
+[2017.08.28-16.13.55:566][455]LogBlueprintUserMessages: [BP_Bumper5] 110.0
+[2017.08.28-16.13.57:229][579]LogBlueprintUserMessages: [BP_Bumper3] 120.0
+[2017.08.28-16.14.03:611][ 47]LogBlueprintUserMessages: [BP_Bumper3] 130.0
+[2017.08.28-16.14.12:771][554]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.08.28-16.14.12:844][554]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.08.28-16.16.34:721][348]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlipperMap" FILE="D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/FlipperMap_Auto5.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.08.28-16.16.35:102][348]LogSavePackage: Save=371.81ms
+[2017.08.28-16.16.35:102][348]LogSavePackage: Moving 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/FlipperMap_Auto55EDBF0114093215D9904A6AB970191DD.tmp' to 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/FlipperMap_Auto5.umap'
+[2017.08.28-16.16.35:107][348]LogSavePackage:Display: Finished SavePackage D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/FlipperMap_Auto5.umap
+[2017.08.28-16.16.35:110][348]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FlipperMap' took 0.447
+[2017.08.28-16.16.35:110][348]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.447
+[2017.08.28-16.16.52:104][609]BlueprintLog: New page: Compile BP_Bumper
+[2017.08.28-16.16.52:727][651]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Bumper" FILE="D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/BP_Bumper.uasset" SILENT=true
+[2017.08.28-16.16.52:849][651]LogSavePackage: Save=114.00ms
+[2017.08.28-16.16.52:849][651]LogSavePackage: Moving 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/BP_BumperF4FD9D074596838DC9E538BE74FF061E.tmp' to 'D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/BP_Bumper.uasset'
+[2017.08.28-16.16.52:854][651]LogSavePackage:Display: Finished SavePackage D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/BP_Bumper.uasset
+[2017.08.28-16.18.05:109][705]LogLinker: Can't find file '/Game/Blueprints/PinballHUD'
+[2017.08.28-16.18.05:109][705]LogLinker: Can't find file '/Game/Blueprints/PinballHUD'
+[2017.08.28-16.23.46:742][337]BlueprintLog: New page: Compile PinballHUD
+[2017.08.28-16.23.46:930][337]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.08.28-16.23.47:367][385]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PinballHUD" FILE="D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/PinballHUD.uasset" SILENT=true
+[2017.08.28-16.23.47:401][385]LogSavePackage: Save=30.89ms
+[2017.08.28-16.23.47:401][385]LogSavePackage: Moving 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/PinballHUDD0C1E1AA467B69F220060A94C9C9B07F.tmp' to 'D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/PinballHUD.uasset'
+[2017.08.28-16.23.47:405][385]LogSavePackage:Display: Finished SavePackage D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/PinballHUD.uasset
+[2017.08.28-16.26.27:442][128]BlueprintLog: New page: Compile PinballHUD
+[2017.08.28-16.26.27:628][128]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.08.28-16.27.37:317][486]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlipperMap" FILE="D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/FlipperMap_Auto6.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.08.28-16.27.37:633][486]LogSavePackage: Save=305.08ms
+[2017.08.28-16.27.37:633][486]LogSavePackage: Moving 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/FlipperMap_Auto634EE90654BFC7A56515A7098ABDFF6D2.tmp' to 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/FlipperMap_Auto6.umap'
+[2017.08.28-16.27.37:636][486]LogSavePackage:Display: Finished SavePackage D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/FlipperMap_Auto6.umap
+[2017.08.28-16.27.37:638][486]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FlipperMap' took 0.379
+[2017.08.28-16.27.37:638][486]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.379
+[2017.08.28-16.27.37:641][486]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/PinballHUD] ([1] browsable assets)...
+[2017.08.28-16.27.37:641][486]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/PinballHUD]
+[2017.08.28-16.27.37:641][486]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PinballHUD" FILE="D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/Blueprints/PinballHUD_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2017.08.28-16.27.37:680][486]LogSavePackage: Save=32.70ms
+[2017.08.28-16.27.37:680][486]LogSavePackage: Moving 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/PinballHUD_Auto63148933B4D22A8093BC4F998DA526F97.tmp' to 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/Blueprints/PinballHUD_Auto6.uasset'
+[2017.08.28-16.27.37:683][486]LogSavePackage:Display: Finished SavePackage D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/Blueprints/PinballHUD_Auto6.uasset
+[2017.08.28-16.27.37:683][486]LogFileHelpers: Auto-saving content packages took 0.044
+[2017.08.28-16.29.46:018][138]BlueprintLog: New page: Compile PinballHUD
+[2017.08.28-16.29.46:198][138]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.08.28-16.29.46:752][199]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PinballHUD" FILE="D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/PinballHUD.uasset" SILENT=true
+[2017.08.28-16.29.46:798][199]LogSavePackage: Save=38.36ms
+[2017.08.28-16.29.46:798][199]LogSavePackage: Moving 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/PinballHUD3A45DC57431A616EACB658A4F36B02B8.tmp' to 'D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/PinballHUD.uasset'
+[2017.08.28-16.29.46:822][199]LogSavePackage:Display: Finished SavePackage D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/PinballHUD.uasset
+[2017.08.28-16.31.21:086][340]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.08.28-16.31.26:628][979]BlueprintLog: New page: Compile Pinball_Player_controller
+[2017.08.28-16.31.27:342][ 34]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pinball_Player_controller" FILE="D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/Pinball_Player_controller.uasset" SILENT=true
+[2017.08.28-16.31.27:450][ 34]LogSavePackage: Save=100.04ms
+[2017.08.28-16.31.27:450][ 34]LogSavePackage: Moving 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/Pinball_Player_controller051E77F1488F1DFCBE71D6B01521ED88.tmp' to 'D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/Pinball_Player_controller.uasset'
+[2017.08.28-16.31.27:455][ 34]LogSavePackage:Display: Finished SavePackage D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/Pinball_Player_controller.uasset
+[2017.08.28-16.31.36:716][ 36]BlueprintLog: New page: Compile Pinball_Player_controller
+[2017.08.28-16.31.36:752][ 36]LogBlueprint:Error: [Compiler Pinball_Player_controller] Error This blueprint (self) is not a UserWidget, therefore ' Target ' must have a connection.
+[2017.08.28-16.31.37:054][ 36]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a UserWidget, therefore ' Target ' must have a connection.
+[2017.08.28-16.31.37:054][ 36]LogBlueprint:Warning: [Compiler Pinball_Player_controller] Warning [4779.05] Compile of Pinball_Player_controller failed. 1 Fatal Issue(s) 0 Warning(s) [in 338 ms] (/Game/Blueprints/Pinball_Player_controller.Pinball_Player_controller)
+[2017.08.28-16.31.37:455][ 79]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pinball_Player_controller" FILE="D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/Pinball_Player_controller.uasset" SILENT=true
+[2017.08.28-16.31.37:553][ 79]LogSavePackage: Save=90.71ms
+[2017.08.28-16.31.37:553][ 79]LogSavePackage: Moving 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/Pinball_Player_controllerA374B5CB4F6B84F309E479886BC46FDB.tmp' to 'D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/Pinball_Player_controller.uasset'
+[2017.08.28-16.31.37:558][ 79]LogSavePackage:Display: Finished SavePackage D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/Pinball_Player_controller.uasset
+[2017.08.28-16.31.41:946][392]BlueprintLog: New page: Compile Pinball_Player_controller
+[2017.08.28-16.31.42:652][448]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pinball_Player_controller" FILE="D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/Pinball_Player_controller.uasset" SILENT=true
+[2017.08.28-16.31.42:769][448]LogSavePackage: Save=111.13ms
+[2017.08.28-16.31.42:770][448]LogSavePackage: Moving 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/Pinball_Player_controllerCCE54BE140982495C71547B721D24AA4.tmp' to 'D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/Pinball_Player_controller.uasset'
+[2017.08.28-16.31.42:774][448]LogSavePackage:Display: Finished SavePackage D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/Pinball_Player_controller.uasset
+[2017.08.28-16.31.57:251][771]LogEditorViewport: Clicking on Actor (LMB): Flipper_C (Fllipper)
+[2017.08.28-16.32.14:932][220]LogEditorViewport: Clicking on Actor (LMB): Flipper_C (Fllipper2)
+[2017.08.28-16.32.17:275][426]Cmd: TRANSACTION UNDO
+[2017.08.28-16.32.17:275][426]LogEditorTransaction: Undo Clicking on Actors
+[2017.08.28-16.32.17:686][450]Cmd: TRANSACTION UNDO
+[2017.08.28-16.32.17:686][450]LogEditorTransaction: Undo Move Actors
+[2017.08.28-16.32.19:019][553]LogEditorViewport: Clicking on Actor (CTRL LMB): Flipper_C (Fllipper2)
+[2017.08.28-16.32.33:804][826]LogEditorViewport: Clicking on Actor (LMB): Flipper_C (Fllipper4)
+[2017.08.28-16.32.41:536][440]LogEditorViewport: Clicking on Actor (double click): BP_Bumper_C (BP_Bumper5)
+[2017.08.28-16.32.45:723][802]LogEditorViewport: Clicking on Actor (LMB): BP_Bumper_C (BP_Bumper3)
+[2017.08.28-16.32.48:859][ 60]LogEditorViewport: Clicking on Actor (LMB): BP_Bumper_C (BP_Bumper8)
+[2017.08.28-16.32.52:185][305]LogEditorViewport: Clicking on Actor (LMB): BP_Bumper_C (BP_Bumper11)
+[2017.08.28-16.32.55:536][590]LogEditorViewport: Clicking on Actor (LMB): BP_Bumper_C (BP_Bumper4)
+[2017.08.28-16.33.05:168][396]LogEditorViewport: Clicking on Actor (LMB): BP_Bumper_C (BP_Bumper7)
+[2017.08.28-16.33.09:322][757]LogEditorViewport: Clicking on Actor (LMB): BP_Bumper_C (BP_Bumper5)
+[2017.08.28-16.33.13:667][130]Cmd: DELETE
+[2017.08.28-16.33.13:667][130]Cmd: ACTOR DELETE
+[2017.08.28-16.33.13:668][130]LogEditorActor: Deleted Actor: BP_Bumper_C
+[2017.08.28-16.33.13:732][130]LogEditorActor: Deleted 1 Actors (0.065 secs)
+[2017.08.28-16.33.14:329][193]LogEditorViewport: Clicking on Actor (LMB): BP_Bumper_C (BP_Bumper3)
+[2017.08.28-16.33.32:272][726]LogEditorViewport: Clicking on Actor (LMB): BP_Bumper_C (BP_Bumper9)
+[2017.08.28-16.33.45:488][749]LogEditorViewport: Clicking on Actor (LMB): BP_Bumper_C (BP_Bumper6)
+[2017.08.28-16.33.48:294][995]Cmd: TRANSACTION UNDO
+[2017.08.28-16.33.48:294][995]LogEditorTransaction: Undo Move Actors
+[2017.08.28-16.33.55:090][504]Cmd: SELECT NONE
+[2017.08.28-16.33.56:747][672]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.28-16.33.56:774][672]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.08.28-16.33.56:774][672]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.28-16.33.56:774][672]PIE: New page: PIE session: FlipperMap (Aug 28, 2017, 8:33:56 PM)
+[2017.08.28-16.33.56:774][672]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FlipperMap
+[2017.08.28-16.33.56:783][672]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009493s)
+[2017.08.28-16.33.56:784][672]LogAIModule: Creating AISystem for world FlipperMap
+[2017.08.28-16.33.56:785][672]LogPlayLevel: PIE: World Init took: (0.001374s)
+[2017.08.28-16.33.56:785][672]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlipperMap.FlipperMap to /Game/UEDPIE_0_FlipperMap.FlipperMap (0.011304s)
+[2017.08.28-16.33.56:849][672]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.28-16.33.56:865][672]LogInit: FAudioDevice initialized.
+[2017.08.28-16.33.56:902][672]LogLoad: Game class is 'PinballGameMode_C'
+[2017.08.28-16.33.56:905][672]LogWorld: Bringing World /Game/UEDPIE_0_FlipperMap.FlipperMap up for play (max tick rate 0) at 2017.08.28-18.33.56
+[2017.08.28-16.33.56:905][672]LogWorld: Bringing up level for play took: 0.002385
+[2017.08.28-16.33.56:910][672]PIE: Info Play in editor start time for /Game/UEDPIE_0_FlipperMap -0.161
+[2017.08.28-16.33.56:911][672]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.08.28-16.34.05:098][578]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.08.28-16.34.05:144][578]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.08.28-16.34.50:755][677]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.28-16.34.50:782][677]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.08.28-16.34.50:782][677]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.28-16.34.50:782][677]PIE: New page: PIE session: FlipperMap (Aug 28, 2017, 8:34:50 PM)
+[2017.08.28-16.34.50:782][677]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FlipperMap
+[2017.08.28-16.34.50:793][677]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010402s)
+[2017.08.28-16.34.50:794][677]LogAIModule: Creating AISystem for world FlipperMap
+[2017.08.28-16.34.50:794][677]LogPlayLevel: PIE: World Init took: (0.001058s)
+[2017.08.28-16.34.50:794][677]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlipperMap.FlipperMap to /Game/UEDPIE_0_FlipperMap.FlipperMap (0.011827s)
+[2017.08.28-16.34.50:851][677]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.28-16.34.50:864][677]LogInit: FAudioDevice initialized.
+[2017.08.28-16.34.50:900][677]LogLoad: Game class is 'PinballGameMode_C'
+[2017.08.28-16.34.50:904][677]LogWorld: Bringing World /Game/UEDPIE_0_FlipperMap.FlipperMap up for play (max tick rate 0) at 2017.08.28-18.34.50
+[2017.08.28-16.34.50:905][677]LogWorld: Bringing up level for play took: 0.003296
+[2017.08.28-16.34.50:907][677]PIE: Info Play in editor start time for /Game/UEDPIE_0_FlipperMap -0.164
+[2017.08.28-16.34.50:908][677]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.08.28-16.36.17:012][488]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.08.28-16.36.17:071][488]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.08.28-16.36.25:212][356]BlueprintLog: New page: Compile BP_Bumper
+[2017.08.28-16.36.26:043][419]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Bumper" FILE="D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/BP_Bumper.uasset" SILENT=true
+[2017.08.28-16.36.26:167][419]LogSavePackage: Save=115.76ms
+[2017.08.28-16.36.26:167][419]LogSavePackage: Moving 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/BP_Bumper64CD16514CFE764872B3D1995F9FC1DD.tmp' to 'D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/BP_Bumper.uasset'
+[2017.08.28-16.36.26:172][419]LogSavePackage:Display: Finished SavePackage D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/BP_Bumper.uasset
+[2017.08.28-16.36.26:784][489]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.28-16.36.26:809][489]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.08.28-16.36.26:810][489]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.28-16.36.26:810][489]PIE: New page: PIE session: FlipperMap (Aug 28, 2017, 8:36:26 PM)
+[2017.08.28-16.36.26:810][489]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FlipperMap
+[2017.08.28-16.36.26:820][489]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010098s)
+[2017.08.28-16.36.26:821][489]LogAIModule: Creating AISystem for world FlipperMap
+[2017.08.28-16.36.26:821][489]LogPlayLevel: PIE: World Init took: (0.000985s)
+[2017.08.28-16.36.26:821][489]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlipperMap.FlipperMap to /Game/UEDPIE_0_FlipperMap.FlipperMap (0.011518s)
+[2017.08.28-16.36.26:911][489]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.28-16.36.26:925][489]LogInit: FAudioDevice initialized.
+[2017.08.28-16.36.27:014][489]LogLoad: Game class is 'PinballGameMode_C'
+[2017.08.28-16.36.27:017][489]LogWorld: Bringing World /Game/UEDPIE_0_FlipperMap.FlipperMap up for play (max tick rate 0) at 2017.08.28-18.36.27
+[2017.08.28-16.36.27:018][489]LogWorld: Bringing up level for play took: 0.002663
+[2017.08.28-16.36.27:023][489]PIE: Info Play in editor start time for /Game/UEDPIE_0_FlipperMap -0.048
+[2017.08.28-16.36.27:024][489]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.08.28-16.36.28:232][586]Cmd: LevelEditor.ToggleImmersive
+[2017.08.28-16.36.30:548][768]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.08.28-16.36.30:614][768]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.08.28-16.36.33:482][ 70]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.28-16.36.33:512][ 70]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.08.28-16.36.33:512][ 70]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.28-16.36.33:513][ 70]PIE: New page: PIE session: FlipperMap (Aug 28, 2017, 8:36:33 PM)
+[2017.08.28-16.36.33:513][ 70]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FlipperMap
+[2017.08.28-16.36.33:525][ 70]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012360s)
+[2017.08.28-16.36.33:526][ 70]LogAIModule: Creating AISystem for world FlipperMap
+[2017.08.28-16.36.33:526][ 70]LogPlayLevel: PIE: World Init took: (0.001156s)
+[2017.08.28-16.36.33:527][ 70]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlipperMap.FlipperMap to /Game/UEDPIE_0_FlipperMap.FlipperMap (0.013855s)
+[2017.08.28-16.36.33:597][ 70]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.28-16.36.33:612][ 70]LogInit: FAudioDevice initialized.
+[2017.08.28-16.36.33:647][ 70]LogLoad: Game class is 'PinballGameMode_C'
+[2017.08.28-16.36.33:650][ 70]LogWorld: Bringing World /Game/UEDPIE_0_FlipperMap.FlipperMap up for play (max tick rate 0) at 2017.08.28-18.36.33
+[2017.08.28-16.36.33:650][ 70]LogWorld: Bringing up level for play took: 0.002977
+[2017.08.28-16.36.33:652][ 70]PIE: Info Play in editor start time for /Game/UEDPIE_0_FlipperMap 0.581
+[2017.08.28-16.36.33:652][ 70]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.08.28-16.36.34:720][187]Cmd: LevelEditor.ToggleImmersive
+[2017.08.28-16.36.42:517][843]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.08.28-16.36.42:602][843]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.08.28-16.36.48:560][282]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.28-16.36.48:587][282]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.08.28-16.36.48:587][282]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.28-16.36.48:588][282]PIE: New page: PIE session: FlipperMap (Aug 28, 2017, 8:36:48 PM)
+[2017.08.28-16.36.48:588][282]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FlipperMap
+[2017.08.28-16.36.48:601][282]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013432s)
+[2017.08.28-16.36.48:602][282]LogAIModule: Creating AISystem for world FlipperMap
+[2017.08.28-16.36.48:602][282]LogPlayLevel: PIE: World Init took: (0.001098s)
+[2017.08.28-16.36.48:602][282]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlipperMap.FlipperMap to /Game/UEDPIE_0_FlipperMap.FlipperMap (0.014851s)
+[2017.08.28-16.36.48:669][282]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.28-16.36.48:683][282]LogInit: FAudioDevice initialized.
+[2017.08.28-16.36.48:715][282]LogLoad: Game class is 'PinballGameMode_C'
+[2017.08.28-16.36.48:718][282]LogWorld: Bringing World /Game/UEDPIE_0_FlipperMap.FlipperMap up for play (max tick rate 0) at 2017.08.28-18.36.48
+[2017.08.28-16.36.48:718][282]LogWorld: Bringing up level for play took: 0.003049
+[2017.08.28-16.36.48:721][282]PIE: Info Play in editor start time for /Game/UEDPIE_0_FlipperMap -0.351
+[2017.08.28-16.36.48:721][282]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.08.28-16.37.37:475][344]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.08.28-16.37.37:517][344]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.08.28-16.40.38:110][863]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlipperMap" FILE="D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/FlipperMap_Auto7.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.08.28-16.40.38:407][863]LogSavePackage: Save=288.48ms
+[2017.08.28-16.40.38:407][863]LogSavePackage: Moving 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/FlipperMap_Auto75566F14C4430F4C140A3C9B48F9914B0.tmp' to 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/FlipperMap_Auto7.umap'
+[2017.08.28-16.40.38:411][863]LogSavePackage:Display: Finished SavePackage D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/FlipperMap_Auto7.umap
+[2017.08.28-16.40.38:413][863]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FlipperMap' took 0.359
+[2017.08.28-16.40.38:413][863]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.359
+[2017.08.28-16.42.41:004][504]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.28-16.42.41:032][504]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.08.28-16.42.41:032][504]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.28-16.42.41:032][504]PIE: New page: PIE session: FlipperMap (Aug 28, 2017, 8:42:41 PM)
+[2017.08.28-16.42.41:032][504]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FlipperMap
+[2017.08.28-16.42.41:044][504]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011649s)
+[2017.08.28-16.42.41:045][504]LogAIModule: Creating AISystem for world FlipperMap
+[2017.08.28-16.42.41:045][504]LogPlayLevel: PIE: World Init took: (0.001141s)
+[2017.08.28-16.42.41:045][504]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlipperMap.FlipperMap to /Game/UEDPIE_0_FlipperMap.FlipperMap (0.013143s)
+[2017.08.28-16.42.41:109][504]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.28-16.42.41:124][504]LogInit: FAudioDevice initialized.
+[2017.08.28-16.42.41:200][504]LogLoad: Game class is 'PinballGameMode_C'
+[2017.08.28-16.42.41:203][504]LogWorld: Bringing World /Game/UEDPIE_0_FlipperMap.FlipperMap up for play (max tick rate 0) at 2017.08.28-18.42.41
+[2017.08.28-16.42.41:203][504]LogWorld: Bringing up level for play took: 0.002840
+[2017.08.28-16.42.41:207][504]PIE: Info Play in editor start time for /Game/UEDPIE_0_FlipperMap 0.135
+[2017.08.28-16.42.41:207][504]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.08.28-16.42.55:838][741]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.08.28-16.42.55:909][741]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.08.28-17.40.07:203][498]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.28-17.40.07:232][498]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.08.28-17.40.07:233][498]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.28-17.40.07:233][498]PIE: New page: PIE session: FlipperMap (Aug 28, 2017, 9:40:07 PM)
+[2017.08.28-17.40.07:233][498]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FlipperMap
+[2017.08.28-17.40.07:244][498]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010685s)
+[2017.08.28-17.40.07:245][498]LogAIModule: Creating AISystem for world FlipperMap
+[2017.08.28-17.40.07:245][498]LogPlayLevel: PIE: World Init took: (0.001143s)
+[2017.08.28-17.40.07:245][498]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlipperMap.FlipperMap to /Game/UEDPIE_0_FlipperMap.FlipperMap (0.012217s)
+[2017.08.28-17.40.07:306][498]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.28-17.40.07:324][498]LogInit: FAudioDevice initialized.
+[2017.08.28-17.40.07:362][498]LogLoad: Game class is 'PinballGameMode_C'
+[2017.08.28-17.40.07:364][498]LogWorld: Bringing World /Game/UEDPIE_0_FlipperMap.FlipperMap up for play (max tick rate 0) at 2017.08.28-19.40.07
+[2017.08.28-17.40.07:365][498]LogWorld: Bringing up level for play took: 0.002462
+[2017.08.28-17.40.07:367][498]PIE: Info Play in editor start time for /Game/UEDPIE_0_FlipperMap 0.296
+[2017.08.28-17.40.07:367][498]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.08.28-17.41.41:409][991]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.08.28-17.41.41:496][991]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.08.28-17.41.58:715][887]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.28-17.41.58:744][887]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.08.28-17.41.58:744][887]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.28-17.41.58:744][887]PIE: New page: PIE session: FlipperMap (Aug 28, 2017, 9:41:58 PM)
+[2017.08.28-17.41.58:744][887]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FlipperMap
+[2017.08.28-17.41.58:755][887]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010391s)
+[2017.08.28-17.41.58:755][887]LogAIModule: Creating AISystem for world FlipperMap
+[2017.08.28-17.41.58:756][887]LogPlayLevel: PIE: World Init took: (0.001137s)
+[2017.08.28-17.41.58:756][887]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlipperMap.FlipperMap to /Game/UEDPIE_0_FlipperMap.FlipperMap (0.011824s)
+[2017.08.28-17.41.58:817][887]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.28-17.41.58:834][887]LogInit: FAudioDevice initialized.
+[2017.08.28-17.41.58:866][887]LogLoad: Game class is 'PinballGameMode_C'
+[2017.08.28-17.41.58:869][887]LogWorld: Bringing World /Game/UEDPIE_0_FlipperMap.FlipperMap up for play (max tick rate 0) at 2017.08.28-19.41.58
+[2017.08.28-17.41.58:870][887]LogWorld: Bringing up level for play took: 0.002651
+[2017.08.28-17.41.58:872][887]PIE: Info Play in editor start time for /Game/UEDPIE_0_FlipperMap -0.2
+[2017.08.28-17.41.58:872][887]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.08.28-17.41.59:286][931]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.08.28-17.41.59:324][931]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.08.28-17.42.10:060][ 24]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.28-17.42.10:088][ 24]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.08.28-17.42.10:088][ 24]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.28-17.42.10:088][ 24]PIE: New page: PIE session: FlipperMap (Aug 28, 2017, 9:42:10 PM)
+[2017.08.28-17.42.10:088][ 24]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FlipperMap
+[2017.08.28-17.42.10:097][ 24]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009221s)
+[2017.08.28-17.42.10:098][ 24]LogAIModule: Creating AISystem for world FlipperMap
+[2017.08.28-17.42.10:098][ 24]LogPlayLevel: PIE: World Init took: (0.001195s)
+[2017.08.28-17.42.10:099][ 24]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlipperMap.FlipperMap to /Game/UEDPIE_0_FlipperMap.FlipperMap (0.010705s)
+[2017.08.28-17.42.10:155][ 24]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.28-17.42.10:169][ 24]LogInit: FAudioDevice initialized.
+[2017.08.28-17.42.10:200][ 24]LogLoad: Game class is 'PinballGameMode_C'
+[2017.08.28-17.42.10:203][ 24]LogWorld: Bringing World /Game/UEDPIE_0_FlipperMap.FlipperMap up for play (max tick rate 0) at 2017.08.28-19.42.10
+[2017.08.28-17.42.10:204][ 24]LogWorld: Bringing up level for play took: 0.002392
+[2017.08.28-17.42.10:205][ 24]PIE: Info Play in editor start time for /Game/UEDPIE_0_FlipperMap -0.866
+[2017.08.28-17.42.10:206][ 24]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.08.28-17.42.12:644][302]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.08.28-17.42.12:683][302]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.08.28-18.08.46:008][687]BlueprintLog: New page: Compile PinballGameMode
+[2017.08.28-18.09.33:301][269]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlipperMap" FILE="D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/FlipperMap_Auto8.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.08.28-18.09.33:956][269]LogSavePackage: Save=646.41ms
+[2017.08.28-18.09.33:956][269]LogSavePackage: Moving 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/FlipperMap_Auto886A461ED4EFA408CC6494D9F7E663E18.tmp' to 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/FlipperMap_Auto8.umap'
+[2017.08.28-18.09.33:959][269]LogSavePackage:Display: Finished SavePackage D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/FlipperMap_Auto8.umap
+[2017.08.28-18.09.33:962][269]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FlipperMap' took 0.721
+[2017.08.28-18.09.33:962][269]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.721
+[2017.08.28-18.09.33:967][269]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/PinballGameMode] ([1] browsable assets)...
+[2017.08.28-18.09.33:968][269]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/PinballGameMode]
+[2017.08.28-18.09.33:968][269]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PinballGameMode" FILE="D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/Blueprints/PinballGameMode_Auto8.uasset" SILENT=false AUTOSAVING=true
+[2017.08.28-18.09.34:034][269]LogSavePackage: Save=58.11ms
+[2017.08.28-18.09.34:034][269]LogSavePackage: Moving 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/PinballGameMode_Auto8FDE53E96482C6622643BAE9BB24072CF.tmp' to 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/Blueprints/PinballGameMode_Auto8.uasset'
+[2017.08.28-18.09.34:043][269]LogSavePackage:Display: Finished SavePackage D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/Blueprints/PinballGameMode_Auto8.uasset
+[2017.08.28-18.09.34:044][269]LogFileHelpers: Auto-saving content packages took 0.078
+[2017.08.28-18.12.18:735][  6]BlueprintLog: New page: Compile PinballGameMode
+[2017.08.28-18.12.20:066][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PinballGameMode" FILE="D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/PinballGameMode.uasset" SILENT=true
+[2017.08.28-18.12.20:129][115]LogSavePackage: Save=55.85ms
+[2017.08.28-18.12.20:129][115]LogSavePackage: Moving 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/PinballGameMode91105E064B1BFCF964DF91B78C92A095.tmp' to 'D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/PinballGameMode.uasset'
+[2017.08.28-18.12.20:134][115]LogSavePackage:Display: Finished SavePackage D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/PinballGameMode.uasset
+[2017.08.28-18.18.27:876][292]LogClass:Warning: Type mismatch in SaveStruct of SKEL_HighScoreSave_C - Previous (StructProperty) Current(ArrayProperty) for package:  FObjectReader
+[2017.08.28-18.18.43:501][642]BlueprintLog: New page: Compile HighScoreSave
+[2017.08.28-18.20.01:996][903]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlipperMap" FILE="D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/FlipperMap_Auto9.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.08.28-18.20.02:309][903]LogSavePackage: Save=303.16ms
+[2017.08.28-18.20.02:309][903]LogSavePackage: Moving 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/FlipperMap_Auto96262863C4850BBFFF81C62977CEB7256.tmp' to 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/FlipperMap_Auto9.umap'
+[2017.08.28-18.20.02:312][903]LogSavePackage:Display: Finished SavePackage D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/FlipperMap_Auto9.umap
+[2017.08.28-18.20.02:315][903]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FlipperMap' took 0.383
+[2017.08.28-18.20.02:315][903]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.383
+[2017.08.28-18.20.02:318][903]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/HighScoreSave] ([1] browsable assets)...
+[2017.08.28-18.20.02:318][903]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/HighScoreSave]
+[2017.08.28-18.20.02:318][903]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HighScoreSave" FILE="D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/Blueprints/HighScoreSave_Auto9.uasset" SILENT=false AUTOSAVING=true
+[2017.08.28-18.20.02:333][903]LogSavePackage: Save=11.14ms
+[2017.08.28-18.20.02:333][903]LogSavePackage: Moving 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/HighScoreSave_Auto9A79932DD4D1B4FF95FB250A017A94FCD.tmp' to 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/Blueprints/HighScoreSave_Auto9.uasset'
+[2017.08.28-18.20.02:335][903]LogSavePackage:Display: Finished SavePackage D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/Blueprints/HighScoreSave_Auto9.uasset
+[2017.08.28-18.20.02:336][903]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/HighScoreStruct] ([1] browsable assets)...
+[2017.08.28-18.20.02:336][903]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/HighScoreStruct]
+[2017.08.28-18.20.02:336][903]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HighScoreStruct" FILE="D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/Blueprints/HighScoreStruct_Auto9.uasset" SILENT=false AUTOSAVING=true
+[2017.08.28-18.20.02:342][903]LogSavePackage: Save=3.40ms
+[2017.08.28-18.20.02:342][903]LogSavePackage: Moving 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/HighScoreStruct_Auto963C362DA4223096A6D54168465D7D931.tmp' to 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/Blueprints/HighScoreStruct_Auto9.uasset'
+[2017.08.28-18.20.02:344][903]LogSavePackage:Display: Finished SavePackage D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/Blueprints/HighScoreStruct_Auto9.uasset
+[2017.08.28-18.20.02:344][903]LogFileHelpers: Auto-saving content packages took 0.027
+[2017.08.28-18.31.45:723][925]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FlipperMap' took 0.064
+[2017.08.28-18.31.45:725][925]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/HighScoreSave] ([1] browsable assets)...
+[2017.08.28-18.31.45:725][925]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/HighScoreSave]
+[2017.08.28-18.31.45:725][925]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HighScoreSave" FILE="D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/Blueprints/HighScoreSave_Auto0.uasset" SILENT=false AUTOSAVING=true
+[2017.08.28-18.31.45:770][925]LogSavePackage: Save=42.30ms
+[2017.08.28-18.31.45:770][925]LogSavePackage: Moving 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/HighScoreSave_Auto0F113AE714FFD35778649E2819988D528.tmp' to 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/Blueprints/HighScoreSave_Auto0.uasset'
+[2017.08.28-18.31.45:771][925]LogSavePackage:Display: Finished SavePackage D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/Blueprints/HighScoreSave_Auto0.uasset
+[2017.08.28-18.31.45:771][925]LogFileHelpers: Auto-saving content packages took 0.048
+[2017.08.28-18.33.49:518][176]BlueprintLog: New page: Compile HighScoreSave
+[2017.08.28-18.33.50:969][311]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HighScoreSave" FILE="D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/HighScoreSave.uasset" SILENT=true
+[2017.08.28-18.33.51:013][311]LogSavePackage: Save=41.51ms
+[2017.08.28-18.33.51:013][311]LogSavePackage: Moving 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/HighScoreSave6B3C926E4A646CC15CEB61BB37D015FB.tmp' to 'D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/HighScoreSave.uasset'
+[2017.08.28-18.33.51:017][311]LogSavePackage:Display: Finished SavePackage D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/HighScoreSave.uasset
+[2017.08.28-18.36.30:550][589]LogEditorTransaction: Undo Move Node
+[2017.08.28-18.36.32:192][767]LogEditorTransaction: Undo Create Reroute Node
+[2017.08.28-18.39.00:779][916]BlueprintLog: New page: Compile HighScoreSave
+[2017.08.28-18.39.01:817][  6]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HighScoreSave" FILE="D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/HighScoreSave.uasset" SILENT=true
+[2017.08.28-18.39.01:878][  6]LogSavePackage: Save=51.69ms
+[2017.08.28-18.39.01:878][  6]LogSavePackage: Moving 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/HighScoreSave2EA612A848E20311F16AB3839A0F2FB3.tmp' to 'D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/HighScoreSave.uasset'
+[2017.08.28-18.39.01:883][  6]LogSavePackage:Display: Finished SavePackage D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/HighScoreSave.uasset
+[2017.08.28-18.40.45:852][765]LogEditorTransaction: Undo Delete current selection
+[2017.08.28-18.41.27:177][214]BlueprintLog: New page: Compile HighScoreSave
+[2017.08.28-18.41.28:076][287]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HighScoreSave" FILE="D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/HighScoreSave.uasset" SILENT=true
+[2017.08.28-18.41.28:174][287]LogSavePackage: Save=90.10ms
+[2017.08.28-18.41.28:174][287]LogSavePackage: Moving 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/HighScoreSave7F1FAC15429CA1BB3565FFB3D983BFA9.tmp' to 'D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/HighScoreSave.uasset'
+[2017.08.28-18.41.28:178][287]LogSavePackage:Display: Finished SavePackage D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/HighScoreSave.uasset
+[2017.08.28-18.46.35:304][654]BlueprintLog: New page: Compile PinballGameMode
+[2017.08.28-18.47.08:500][810]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlipperMap" FILE="D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/FlipperMap_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.08.28-18.47.08:819][810]LogSavePackage: Save=308.31ms
+[2017.08.28-18.47.08:819][810]LogSavePackage: Moving 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/FlipperMap_Auto17B977C1F456CD87C243D0BA254BA5FC2.tmp' to 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/FlipperMap_Auto1.umap'
+[2017.08.28-18.47.08:824][810]LogSavePackage:Display: Finished SavePackage D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/FlipperMap_Auto1.umap
+[2017.08.28-18.47.08:826][810]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FlipperMap' took 0.391
+[2017.08.28-18.47.08:826][810]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.391
+[2017.08.28-18.47.08:829][810]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/PinballGameMode] ([1] browsable assets)...
+[2017.08.28-18.47.08:829][810]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/PinballGameMode]
+[2017.08.28-18.47.08:829][810]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PinballGameMode" FILE="D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/Blueprints/PinballGameMode_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.08.28-18.47.08:902][810]LogSavePackage: Save=64.18ms
+[2017.08.28-18.47.08:902][810]LogSavePackage: Moving 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/PinballGameMode_Auto1315D91E4402759E517BA748F536074A9.tmp' to 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/Blueprints/PinballGameMode_Auto1.uasset'
+[2017.08.28-18.47.08:905][810]LogSavePackage:Display: Finished SavePackage D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/Blueprints/PinballGameMode_Auto1.uasset
+[2017.08.28-18.47.08:905][810]LogFileHelpers: Auto-saving content packages took 0.077
+[2017.08.28-18.50.43:312][190]BlueprintLog: New page: Compile PinballGameMode
+[2017.08.28-18.54.47:164][137]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.08.28-18.55.41:831][490]BlueprintLog: New page: Compile PinballGameMode
+[2017.08.28-18.55.42:068][490]BlueprintEditorCompileResults: Info 'ReturnValue' is already a 'High Score Save', you don't need  Cast To HighScoreSave .
+[2017.08.28-18.55.42:756][566]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PinballGameMode" FILE="D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/PinballGameMode.uasset" SILENT=true
+[2017.08.28-18.55.42:839][566]LogSavePackage: Save=75.33ms
+[2017.08.28-18.55.42:839][566]LogSavePackage: Moving 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/PinballGameMode2C8BE7F9446D5512175A7D8AD8EFF0E3.tmp' to 'D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/PinballGameMode.uasset'
+[2017.08.28-18.55.42:845][566]LogSavePackage:Display: Finished SavePackage D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/PinballGameMode.uasset
+[2017.08.28-18.56.58:497][900]BlueprintLog: New page: Compile PinballGameMode
+[2017.08.28-18.57.26:257][ 84]BlueprintLog: New page: Compile PinballGameMode
+[2017.08.28-18.58.29:862][199]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlipperMap" FILE="D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/FlipperMap_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.08.28-18.58.30:153][199]LogSavePackage: Save=281.09ms
+[2017.08.28-18.58.30:153][199]LogSavePackage: Moving 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/FlipperMap_Auto2613FF8C6441EF692484C0BA334565382.tmp' to 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/FlipperMap_Auto2.umap'
+[2017.08.28-18.58.30:157][199]LogSavePackage:Display: Finished SavePackage D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/FlipperMap_Auto2.umap
+[2017.08.28-18.58.30:159][199]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FlipperMap' took 0.357
+[2017.08.28-18.58.30:159][199]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.357
+[2017.08.28-18.58.30:161][199]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/PinballGameMode] ([1] browsable assets)...
+[2017.08.28-18.58.30:161][199]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/PinballGameMode]
+[2017.08.28-18.58.30:161][199]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PinballGameMode" FILE="D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/Blueprints/PinballGameMode_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.08.28-18.58.30:256][199]LogSavePackage: Save=87.36ms
+[2017.08.28-18.58.30:256][199]LogSavePackage: Moving 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/PinballGameMode_Auto2BB0F236B4CE697A0CE8B75A765438727.tmp' to 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/Blueprints/PinballGameMode_Auto2.uasset'
+[2017.08.28-18.58.30:259][199]LogSavePackage:Display: Finished SavePackage D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/Blueprints/PinballGameMode_Auto2.uasset
+[2017.08.28-18.58.30:259][199]LogFileHelpers: Auto-saving content packages took 0.099
+[2017.08.28-18.59.27:852][111]BlueprintLog: New page: Compile PinballGameMode
+[2017.08.28-18.59.28:081][111]BlueprintEditorCompileResults: Info 'ReturnValue' is already a 'High Score Save', you don't need  Cast To HighScoreSave .
+[2017.08.28-18.59.28:661][173]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PinballGameMode" FILE="D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/PinballGameMode.uasset" SILENT=true
+[2017.08.28-18.59.28:756][173]LogSavePackage: Save=86.49ms
+[2017.08.28-18.59.28:756][173]LogSavePackage: Moving 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/PinballGameMode731A2F744160B2B73A405C9DD3F89D82.tmp' to 'D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/PinballGameMode.uasset'
+[2017.08.28-18.59.28:760][173]LogSavePackage:Display: Finished SavePackage D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/PinballGameMode.uasset
+[2017.08.28-19.04.03:748][908]BlueprintLog: New page: Compile HighScoreSave
+[2017.08.28-19.04.04:546][951]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HighScoreSave" FILE="D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/HighScoreSave.uasset" SILENT=true
+[2017.08.28-19.04.04:653][951]LogSavePackage: Save=98.62ms
+[2017.08.28-19.04.04:653][951]LogSavePackage: Moving 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/HighScoreSave11437ECD42EA742CFC33B186F3C7F2AD.tmp' to 'D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/HighScoreSave.uasset'
+[2017.08.28-19.04.04:658][951]LogSavePackage:Display: Finished SavePackage D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/HighScoreSave.uasset
+[2017.08.28-19.06.55:603][298]BlueprintLog: New page: Compile HighScoreSave
+[2017.08.28-19.06.56:325][350]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HighScoreSave" FILE="D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/HighScoreSave.uasset" SILENT=true
+[2017.08.28-19.06.56:441][350]LogSavePackage: Save=107.65ms
+[2017.08.28-19.06.56:442][350]LogSavePackage: Moving 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/HighScoreSave57D0C267488470614D4E7F9E4EDA61D6.tmp' to 'D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/HighScoreSave.uasset'
+[2017.08.28-19.06.56:447][350]LogSavePackage:Display: Finished SavePackage D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/HighScoreSave.uasset
+[2017.08.28-19.08.24:202][946]BlueprintLog: New page: Compile HighScoreSave
+[2017.08.28-19.08.25:021][ 10]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HighScoreSave" FILE="D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/HighScoreSave.uasset" SILENT=true
+[2017.08.28-19.08.25:139][ 10]LogSavePackage: Save=110.74ms
+[2017.08.28-19.08.25:139][ 10]LogSavePackage: Moving 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/HighScoreSave54D3D0C544F78ED211E76E8195C815DF.tmp' to 'D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/HighScoreSave.uasset'
+[2017.08.28-19.08.25:144][ 10]LogSavePackage:Display: Finished SavePackage D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/HighScoreSave.uasset
+[2017.08.28-19.09.21:229][321]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PinballGameMode" FILE="D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/PinballGameMode.uasset" SILENT=true
+[2017.08.28-19.09.21:363][321]LogSavePackage: Save=125.09ms
+[2017.08.28-19.09.21:363][321]LogSavePackage: Moving 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/PinballGameMode4FC5DE944B78CB8179C5E6ACB5F1E222.tmp' to 'D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/PinballGameMode.uasset'
+[2017.08.28-19.09.21:368][321]LogSavePackage:Display: Finished SavePackage D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/PinballGameMode.uasset
+[2017.08.28-19.09.26:562][373]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlipperMap" FILE="D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/FlipperMap_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.08.28-19.09.26:923][373]LogSavePackage: Save=350.65ms
+[2017.08.28-19.09.26:923][373]LogSavePackage: Moving 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/FlipperMap_Auto3CAD38C1843E31ABDE8CFCAB5A0588AEB.tmp' to 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/FlipperMap_Auto3.umap'
+[2017.08.28-19.09.26:926][373]LogSavePackage:Display: Finished SavePackage D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/FlipperMap_Auto3.umap
+[2017.08.28-19.09.26:929][373]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FlipperMap' took 0.426
+[2017.08.28-19.09.26:929][373]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.426
+[2017.08.28-19.09.29:416][396]BlueprintLog: New page: Compile PinballGameMode
+[2017.08.28-19.09.29:698][396]BlueprintEditorCompileResults: Info 'ReturnValue' is already a 'High Score Save', you don't need  Cast To HighScoreSave .
+[2017.08.28-19.09.30:574][487]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PinballGameMode" FILE="D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/PinballGameMode.uasset" SILENT=true
+[2017.08.28-19.09.30:677][487]LogSavePackage: Save=95.36ms
+[2017.08.28-19.09.30:677][487]LogSavePackage: Moving 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/PinballGameModeD1684A034E6F5DF17C40808381EA4D1A.tmp' to 'D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/PinballGameMode.uasset'
+[2017.08.28-19.09.30:680][487]LogSavePackage:Display: Finished SavePackage D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/PinballGameMode.uasset
+[2017.08.28-19.16.43:557][854]BlueprintLog: New page: Compile HighScoreSave
+[2017.08.28-19.16.43:661][854]LogLinker: Can't find file '/Game/Blueprints/HighScoreStruct'
+[2017.08.28-19.16.43:661][854]LogLinker: Can't find file for asset '/Game/Blueprints/HighScoreStruct' while loading D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/HighScoreSave.uasset.
+[2017.08.28-19.16.43:662][854]LogLinker: Can't find file '/Game/Blueprints/HighScoreStruct'
+[2017.08.28-19.16.43:663][854]LogLinker: Can't find file for asset '/Game/Blueprints/HighScoreStruct' while loading D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/HighScoreSave.uasset.
+[2017.08.28-19.16.43:663][854]LogLinker: Can't find file '/Game/Blueprints/HighScoreStruct'
+[2017.08.28-19.16.43:663][854]LogLinker: Can't find file for asset '/Game/Blueprints/HighScoreStruct' while loading D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/HighScoreSave.uasset.
+[2017.08.28-19.19.27:554][ 55]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlipperMap" FILE="D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/FlipperMap_Auto4.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.08.28-19.19.27:846][ 55]LogSavePackage: Save=282.70ms
+[2017.08.28-19.19.27:846][ 55]LogSavePackage: Moving 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/FlipperMap_Auto42B18EA3C4922873E9CA1A8A6081EDA6E.tmp' to 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/FlipperMap_Auto4.umap'
+[2017.08.28-19.19.27:849][ 55]LogSavePackage:Display: Finished SavePackage D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/FlipperMap_Auto4.umap
+[2017.08.28-19.19.27:852][ 55]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FlipperMap' took 0.357
+[2017.08.28-19.19.27:852][ 55]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.357
+[2017.08.28-19.19.27:856][ 55]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/PinballGameMode] ([1] browsable assets)...
+[2017.08.28-19.19.27:856][ 55]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/PinballGameMode]
+[2017.08.28-19.19.27:856][ 55]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PinballGameMode" FILE="D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/Blueprints/PinballGameMode_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2017.08.28-19.19.27:978][ 55]LogSavePackage: Save=114.31ms
+[2017.08.28-19.19.27:978][ 55]LogSavePackage: Moving 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/PinballGameMode_Auto4FF44E1334D7C12BFBBDC51851666FDF1.tmp' to 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/Blueprints/PinballGameMode_Auto4.uasset'
+[2017.08.28-19.19.27:980][ 55]LogSavePackage:Display: Finished SavePackage D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/Blueprints/PinballGameMode_Auto4.uasset
+[2017.08.28-19.19.27:981][ 55]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/HighScoreSave] ([1] browsable assets)...
+[2017.08.28-19.19.27:981][ 55]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/HighScoreSave]
+[2017.08.28-19.19.27:981][ 55]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HighScoreSave" FILE="D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/Blueprints/HighScoreSave_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2017.08.28-19.19.28:146][ 55]LogSavePackage: Save=155.77ms
+[2017.08.28-19.19.28:146][ 55]LogSavePackage: Moving 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/HighScoreSave_Auto4AD8BF62949841010E9FEB582FF5FBF9F.tmp' to 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/Blueprints/HighScoreSave_Auto4.uasset'
+[2017.08.28-19.19.28:148][ 55]LogSavePackage:Display: Finished SavePackage D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/Blueprints/HighScoreSave_Auto4.uasset
+[2017.08.28-19.19.28:148][ 55]LogFileHelpers: Auto-saving content packages took 0.295
+[2017.08.28-19.20.23:509][ 43]BlueprintLog: New page: Compile HighScoreSave
+[2017.08.28-19.20.24:369][104]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HighScoreSave" FILE="D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/HighScoreSave.uasset" SILENT=true
+[2017.08.28-19.20.24:527][104]LogSavePackage: Save=150.07ms
+[2017.08.28-19.20.24:527][104]LogSavePackage: Moving 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/HighScoreSave71094CB04434E30924B86D91FFE67805.tmp' to 'D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/HighScoreSave.uasset'
+[2017.08.28-19.20.24:532][104]LogSavePackage:Display: Finished SavePackage D:/Davide/Documenti/MasterCastle/MyProject/Content/Blueprints/HighScoreSave.uasset
+[2017.08.28-19.22.22:806][334]LogLinker: Can't find file '/Game/Blueprints/HighScoreEntry'
+[2017.08.28-19.22.22:806][334]LogLinker: Can't find file '/Game/Blueprints/HighScoreEntry'
+[2017.08.28-19.29.43:293][283]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FlipperMap' took 0.064
+[2017.08.28-19.29.43:295][283]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/PinballGameMode] ([1] browsable assets)...
+[2017.08.28-19.29.43:295][283]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/PinballGameMode]
+[2017.08.28-19.29.43:295][283]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PinballGameMode" FILE="D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/Blueprints/PinballGameMode_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2017.08.28-19.29.43:429][283]LogSavePackage: Save=125.41ms
+[2017.08.28-19.29.43:429][283]LogSavePackage: Moving 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/PinballGameMode_Auto58CF723D547CE0A2F2A21CFA06817979B.tmp' to 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/Blueprints/PinballGameMode_Auto5.uasset'
+[2017.08.28-19.29.43:433][283]LogSavePackage:Display: Finished SavePackage D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/Blueprints/PinballGameMode_Auto5.uasset
+[2017.08.28-19.29.43:435][283]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/HighScoreEntry] ([1] browsable assets)...
+[2017.08.28-19.29.43:435][283]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/HighScoreEntry]
+[2017.08.28-19.29.43:435][283]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HighScoreEntry" FILE="D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/Blueprints/HighScoreEntry_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2017.08.28-19.29.43:450][283]LogSavePackage: Save=13.65ms
+[2017.08.28-19.29.43:450][283]LogSavePackage: Moving 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/HighScoreEntry_Auto5322F29444D4183F563741981B8B41088.tmp' to 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/Blueprints/HighScoreEntry_Auto5.uasset'
+[2017.08.28-19.29.43:454][283]LogSavePackage:Display: Finished SavePackage D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/Blueprints/HighScoreEntry_Auto5.uasset
+[2017.08.28-19.29.43:454][283]LogFileHelpers: Auto-saving content packages took 0.161
+[2017.08.28-19.31.28:596][481]LogEditorTransaction: Undo Edit Top
+[2017.08.28-19.31.28:819][494]LogEditorTransaction: Undo Edit Left
+[2017.08.28-19.32.01:098][754]LogEditorTransaction: Undo Edit Left
+[2017.08.28-19.33.07:596][607]LogEditorTransaction: Undo Move Widget
+[2017.08.28-19.33.26:071][369]LogEditorTransaction: Undo Move Widget
+[2017.08.28-19.33.30:469][722]LogEditorTransaction: Undo Move Widget
+[2017.08.28-19.39.43:968][755]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FlipperMap' took 0.123
+[2017.08.28-19.39.43:971][755]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/HighScoreEntry] ([1] browsable assets)...
+[2017.08.28-19.39.43:971][755]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/HighScoreEntry]
+[2017.08.28-19.39.43:971][755]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HighScoreEntry" FILE="D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/Blueprints/HighScoreEntry_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2017.08.28-19.39.43:994][755]LogSavePackage: Save=19.14ms
+[2017.08.28-19.39.43:994][755]LogSavePackage: Moving 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/HighScoreEntry_Auto6AA7A239943B3A65F3AC3FBB1926176AA.tmp' to 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/Blueprints/HighScoreEntry_Auto6.uasset'
+[2017.08.28-19.39.43:997][755]LogSavePackage:Display: Finished SavePackage D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/Blueprints/HighScoreEntry_Auto6.uasset
+[2017.08.28-19.39.43:997][755]LogFileHelpers: Auto-saving content packages took 0.027
+[2017.08.28-19.49.51:014][130]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FlipperMap' took 0.063
+[2017.08.28-19.49.51:017][130]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/HighScoreEntry] ([1] browsable assets)...
+[2017.08.28-19.49.51:017][130]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/HighScoreEntry]
+[2017.08.28-19.49.51:017][130]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HighScoreEntry" FILE="D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/Blueprints/HighScoreEntry_Auto7.uasset" SILENT=false AUTOSAVING=true
+[2017.08.28-19.49.51:037][130]LogSavePackage: Save=17.78ms
+[2017.08.28-19.49.51:037][130]LogSavePackage: Moving 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/HighScoreEntry_Auto77F97F0F1463962314AA287A4BE18375D.tmp' to 'D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/Blueprints/HighScoreEntry_Auto7.uasset'
+[2017.08.28-19.49.51:039][130]LogSavePackage:Display: Finished SavePackage D:/Davide/Documenti/MasterCastle/MyProject/Saved/Autosaves/Game/Blueprints/HighScoreEntry_Auto7.uasset
+[2017.08.28-19.49.51:039][130]LogFileHelpers: Auto-saving content packages took 0.024
+[2017.08.28-19.51.01:004][924]LogEditorTransaction: Undo Edit Size To Content
