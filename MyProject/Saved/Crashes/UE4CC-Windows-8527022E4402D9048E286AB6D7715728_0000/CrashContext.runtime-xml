@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+	<RuntimeProperties>
+		<CrashVersion>3</CrashVersion>
+		<CrashGUID>UE4CC-Windows-8527022E4402D9048E286AB6D7715728_0000</CrashGUID>
+		<ProcessId>5364</ProcessId>
+		<IsInternalBuild>false</IsInternalBuild>
+		<IsPerforceBuild>false</IsPerforceBuild>
+		<IsSourceDistribution>false</IsSourceDistribution>
+		<IsEnsure>true</IsEnsure>
+		<IsAssert>false</IsAssert>
+		<CrashType>Ensure</CrashType>
+		<SecondsSinceStart>8819</SecondsSinceStart>
+		<GameName>UE4-MyProject</GameName>
+		<ExecutableName>UE4Editor</ExecutableName>
+		<BuildConfiguration>Development</BuildConfiguration>
+		<GameSessionID />
+		<PlatformName>Windows</PlatformName>
+		<PlatformNameIni>Windows</PlatformNameIni>
+		<EngineMode>Editor</EngineMode>
+		<EngineModeEx>Vanilla</EngineModeEx>
+		<DeploymentName />
+		<EngineVersion>4.16.3-3561208+++UE4+Release-4.16</EngineVersion>
+		<CommandLine>&quot;D:\Davide\Desktop\PinballGame\MyProject\MyProject.uproject&quot;</CommandLine>
+		<LanguageLCID>1040</LanguageLCID>
+		<AppDefaultLocale>it-IT</AppDefaultLocale>
+		<BuildVersion>++UE4+Release-4.16-CL-3561208</BuildVersion>
+		<IsUE4Release>true</IsUE4Release>
+		<UserName>Davide</UserName>
+		<BaseDir>C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/</BaseDir>
+		<RootDir>C:/Program Files/Epic Games/UE_4.16/</RootDir>
+		<MachineId>A778ECEA4471853A719C1AA855758C13</MachineId>
+		<LoginId>a778ecea4471853a719c1aa855758c13</LoginId>
+		<EpicAccountId>fb25bba526a341dfa2775606ff91eab2</EpicAccountId>
+		<CallStack />
+		<SourceContext />
+		<UserDescription>Sent in the unattended mode</UserDescription>
+		<UserActivityHint>Layout=&quot;Document : 1&quot; Label=&quot;Event Graph&quot; Content=SGraphEditor</UserActivityHint>
+		<ErrorMessage>Ensure condition failed: false [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilities.cpp] [Line: 1037] &nl;Error: Invalid (but non-null) property associated with pin; cannot get variable value&nl;</ErrorMessage>
+		<CrashDumpMode>0</CrashDumpMode>
+		<CrashReporterMessage />
+		<Misc.NumberOfCores>2</Misc.NumberOfCores>
+		<Misc.NumberOfCoresIncludingHyperthreads>4</Misc.NumberOfCoresIncludingHyperthreads>
+		<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+		<Misc.CPUVendor>AuthenticAMD</Misc.CPUVendor>
+		<Misc.CPUBrand>AMD FX(tm)-4300 Quad-Core Processor</Misc.CPUBrand>
+		<Misc.PrimaryGPUBrand>Radeon(TM) RX 460 Graphics</Misc.PrimaryGPUBrand>
+		<Misc.OSVersionMajor>Windows 10</Misc.OSVersionMajor>
+		<Misc.OSVersionMinor />
+		<MemoryStats.TotalPhysical>17142812672</MemoryStats.TotalPhysical>
+		<MemoryStats.TotalVirtual>140737488224256</MemoryStats.TotalVirtual>
+		<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+		<MemoryStats.TotalPhysicalGB>16</MemoryStats.TotalPhysicalGB>
+		<MemoryStats.AvailablePhysical>3192184832</MemoryStats.AvailablePhysical>
+		<MemoryStats.AvailableVirtual>140731445084160</MemoryStats.AvailableVirtual>
+		<MemoryStats.UsedPhysical>3679424512</MemoryStats.UsedPhysical>
+		<MemoryStats.PeakUsedPhysical>3789991936</MemoryStats.PeakUsedPhysical>
+		<MemoryStats.UsedVirtual>5008674816</MemoryStats.UsedVirtual>
+		<MemoryStats.PeakUsedVirtual>5345087488</MemoryStats.PeakUsedVirtual>
+		<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+		<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+		<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+		<TimeOfCrash>636410765177920000</TimeOfCrash>
+		<bAllowToBeContacted>1</bAllowToBeContacted>
+		<PlatformFullName>Win64 [Windows 10  64b]</PlatformFullName>
+		<CrashReportClientVersion>1.0</CrashReportClientVersion>
+	</RuntimeProperties>
+	<PlatformProperties>
+		<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+		<PlatformCallbackResult>0</PlatformCallbackResult>
+	</PlatformProperties>
+</FGenericCrashContext>
