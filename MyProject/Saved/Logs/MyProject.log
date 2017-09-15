@@ -1176,3 +1176,946 @@ LogInit: Object subsystem initialized
 [2017.09.15-21.08.20:122][669]LogSavePackage: Moving 'D:/Davide/Desktop/PinballGame/MyProject/Saved/FlipperMap19A8A6EA4EAFB742591F97852C72527D.tmp' to 'D:/Davide/Desktop/PinballGame/MyProject/Content/FlipperMap.umap'
 [2017.09.15-21.08.20:129][669]LogSavePackage:Display: Finished SavePackage D:/Davide/Desktop/PinballGame/MyProject/Content/FlipperMap.umap
 [2017.09.15-21.08.20:163][669]LogFileHelpers: Saving map 'FlipperMap' took 0.669
+[2017.09.15-22.11.06:369][121]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.09.15-22.12.00:202][478]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.15-22.12.00:230][478]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.09.15-22.12.00:230][478]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.15-22.12.00:230][478]PIE: New page: PIE session: FlipperMap (Sep 16, 2017, 2:12:00 AM)
+[2017.09.15-22.12.00:230][478]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FlipperMap
+[2017.09.15-22.12.00:243][478]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012788s)
+[2017.09.15-22.12.00:244][478]LogAIModule: Creating AISystem for world FlipperMap
+[2017.09.15-22.12.00:244][478]LogPlayLevel: PIE: World Init took: (0.001344s)
+[2017.09.15-22.12.00:244][478]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlipperMap.FlipperMap to /Game/UEDPIE_0_FlipperMap.FlipperMap (0.014490s)
+[2017.09.15-22.12.00:312][478]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.15-22.12.00:329][478]LogInit: FAudioDevice initialized.
+[2017.09.15-22.12.00:369][478]LogLoad: Game class is 'PinballGameMode_C'
+[2017.09.15-22.12.00:373][478]LogWorld: Bringing World /Game/UEDPIE_0_FlipperMap.FlipperMap up for play (max tick rate 0) at 2017.09.16-00.12.00
+[2017.09.15-22.12.00:374][478]LogWorld: Bringing up level for play took: 0.004536
+[2017.09.15-22.12.00:378][478]LogBlueprintUserMessages: [HighScoreWidget_193] deflo  ==  2900.0
+[2017.09.15-22.12.00:378][478]LogBlueprintUserMessages: [HighScoreWidget_193] vaccaloca  ==  2500.0
+[2017.09.15-22.12.00:378][478]LogBlueprintUserMessages: [HighScoreWidget_193] markito  ==  2000.0
+[2017.09.15-22.12.00:378][478]LogBlueprintUserMessages: [HighScoreWidget_193] deflo  ==  600.0
+[2017.09.15-22.12.00:379][478]PIE: Info Play in editor start time for /Game/UEDPIE_0_FlipperMap -0.327
+[2017.09.15-22.12.00:379][478]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.09.15-22.12.00:390][478]LogAudio:Warning: Detected orphaned looping sound 'victoryMusic_loop_01_01'.
+[2017.09.15-22.12.14:417][728]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.12.14:417][728]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.12.14:451][731]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.12.14:451][731]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.12.14:799][762]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.12.14:799][762]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.12.14:956][776]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.12.14:957][776]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.12.15:193][797]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.12.15:193][797]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.12.15:340][809]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.12.15:340][809]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.12.15:493][823]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.12.15:493][823]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.12.16:493][912]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.12.16:493][912]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.12.16:731][933]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.12.16:731][933]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.12.20:846][297]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.12.20:846][297]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.12.21:231][330]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.12.21:231][330]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.12.22:653][454]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.12.22:653][454]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.12.24:422][611]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.12.24:422][611]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.12.25:879][740]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.12.25:879][740]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.12.27:517][881]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.12.27:517][881]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.12.28:692][983]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.12.28:692][983]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.12.31:495][227]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.12.31:495][227]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.12.32:889][348]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.12.32:889][348]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.12.34:293][470]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.12.34:293][470]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.12.35:216][551]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.12.35:216][551]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.12.37:862][775]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.12.37:862][775]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.12.39:428][902]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.12.39:428][902]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.12.40:154][958]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.12.40:154][958]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.12.40:656][996]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.12.40:656][996]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.12.46:686][453]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.12.46:686][453]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.12.47:877][545]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.12.47:877][545]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.12.48:665][606]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.12.48:665][606]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.12.50:185][726]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.12.50:185][726]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.12.50:270][733]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.12.50:270][733]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.12.57:118][289]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.12.57:118][289]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.12.58:357][393]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.12.58:357][393]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.12.58:381][395]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.12.58:381][395]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.13.05:507][965]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.13.05:507][965]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.13.06:695][ 60]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.13.06:696][ 60]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.13.08:352][191]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.13.08:352][191]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.13.08:741][223]LogBlueprintUserMessages: [None] 4
+[2017.09.15-22.13.08:743][223]LogBlueprintUserMessages: [HighScoreWidget_193] deflo  ==  2900.0
+[2017.09.15-22.13.08:743][223]LogBlueprintUserMessages: [HighScoreWidget_193] vaccaloca  ==  2500.0
+[2017.09.15-22.13.08:743][223]LogBlueprintUserMessages: [HighScoreWidget_193] markito  ==  2000.0
+[2017.09.15-22.13.08:743][223]LogBlueprintUserMessages: [HighScoreWidget_193] deflo  ==  600.0
+[2017.09.15-22.13.17:369][850]LogBlueprintUserMessages: [HighScoreWidget_193] lardi  ==  6100.0
+[2017.09.15-22.13.17:369][850]LogBlueprintUserMessages: [HighScoreWidget_193] deflo  ==  2900.0
+[2017.09.15-22.13.17:369][850]LogBlueprintUserMessages: [HighScoreWidget_193] vaccaloca  ==  2500.0
+[2017.09.15-22.13.17:369][850]LogBlueprintUserMessages: [HighScoreWidget_193] markito  ==  2000.0
+[2017.09.15-22.13.34:333][699]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.13.34:333][699]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.13.38:507][896]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.13.38:507][896]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.13.38:970][918]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.13.38:970][918]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.13.39:070][923]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.13.39:070][923]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.13.39:301][933]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.13.39:301][933]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.13.39:378][936]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.13.39:378][936]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.13.39:610][945]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.13.39:610][945]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.13.39:733][950]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.13.39:733][950]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.13.39:920][954]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.13.39:920][954]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.13.45:420][201]LogBlueprintUserMessages: [None] 4
+[2017.09.15-22.13.45:422][201]LogBlueprintUserMessages: [HighScoreWidget_193] lardi  ==  6100.0
+[2017.09.15-22.13.45:422][201]LogBlueprintUserMessages: [HighScoreWidget_193] deflo  ==  2900.0
+[2017.09.15-22.13.45:422][201]LogBlueprintUserMessages: [HighScoreWidget_193] vaccaloca  ==  2500.0
+[2017.09.15-22.13.45:422][201]LogBlueprintUserMessages: [HighScoreWidget_193] markito  ==  2000.0
+[2017.09.15-22.13.54:837][602]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.13.54:837][602]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.13.55:035][610]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.13.55:035][610]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.14.00:491][795]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.14.00:491][795]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.14.03:973][903]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.14.03:973][903]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.14.04:454][915]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.14.04:454][915]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.14.05:266][937]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.14.05:266][937]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.14.05:418][941]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.14.05:418][941]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.14.05:521][944]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.14.05:521][944]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.14.05:694][950]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.14.05:694][950]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.14.05:816][953]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.14.05:816][953]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.14.10:134][ 98]LogBlueprintUserMessages: [None] 4
+[2017.09.15-22.14.10:135][ 98]LogBlueprintUserMessages: [HighScoreWidget_193] lardi  ==  6100.0
+[2017.09.15-22.14.10:135][ 98]LogBlueprintUserMessages: [HighScoreWidget_193] deflo  ==  2900.0
+[2017.09.15-22.14.10:135][ 98]LogBlueprintUserMessages: [HighScoreWidget_193] vaccaloca  ==  2500.0
+[2017.09.15-22.14.10:135][ 98]LogBlueprintUserMessages: [HighScoreWidget_193] markito  ==  2000.0
+[2017.09.15-22.14.11:071][134]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.09.15-22.14.11:176][134]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.09.15-22.14.45:107][247]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.15-22.14.45:134][247]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.09.15-22.14.45:134][247]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.15-22.14.45:134][247]PIE: New page: PIE session: FlipperMap (Sep 16, 2017, 2:14:45 AM)
+[2017.09.15-22.14.45:134][247]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FlipperMap
+[2017.09.15-22.14.45:148][247]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013588s)
+[2017.09.15-22.14.45:149][247]LogAIModule: Creating AISystem for world FlipperMap
+[2017.09.15-22.14.45:149][247]LogPlayLevel: PIE: World Init took: (0.000991s)
+[2017.09.15-22.14.45:149][247]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlipperMap.FlipperMap to /Game/UEDPIE_0_FlipperMap.FlipperMap (0.014969s)
+[2017.09.15-22.14.45:216][247]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.15-22.14.45:231][247]LogInit: FAudioDevice initialized.
+[2017.09.15-22.14.45:412][247]LogLoad: Game class is 'PinballGameMode_C'
+[2017.09.15-22.14.45:417][247]LogWorld: Bringing World /Game/UEDPIE_0_FlipperMap.FlipperMap up for play (max tick rate 0) at 2017.09.16-00.14.45
+[2017.09.15-22.14.45:418][247]LogWorld: Bringing up level for play took: 0.005053
+[2017.09.15-22.14.45:420][247]LogBlueprintUserMessages: [HighScoreWidget_193] lardi  ==  6100.0
+[2017.09.15-22.14.45:420][247]LogBlueprintUserMessages: [HighScoreWidget_193] deflo  ==  2900.0
+[2017.09.15-22.14.45:420][247]LogBlueprintUserMessages: [HighScoreWidget_193] vaccaloca  ==  2500.0
+[2017.09.15-22.14.45:420][247]LogBlueprintUserMessages: [HighScoreWidget_193] markito  ==  2000.0
+[2017.09.15-22.14.45:428][247]PIE: Info Play in editor start time for /Game/UEDPIE_0_FlipperMap 0.722
+[2017.09.15-22.14.45:428][247]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.09.15-22.14.45:433][247]LogAudio:Warning: Detected orphaned looping sound 'victoryMusic_loop_01_01'.
+[2017.09.15-22.14.57:208][ 99]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.14.57:208][ 99]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.15.00:184][307]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.15.00:184][307]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.15.01:640][408]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.15.01:641][408]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.15.03:619][548]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.15.03:619][548]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.15.06:027][713]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.15.06:027][713]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.15.15:019][285]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.15.15:019][285]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.15.16:461][378]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.15.16:461][378]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.15.16:901][408]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.15.16:901][408]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.15.18:248][494]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.15.18:248][494]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.15.18:833][529]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.15.18:833][529]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.15.21:042][667]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.15.21:042][667]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.15.23:099][799]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.15.23:099][799]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.15.23:810][842]LogBlueprintUserMessages: [None] 4
+[2017.09.15-22.15.23:812][842]LogBlueprintUserMessages: [HighScoreWidget_193] lardi  ==  6100.0
+[2017.09.15-22.15.23:812][842]LogBlueprintUserMessages: [HighScoreWidget_193] deflo  ==  2900.0
+[2017.09.15-22.15.23:812][842]LogBlueprintUserMessages: [HighScoreWidget_193] vaccaloca  ==  2500.0
+[2017.09.15-22.15.23:812][842]LogBlueprintUserMessages: [HighScoreWidget_193] markito  ==  2000.0
+[2017.09.15-22.15.38:450][711]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.15.38:450][711]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.15.38:584][719]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.15.38:584][719]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.15.38:815][733]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.15.38:815][733]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.15.39:683][781]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.15.39:683][781]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.15.39:748][785]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.15.39:748][785]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.15.39:982][798]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.15.39:982][798]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.15.41:797][905]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.15.41:797][905]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.15.44:911][ 83]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.09.15-22.15.45:006][ 83]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.09.15-22.17.59:812][883]BlueprintLog: New page: Compile PinballGameMode
+[2017.09.15-22.18.01:392][956]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PinballGameMode" FILE="D:/Davide/Desktop/PinballGame/MyProject/Content/Blueprints/PinballGameMode.uasset" SILENT=true
+[2017.09.15-22.18.01:746][956]LogSavePackage: Save=323.42ms
+[2017.09.15-22.18.01:746][956]LogSavePackage: Moving 'D:/Davide/Desktop/PinballGame/MyProject/Saved/PinballGameModeECBFDEA14A0065AD7B39529824B2B28D.tmp' to 'D:/Davide/Desktop/PinballGame/MyProject/Content/Blueprints/PinballGameMode.uasset'
+[2017.09.15-22.18.01:751][956]LogSavePackage:Display: Finished SavePackage D:/Davide/Desktop/PinballGame/MyProject/Content/Blueprints/PinballGameMode.uasset
+[2017.09.15-22.18.04:416][197]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.15-22.18.04:443][197]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.09.15-22.18.04:443][197]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.15-22.18.04:443][197]PIE: New page: PIE session: FlipperMap (Sep 16, 2017, 2:18:04 AM)
+[2017.09.15-22.18.04:443][197]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FlipperMap
+[2017.09.15-22.18.04:457][197]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013804s)
+[2017.09.15-22.18.04:458][197]LogAIModule: Creating AISystem for world FlipperMap
+[2017.09.15-22.18.04:458][197]LogPlayLevel: PIE: World Init took: (0.000936s)
+[2017.09.15-22.18.04:458][197]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlipperMap.FlipperMap to /Game/UEDPIE_0_FlipperMap.FlipperMap (0.015048s)
+[2017.09.15-22.18.04:524][197]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.15-22.18.04:539][197]LogInit: FAudioDevice initialized.
+[2017.09.15-22.18.04:577][197]LogLoad: Game class is 'PinballGameMode_C'
+[2017.09.15-22.18.04:582][197]LogWorld: Bringing World /Game/UEDPIE_0_FlipperMap.FlipperMap up for play (max tick rate 0) at 2017.09.16-00.18.04
+[2017.09.15-22.18.04:582][197]LogWorld: Bringing up level for play took: 0.004628
+[2017.09.15-22.18.04:585][197]LogBlueprintUserMessages: [HighScoreWidget_193] lardi  ==  6100.0
+[2017.09.15-22.18.04:585][197]LogBlueprintUserMessages: [HighScoreWidget_193] deflo  ==  2900.0
+[2017.09.15-22.18.04:585][197]LogBlueprintUserMessages: [HighScoreWidget_193] vaccaloca  ==  2500.0
+[2017.09.15-22.18.04:586][197]LogBlueprintUserMessages: [HighScoreWidget_193] markito  ==  2000.0
+[2017.09.15-22.18.04:586][197]PIE: Info Play in editor start time for /Game/UEDPIE_0_FlipperMap -0.12
+[2017.09.15-22.18.04:586][197]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.09.15-22.18.04:600][197]LogAudio:Warning: Detected orphaned looping sound 'victoryMusic_loop_01_01'.
+[2017.09.15-22.18.06:314][359]Cmd: LevelEditor.ToggleImmersive
+[2017.09.15-22.18.13:672][  1]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.18.13:672][  1]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.18.16:639][263]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.18.16:639][263]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.18.18:349][415]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.18.18:349][415]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.18.20:161][575]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.18.20:161][575]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.18.23:671][884]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.18.23:672][884]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.18.24:772][980]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.18.24:772][980]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.18.25:349][ 30]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.18.25:349][ 30]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.18.26:683][148]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.18.26:683][148]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.18.28:302][288]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.18.28:302][288]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.18.29:644][406]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.18.29:644][406]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.18.30:863][514]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.18.30:863][514]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.18.37:619][102]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.18.37:619][102]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.18.39:010][222]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.18.39:010][222]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.18.41:700][452]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.18.41:700][452]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.18.45:019][721]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.18.45:019][721]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.18.47:709][947]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.18.47:709][947]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.18.48:670][ 28]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.18.48:670][ 28]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.18.50:074][151]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.18.50:074][151]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.18.52:201][328]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.18.52:201][328]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.18.53:309][413]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.18.53:309][413]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.18.59:036][883]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.18.59:036][883]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.19.00:461][997]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.19.00:462][997]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.19.01:898][115]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.19.01:898][115]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.19.03:109][211]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.19.03:109][211]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.19.04:851][346]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.19.04:852][346]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.19.06:212][440]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.19.06:213][440]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.19.06:656][471]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.19.06:656][471]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.19.11:771][809]LogBlueprintUserMessages: [None] 4
+[2017.09.15-22.19.11:773][809]LogBlueprintUserMessages: [HighScoreWidget_193] lardi  ==  6100.0
+[2017.09.15-22.19.11:773][809]LogBlueprintUserMessages: [HighScoreWidget_193] deflo  ==  2900.0
+[2017.09.15-22.19.11:773][809]LogBlueprintUserMessages: [HighScoreWidget_193] vaccaloca  ==  2500.0
+[2017.09.15-22.19.11:773][809]LogBlueprintUserMessages: [HighScoreWidget_193] markito  ==  2000.0
+[2017.09.15-22.19.17:409][179]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.09.15-22.19.17:518][179]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.09.15-22.19.38:761][128]BlueprintLog: New page: Compile PinballGameMode
+[2017.09.15-22.19.40:310][236]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PinballGameMode" FILE="D:/Davide/Desktop/PinballGame/MyProject/Content/Blueprints/PinballGameMode.uasset" SILENT=true
+[2017.09.15-22.19.40:617][236]LogSavePackage: Save=279.08ms
+[2017.09.15-22.19.40:617][236]LogSavePackage: Moving 'D:/Davide/Desktop/PinballGame/MyProject/Saved/PinballGameModeBC6881804BBAC0FF503CAC9862F12CEF.tmp' to 'D:/Davide/Desktop/PinballGame/MyProject/Content/Blueprints/PinballGameMode.uasset'
+[2017.09.15-22.19.40:622][236]LogSavePackage:Display: Finished SavePackage D:/Davide/Desktop/PinballGame/MyProject/Content/Blueprints/PinballGameMode.uasset
+[2017.09.15-22.19.59:881][888]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.15-22.19.59:907][888]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.09.15-22.19.59:907][888]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.15-22.19.59:907][888]PIE: New page: PIE session: FlipperMap (Sep 16, 2017, 2:19:59 AM)
+[2017.09.15-22.19.59:907][888]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FlipperMap
+[2017.09.15-22.19.59:923][888]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016078s)
+[2017.09.15-22.19.59:925][888]LogAIModule: Creating AISystem for world FlipperMap
+[2017.09.15-22.19.59:925][888]LogPlayLevel: PIE: World Init took: (0.001477s)
+[2017.09.15-22.19.59:925][888]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlipperMap.FlipperMap to /Game/UEDPIE_0_FlipperMap.FlipperMap (0.017958s)
+[2017.09.15-22.19.59:999][888]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.15-22.20.00:022][888]LogInit: FAudioDevice initialized.
+[2017.09.15-22.20.00:061][888]LogLoad: Game class is 'PinballGameMode_C'
+[2017.09.15-22.20.00:066][888]LogWorld: Bringing World /Game/UEDPIE_0_FlipperMap.FlipperMap up for play (max tick rate 0) at 2017.09.16-00.20.00
+[2017.09.15-22.20.00:066][888]LogWorld: Bringing up level for play took: 0.004639
+[2017.09.15-22.20.00:069][888]LogBlueprintUserMessages: [HighScoreWidget_193] lardi  ==  6100.0
+[2017.09.15-22.20.00:069][888]LogBlueprintUserMessages: [HighScoreWidget_193] deflo  ==  2900.0
+[2017.09.15-22.20.00:069][888]LogBlueprintUserMessages: [HighScoreWidget_193] vaccaloca  ==  2500.0
+[2017.09.15-22.20.00:069][888]LogBlueprintUserMessages: [HighScoreWidget_193] markito  ==  2000.0
+[2017.09.15-22.20.00:069][888]PIE: Info Play in editor start time for /Game/UEDPIE_0_FlipperMap -0.636
+[2017.09.15-22.20.00:070][888]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.09.15-22.20.00:083][888]LogAudio:Warning: Detected orphaned looping sound 'victoryMusic_loop_01_01'.
+[2017.09.15-22.20.00:886][963]Cmd: LevelEditor.ToggleImmersive
+[2017.09.15-22.20.17:470][382]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.20.17:470][382]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.20.19:806][586]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.20.19:806][586]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.20.20:484][642]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.20.20:484][642]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.20.20:793][669]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.20.20:793][669]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.20.28:497][315]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.20.28:497][315]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.20.28:929][352]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.20.28:929][352]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.20.29:928][439]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.20.29:928][439]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.20.33:648][755]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.20.33:648][755]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.20.37:296][ 65]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.20.37:296][ 65]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.20.38:751][192]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.20.38:751][192]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.20.40:329][329]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.20.40:329][329]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.20.40:841][374]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.20.40:841][374]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.20.42:560][518]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.20.42:560][518]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.20.43:624][610]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.20.43:624][610]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.20.44:145][654]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.20.44:145][654]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.20.47:108][907]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.20.47:108][907]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.20.48:444][ 20]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.20.48:444][ 20]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.20.53:830][469]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.20.53:830][469]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.20.54:325][509]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.20.54:325][509]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.20.54:559][527]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.20.54:559][527]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.20.54:786][546]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.20.54:786][546]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.20.55:103][572]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.20.55:103][572]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.20.56:552][686]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.20.56:552][686]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.20.57:638][776]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.20.57:638][776]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.20.58:552][851]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.20.58:552][851]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.21.01:874][114]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.21.01:874][114]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.21.04:484][302]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.21.04:484][302]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.21.07:543][534]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.21.07:543][534]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.21.08:195][582]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.21.08:195][582]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.21.09:405][671]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.21.09:405][671]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.21.11:258][809]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.21.11:258][809]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.21.13:494][971]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.21.13:494][971]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.21.13:703][985]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.21.13:703][985]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.21.14:691][ 57]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.21.14:691][ 57]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.21.14:691][ 57]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.21.14:691][ 57]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.21.14:992][ 77]LogBlueprintUserMessages: [None] 4
+[2017.09.15-22.21.14:993][ 77]LogBlueprintUserMessages: [HighScoreWidget_193] lardi  ==  6100.0
+[2017.09.15-22.21.14:994][ 77]LogBlueprintUserMessages: [HighScoreWidget_193] deflo  ==  2900.0
+[2017.09.15-22.21.14:994][ 77]LogBlueprintUserMessages: [HighScoreWidget_193] vaccaloca  ==  2500.0
+[2017.09.15-22.21.14:994][ 77]LogBlueprintUserMessages: [HighScoreWidget_193] markito  ==  2000.0
+[2017.09.15-22.21.24:758][781]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.21.24:758][781]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.21.24:916][792]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.21.24:917][792]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.21.25:042][801]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.21.25:042][801]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.21.25:140][808]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.21.25:140][808]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.21.25:297][819]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.21.25:297][819]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.21.27:182][954]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.21.27:182][954]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.21.28:678][ 61]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.21.28:678][ 61]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.21.31:046][232]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.21.31:046][232]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.21.32:243][317]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.21.32:243][317]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.21.33:510][405]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.21.33:510][405]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.21.35:721][556]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.21.35:721][556]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.21.37:681][691]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.21.37:681][691]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.21.37:808][700]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.21.37:808][700]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.21.48:491][400]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.21.48:491][400]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.21.50:037][501]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.21.50:037][501]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.21.50:363][522]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.21.50:363][522]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.21.51:316][582]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.21.51:316][582]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.21.52:694][672]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.21.52:694][672]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.21.54:079][763]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.21.54:079][763]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.21.56:250][901]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.21.56:250][901]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.21.56:310][904]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.21.56:310][904]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.22.00:426][158]LogBlueprintUserMessages: [None] 4
+[2017.09.15-22.22.00:427][158]LogBlueprintUserMessages: [HighScoreWidget_193] lardi  ==  6100.0
+[2017.09.15-22.22.00:427][158]LogBlueprintUserMessages: [HighScoreWidget_193] deflo  ==  2900.0
+[2017.09.15-22.22.00:427][158]LogBlueprintUserMessages: [HighScoreWidget_193] vaccaloca  ==  2500.0
+[2017.09.15-22.22.00:427][158]LogBlueprintUserMessages: [HighScoreWidget_193] markito  ==  2000.0
+[2017.09.15-22.22.11:775][870]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.22.11:775][870]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.22.12:122][891]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.22.12:122][891]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.22.19:884][272]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.22.19:884][272]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.22.23:061][390]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.22.23:061][390]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.22.25:640][489]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.22.25:640][489]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.22.27:245][555]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.22.27:245][555]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.22.28:471][605]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.22.28:471][605]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.22.28:895][623]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.22.28:895][623]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.22.41:843][ 75]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.22.41:843][ 75]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.22.45:650][219]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.22.45:650][219]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.22.48:816][338]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.22.48:816][338]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.22.49:720][371]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.22.49:720][371]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.22.50:682][405]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.22.50:682][405]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.22.56:996][609]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.22.56:996][609]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.22.57:178][613]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.22.57:178][613]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.22.57:341][618]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.22.57:341][618]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.22.58:662][651]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.22.58:663][651]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.23.01:298][718]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.23.01:298][718]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.23.01:883][731]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.23.01:883][731]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.23.02:405][744]LogBlueprintUserMessages: [None] 4
+[2017.09.15-22.23.02:407][744]LogBlueprintUserMessages: [HighScoreWidget_193] lardi  ==  6100.0
+[2017.09.15-22.23.02:407][744]LogBlueprintUserMessages: [HighScoreWidget_193] deflo  ==  2900.0
+[2017.09.15-22.23.02:407][744]LogBlueprintUserMessages: [HighScoreWidget_193] vaccaloca  ==  2500.0
+[2017.09.15-22.23.02:407][744]LogBlueprintUserMessages: [HighScoreWidget_193] markito  ==  2000.0
+[2017.09.15-22.23.10:625][ 90]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.23.10:625][ 90]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.23.11:313][115]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.23.11:313][115]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.23.11:595][125]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.23.11:595][125]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.23.16:753][320]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.09.15-22.23.16:887][320]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.09.15-22.23.20:207][698]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.15-22.23.20:233][698]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.09.15-22.23.20:233][698]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.15-22.23.20:233][698]PIE: New page: PIE session: FlipperMap (Sep 16, 2017, 2:23:20 AM)
+[2017.09.15-22.23.20:233][698]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FlipperMap
+[2017.09.15-22.23.20:247][698]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013222s)
+[2017.09.15-22.23.20:247][698]LogAIModule: Creating AISystem for world FlipperMap
+[2017.09.15-22.23.20:248][698]LogPlayLevel: PIE: World Init took: (0.001313s)
+[2017.09.15-22.23.20:248][698]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlipperMap.FlipperMap to /Game/UEDPIE_0_FlipperMap.FlipperMap (0.014873s)
+[2017.09.15-22.23.20:329][698]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.15-22.23.20:348][698]LogInit: FAudioDevice initialized.
+[2017.09.15-22.23.20:391][698]LogLoad: Game class is 'PinballGameMode_C'
+[2017.09.15-22.23.20:395][698]LogWorld: Bringing World /Game/UEDPIE_0_FlipperMap.FlipperMap up for play (max tick rate 0) at 2017.09.16-00.23.20
+[2017.09.15-22.23.20:396][698]LogWorld: Bringing up level for play took: 0.004639
+[2017.09.15-22.23.20:399][698]LogBlueprintUserMessages: [HighScoreWidget_193] lardi  ==  6100.0
+[2017.09.15-22.23.20:399][698]LogBlueprintUserMessages: [HighScoreWidget_193] deflo  ==  2900.0
+[2017.09.15-22.23.20:399][698]LogBlueprintUserMessages: [HighScoreWidget_193] vaccaloca  ==  2500.0
+[2017.09.15-22.23.20:399][698]LogBlueprintUserMessages: [HighScoreWidget_193] markito  ==  2000.0
+[2017.09.15-22.23.20:400][698]PIE: Info Play in editor start time for /Game/UEDPIE_0_FlipperMap -0.306
+[2017.09.15-22.23.20:400][698]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.09.15-22.23.20:401][698]LogAudio:Warning: Detected orphaned looping sound 'victoryMusic_loop_01_01'.
+[2017.09.15-22.23.29:681][519]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.23.29:682][519]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.23.29:794][529]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.23.29:794][529]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.23.30:031][550]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.23.30:031][550]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.23.30:660][606]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.23.30:660][606]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.23.33:877][885]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.23.33:877][885]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.23.37:472][203]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.23.37:472][203]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.23.38:677][309]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.23.38:678][309]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.23.39:809][409]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.23.39:809][409]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.23.42:089][609]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.23.42:090][609]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.23.43:558][737]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.23.43:558][737]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.23.45:058][867]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.23.45:058][867]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.23.48:078][131]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.23.48:078][131]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.23.49:147][219]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.23.49:147][219]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.23.50:175][309]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.23.50:175][309]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.23.50:863][369]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.23.50:863][369]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.23.54:678][700]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.23.54:678][700]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.23.55:748][793]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.23.55:749][793]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.23.56:111][824]LogBlueprintUserMessages: [None] 4
+[2017.09.15-22.23.56:113][824]LogBlueprintUserMessages: [HighScoreWidget_193] lardi  ==  6100.0
+[2017.09.15-22.23.56:113][824]LogBlueprintUserMessages: [HighScoreWidget_193] deflo  ==  2900.0
+[2017.09.15-22.23.56:113][824]LogBlueprintUserMessages: [HighScoreWidget_193] vaccaloca  ==  2500.0
+[2017.09.15-22.23.56:113][824]LogBlueprintUserMessages: [HighScoreWidget_193] markito  ==  2000.0
+[2017.09.15-22.24.22:132][989]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.24.22:132][989]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.24.22:588][ 20]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.24.22:588][ 20]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.24.22:809][ 35]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.24.22:809][ 35]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.24.22:955][ 46]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.24.22:955][ 46]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.24.23:003][ 50]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.24.23:004][ 50]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.24.23:185][ 62]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.24.23:186][ 62]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.24.23:222][ 65]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.24.23:222][ 65]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.24.30:921][594]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.24.30:921][594]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.24.31:225][614]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.24.31:225][614]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.24.35:677][939]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.24.35:677][939]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.24.39:115][194]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.24.39:115][194]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.24.40:919][328]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.24.40:919][328]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.24.42:299][431]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.24.42:299][431]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.24.43:766][537]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.24.43:766][537]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.24.44:775][611]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.24.44:775][611]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.24.52:985][199]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.24.52:985][199]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.24.54:363][297]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.24.54:363][297]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.24.55:428][374]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.24.55:428][374]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.24.58:281][571]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.24.58:282][571]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.24.59:314][645]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.24.59:314][645]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.25.01:260][781]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.25.01:260][781]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-22.25.01:677][810]LogBlueprintUserMessages: [None] 4
+[2017.09.15-22.25.01:678][810]LogBlueprintUserMessages: [HighScoreWidget_193] lardi  ==  6100.0
+[2017.09.15-22.25.01:678][810]LogBlueprintUserMessages: [HighScoreWidget_193] deflo  ==  2900.0
+[2017.09.15-22.25.01:679][810]LogBlueprintUserMessages: [HighScoreWidget_193] vaccaloca  ==  2500.0
+[2017.09.15-22.25.01:679][810]LogBlueprintUserMessages: [HighScoreWidget_193] markito  ==  2000.0
+[2017.09.15-22.25.47:453][771]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.09.15-22.25.47:529][771]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.09.15-22.25.54:397][207]LogEditorViewport: Clicking on Actor (LMB): BP_Rail_C (BP_Rail)
+[2017.09.15-22.26.12:544][759]Cmd: TRANSACTION UNDO
+[2017.09.15-22.26.12:545][759]LogEditorTransaction: Undo Move Actors
+[2017.09.15-22.26.22:691][606]LogEditorViewport: Clicking on Actor (LMB): BP_Bumper_C (BP_Bumper11)
+[2017.09.15-22.26.48:330][783]Cmd: SELECT NONE
+[2017.09.15-22.26.50:859][ 42]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.15-22.26.50:886][ 42]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.09.15-22.26.50:886][ 42]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.15-22.26.50:886][ 42]PIE: New page: PIE session: FlipperMap (Sep 16, 2017, 2:26:50 AM)
+[2017.09.15-22.26.50:886][ 42]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FlipperMap
+[2017.09.15-22.26.50:900][ 42]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013248s)
+[2017.09.15-22.26.50:900][ 42]LogAIModule: Creating AISystem for world FlipperMap
+[2017.09.15-22.26.50:901][ 42]LogPlayLevel: PIE: World Init took: (0.001017s)
+[2017.09.15-22.26.50:901][ 42]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlipperMap.FlipperMap to /Game/UEDPIE_0_FlipperMap.FlipperMap (0.014614s)
+[2017.09.15-22.26.50:982][ 42]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.15-22.26.50:996][ 42]LogInit: FAudioDevice initialized.
+[2017.09.15-22.26.51:037][ 42]LogLoad: Game class is 'PinballGameMode_C'
+[2017.09.15-22.26.51:050][ 42]LogWorld: Bringing World /Game/UEDPIE_0_FlipperMap.FlipperMap up for play (max tick rate 0) at 2017.09.16-00.26.51
+[2017.09.15-22.26.51:051][ 42]LogWorld: Bringing up level for play took: 0.004457
+[2017.09.15-22.26.51:055][ 42]LogBlueprintUserMessages: [HighScoreWidget_193] lardi  ==  6100.0
+[2017.09.15-22.26.51:055][ 42]LogBlueprintUserMessages: [HighScoreWidget_193] deflo  ==  2900.0
+[2017.09.15-22.26.51:055][ 42]LogBlueprintUserMessages: [HighScoreWidget_193] vaccaloca  ==  2500.0
+[2017.09.15-22.26.51:055][ 42]LogBlueprintUserMessages: [HighScoreWidget_193] markito  ==  2000.0
+[2017.09.15-22.26.51:055][ 42]PIE: Info Play in editor start time for /Game/UEDPIE_0_FlipperMap 0.35
+[2017.09.15-22.26.51:056][ 42]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.09.15-22.26.51:061][ 42]LogAudio:Warning: Detected orphaned looping sound 'victoryMusic_loop_01_01'.
+[2017.09.15-22.27.00:375][882]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.09.15-22.27.00:435][882]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.09.15-22.27.27:518][823]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlipperMap" FILE="D:/Davide/Desktop/PinballGame/MyProject/Saved/Autosaves/Game/FlipperMap_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.09.15-22.27.27:906][823]LogSavePackage: Save=358.80ms
+[2017.09.15-22.27.27:907][823]LogSavePackage: Moving 'D:/Davide/Desktop/PinballGame/MyProject/Saved/FlipperMap_Auto1C689399F45E071DECFBF1687248A53C9.tmp' to 'D:/Davide/Desktop/PinballGame/MyProject/Saved/Autosaves/Game/FlipperMap_Auto1.umap'
+[2017.09.15-22.27.27:909][823]LogSavePackage:Display: Finished SavePackage D:/Davide/Desktop/PinballGame/MyProject/Saved/Autosaves/Game/FlipperMap_Auto1.umap
+[2017.09.15-22.27.27:911][823]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FlipperMap' took 0.446
+[2017.09.15-22.27.27:911][823]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.446
+[2017.09.15-22.27.41:203][571]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.09.15-22.27.41:304][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlipperMap" FILE="D:/Davide/Desktop/PinballGame/MyProject/Content/FlipperMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.09.15-22.27.41:731][571]LogSavePackage: Save=348.71ms
+[2017.09.15-22.27.41:731][571]LogSavePackage: Moving 'D:/Davide/Desktop/PinballGame/MyProject/Saved/FlipperMap1D121E7F4AC3450C6DAFFC8B372EDBA1.tmp' to 'D:/Davide/Desktop/PinballGame/MyProject/Content/FlipperMap.umap'
+[2017.09.15-22.27.41:735][571]LogSavePackage:Display: Finished SavePackage D:/Davide/Desktop/PinballGame/MyProject/Content/FlipperMap.umap
+[2017.09.15-22.27.41:767][571]LogFileHelpers: Saving map 'FlipperMap' took 0.564
+[2017.09.15-22.27.45:499][830]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.09.15-22.27.45:569][830]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.09.15-22.27.45:641][830]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.09.15-22.27.45:714][830]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.09.15-22.27.45:965][831]Cmd: QUIT_EDITOR
+[2017.09.15-22.27.46:031][831]LogExit: Preparing to exit.
+[2017.09.15-22.27.46:903][831]LogExit: Editor shut down
+[2017.09.15-22.27.46:911][831]LogExit: Transaction tracking system shut down
+[2017.09.15-22.27.47:127][831]LogObj: Freed 0b from 0 cluster array pools.
+[2017.09.15-22.27.47:127][831]LogExit: Object subsystem successfully closed.
+[2017.09.15-22.27.47:171][831]LogD3D11RHI: Shutdown
+[2017.09.15-22.27.47:171][831]LogD3D11RHI: CleanupD3DDevice
+[2017.09.15-22.27.47:390][831]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.09.15-22.27.47:431][831]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (530)
+[2017.09.15-22.27.47:431][831]LogModuleManager: Shutting down and abandoning module BlueprintGraph (528)
+[2017.09.15-22.27.47:431][831]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (526)
+[2017.09.15-22.27.47:431][831]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2017.09.15-22.27.47:431][831]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2017.09.15-22.27.47:431][831]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2017.09.15-22.27.47:431][831]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2017.09.15-22.27.47:431][831]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.09.15-22.27.47:433][831]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2017.09.15-22.27.47:433][831]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2017.09.15-22.27.47:433][831]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2017.09.15-22.27.47:434][831]LogDirectoryWatcher: A directory notification for 'D:/Davide/Desktop/PinballGame/MyProject/Content/Collections/' was aborted.
+[2017.09.15-22.27.47:434][831]LogDirectoryWatcher: A directory notification for 'D:/Davide/Desktop/PinballGame/MyProject/Content/Developers/Davide/Collections/' was aborted.
+[2017.09.15-22.27.47:434][831]LogDirectoryWatcher: A directory notification for 'D:/Davide/Desktop/PinballGame/MyProject/Saved/Collections/' was aborted.
+[2017.09.15-22.27.47:434][831]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2017.09.15-22.27.47:434][831]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.09.15-22.27.47:434][831]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.09.15-22.27.47:434][831]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.09.15-22.27.47:434][831]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.09.15-22.27.47:434][831]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.09.15-22.27.47:434][831]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.09.15-22.27.47:434][831]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.09.15-22.27.47:434][831]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.09.15-22.27.47:434][831]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.09.15-22.27.47:434][831]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.09.15-22.27.47:434][831]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.09.15-22.27.47:434][831]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.09.15-22.27.47:434][831]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.09.15-22.27.47:434][831]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.09.15-22.27.47:434][831]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.09.15-22.27.47:434][831]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.09.15-22.27.47:434][831]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.09.15-22.27.47:434][831]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.09.15-22.27.47:435][831]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.09.15-22.27.47:435][831]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.09.15-22.27.47:435][831]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.09.15-22.27.47:435][831]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.09.15-22.27.47:435][831]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.09.15-22.27.47:435][831]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.09.15-22.27.47:435][831]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.09.15-22.27.47:435][831]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.09.15-22.27.47:435][831]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.09.15-22.27.47:435][831]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.09.15-22.27.47:435][831]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.09.15-22.27.47:435][831]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.09.15-22.27.47:435][831]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.09.15-22.27.47:435][831]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.09.15-22.27.47:435][831]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.09.15-22.27.47:435][831]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.09.15-22.27.47:435][831]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.09.15-22.27.47:435][831]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.09.15-22.27.47:435][831]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.09.15-22.27.47:804][831]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.09.15-22.27.47:804][831]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.09.15-22.27.47:804][831]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.09.15-22.27.47:804][831]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.09.15-22.27.47:804][831]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.09.15-22.27.47:804][831]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.09.15-22.27.47:804][831]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.09.15-22.27.47:804][831]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.09.15-22.27.47:804][831]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.09.15-22.27.47:804][831]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.09.15-22.27.47:804][831]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.09.15-22.27.47:804][831]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.09.15-22.27.47:804][831]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.09.15-22.27.47:804][831]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.09.15-22.27.47:804][831]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.09.15-22.27.47:804][831]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.09.15-22.27.47:804][831]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.09.15-22.27.47:804][831]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.09.15-22.27.47:804][831]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.09.15-22.27.47:804][831]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.09.15-22.27.47:804][831]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.09.15-22.27.47:804][831]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.09.15-22.27.47:804][831]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.09.15-22.27.47:804][831]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.09.15-22.27.47:869][831]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.09.15-22.27.47:869][831]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.09.15-22.27.47:869][831]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.09.15-22.27.47:869][831]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.09.15-22.27.47:869][831]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.09.15-22.27.47:869][831]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.09.15-22.27.47:869][831]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.09.15-22.27.47:869][831]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.09.15-22.27.47:869][831]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.09.15-22.27.47:869][831]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.09.15-22.27.47:884][831]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.09.15-22.27.47:884][831]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.09.15-22.27.47:884][831]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.09.15-22.27.47:884][831]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.09.15-22.27.47:884][831]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.09.15-22.27.47:884][831]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.09.15-22.27.47:884][831]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.09.15-22.27.47:884][831]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.09.15-22.27.47:884][831]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.09.15-22.27.47:884][831]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.09.15-22.27.47:884][831]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.09.15-22.27.47:884][831]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.09.15-22.27.47:884][831]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.09.15-22.27.47:884][831]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.09.15-22.27.47:884][831]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.09.15-22.27.47:884][831]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.09.15-22.27.47:884][831]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.09.15-22.27.47:884][831]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.09.15-22.27.47:884][831]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.09.15-22.27.47:884][831]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.09.15-22.27.48:076][831]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.09.15-22.27.48:076][831]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.09.15-22.27.48:076][831]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.09.15-22.27.48:076][831]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.09.15-22.27.48:076][831]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.09.15-22.27.48:076][831]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.09.15-22.27.48:076][831]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.09.15-22.27.48:076][831]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.09.15-22.27.48:076][831]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.09.15-22.27.48:076][831]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.09.15-22.27.48:076][831]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.09.15-22.27.48:076][831]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.09.15-22.27.48:076][831]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.09.15-22.27.48:076][831]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.09.15-22.27.48:076][831]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.09.15-22.27.48:076][831]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.09.15-22.27.48:076][831]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.09.15-22.27.48:076][831]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.09.15-22.27.48:076][831]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.09.15-22.27.48:076][831]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.09.15-22.27.48:076][831]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.09.15-22.27.48:076][831]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.09.15-22.27.48:076][831]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.09.15-22.27.48:076][831]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.09.15-22.27.48:076][831]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.09.15-22.27.48:076][831]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.09.15-22.27.48:076][831]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.09.15-22.27.48:076][831]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.09.15-22.27.48:076][831]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.09.15-22.27.48:076][831]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.09.15-22.27.48:076][831]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.09.15-22.27.48:076][831]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.09.15-22.27.48:076][831]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.09.15-22.27.48:076][831]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.09.15-22.27.48:076][831]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.09.15-22.27.48:076][831]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.09.15-22.27.48:077][831]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.09.15-22.27.48:077][831]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.09.15-22.27.48:077][831]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.09.15-22.27.48:078][831]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.09.15-22.27.48:079][831]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.09.15-22.27.48:079][831]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.09.15-22.27.48:079][831]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.09.15-22.27.48:079][831]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.09.15-22.27.48:079][831]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.09.15-22.27.48:179][831]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.09.15-22.27.48:280][831]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.09.15-22.27.48:280][831]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.09.15-22.27.48:280][831]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.09.15-22.27.48:280][831]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.09.15-22.27.48:280][831]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.09.15-22.27.48:280][831]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.09.15-22.27.48:282][831]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.09.15-22.27.48:282][831]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.09.15-22.27.48:282][831]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.09.15-22.27.48:282][831]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.09.15-22.27.48:282][831]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.09.15-22.27.48:282][831]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.09.15-22.27.48:282][831]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.09.15-22.27.48:282][831]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.09.15-22.27.48:283][831]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.09.15-22.27.48:283][831]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.09.15-22.27.48:283][831]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.09.15-22.27.48:283][831]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.09.15-22.27.48:283][831]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.09.15-22.27.48:283][831]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.09.15-22.27.48:283][831]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.09.15-22.27.48:283][831]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.09.15-22.27.48:283][831]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.09.15-22.27.48:283][831]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.09.15-22.27.48:283][831]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.09.15-22.27.48:283][831]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.09.15-22.27.48:283][831]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.09.15-22.27.48:283][831]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.09.15-22.27.48:283][831]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.09.15-22.27.48:288][831]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.09.15-22.27.48:288][831]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.09.15-22.27.48:288][831]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.09.15-22.27.48:288][831]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.09.15-22.27.48:288][831]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.09.15-22.27.48:288][831]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.09.15-22.27.48:441][831]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.09.15-22.27.48:442][831]LogDirectoryWatcher: A directory notification for 'D:/Davide/Desktop/PinballGame/MyProject/Content/' was aborted.
+[2017.09.15-22.27.48:442][831]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.09.15-22.27.48:442][831]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.09.15-22.27.48:446][831]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.09.15-22.27.48:447][831]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.09.15-22.27.48:447][831]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.09.15-22.27.48:447][831]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.09.15-22.27.48:447][831]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.09.15-22.27.48:447][831]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.09.15-22.27.48:447][831]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.09.15-22.27.48:447][831]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.09.15-22.27.48:447][831]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.09.15-22.27.48:514][831]LogDerivedDataCache: Shutdown
+[2017.09.15-22.27.48:514][831]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.09.15-22.27.48:514][831]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.09.15-22.27.48:514][831]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.09.15-22.27.48:514][831]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.09.15-22.27.48:514][831]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.09.15-22.27.48:514][831]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.09.15-22.27.48:514][831]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.09.15-22.27.48:514][831]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.09.15-22.27.48:514][831]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.09.15-22.27.48:514][831]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.09.15-22.27.48:514][831]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.09.15-22.27.48:514][831]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.09.15-22.27.48:514][831]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.09.15-22.27.48:514][831]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.09.15-22.27.48:514][831]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.09.15-22.27.48:514][831]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.09.15-22.27.48:514][831]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.09.15-22.27.48:514][831]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.09.15-22.27.48:514][831]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.09.15-22.27.48:514][831]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.09.15-22.27.48:514][831]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.09.15-22.27.48:514][831]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.09.15-22.27.48:514][831]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.09.15-22.27.48:514][831]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.09.15-22.27.48:514][831]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.09.15-22.27.48:514][831]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.09.15-22.27.48:514][831]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.09.15-22.27.48:514][831]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.09.15-22.27.48:514][831]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.09.15-22.27.48:514][831]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.09.15-22.27.48:515][831]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.09.15-22.27.48:515][831]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.09.15-22.27.48:515][831]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.09.15-22.27.48:515][831]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.09.15-22.27.48:515][831]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.09.15-22.27.48:515][831]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.09.15-22.27.48:515][831]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.09.15-22.27.48:515][831]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.09.15-22.27.48:515][831]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.09.15-22.27.48:515][831]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.09.15-22.27.48:515][831]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.09.15-22.27.48:515][831]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.09.15-22.27.48:515][831]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.09.15-22.27.48:515][831]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.09.15-22.27.48:515][831]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.09.15-22.27.48:515][831]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.09.15-22.27.48:515][831]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.09.15-22.27.48:515][831]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.09.15-22.27.48:515][831]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.09.15-22.27.48:515][831]LogOnline:Display: Unloading online subsystem: NULL
+[2017.09.15-22.27.48:515][831]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.09.15-22.27.48:515][831]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.09.15-22.27.48:515][831]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.09.15-22.27.48:515][831]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B0F49107A-4CAD-085C-3655-D1B6D1854F47%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=a778ecea4471853a719c1aa855758c13%7Cfb25bba526a341dfa2775606ff91eab2%7C80ca7754-d535-4f90-90fd-a1d5960b687b&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.09.15-22.27.48:545][831]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.09.15-22.27.48:547][831]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.09.15-22.27.48:547][831]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.09.15-22.27.48:547][831]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.09.15-22.27.48:547][831]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.09.15-22.27.48:547][831]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.09.15-22.27.48:547][831]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.09.15-22.27.48:547][831]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.09.15-22.27.48:547][831]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.09.15-22.27.48:550][831]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.09.15-22.27.48:550][831]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.09.15-22.27.48:550][831]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.09.15-22.27.48:550][831]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.09.15-22.27.48:550][831]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.09.15-22.27.48:550][831]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.09.15-22.27.48:550][831]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.09.15-22.27.48:550][831]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.09.15-22.27.48:550][831]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.09.15-22.27.48:550][831]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.09.15-22.27.48:553][831]LogExit: Exiting.
+[2017.09.15-22.27.48:570][831]Log file closed, 09/16/17 00:27:48
