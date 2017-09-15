@@ -1,0 +1,579 @@
+﻿Log file open, 09/15/17 22:32:25
+LogInit:Display: Running engine for game: MyProject
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(871960060) SRandInit(871960060).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.128646
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.09.15-20.32.26:669][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.15-20.32.26:669][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.09.15-20.32.26:684][  0]LogInit: Computer: DESKTOP-BB8153U
+[2017.09.15-20.32.26:684][  0]LogInit: User: Davide
+[2017.09.15-20.32.26:684][  0]LogInit: CPU Page size=4096, Cores=2
+[2017.09.15-20.32.26:684][  0]LogInit: High frequency timer resolution =3.728029 MHz
+[2017.09.15-20.32.26:684][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2017.09.15-20.32.26:685][  0]LogMemory: Platform Memory Stats for Windows
+[2017.09.15-20.32.26:685][  0]LogMemory: Process Physical Memory: 272.89 MB used, 272.89 MB peak
+[2017.09.15-20.32.26:685][  0]LogMemory: Process Virtual Memory: 266.25 MB used, 266.25 MB peak
+[2017.09.15-20.32.26:685][  0]LogMemory: Physical Memory: 10998.78 MB used,  5349.88 MB free, 16348.66 MB total
+[2017.09.15-20.32.26:685][  0]LogMemory: Virtual Memory: 642.14 MB used,  5349.88 MB free, 134217728.00 MB total
+[2017.09.15-20.32.26:890][  0]LogInit: Using OS detected language (it-IT).
+[2017.09.15-20.32.26:890][  0]LogInit: Using OS detected locale (it-IT).
+[2017.09.15-20.32.26:901][  0]LogTextLocalizationManager: No localization for 'it-IT' exists, so 'en' will be used for the language.
+[2017.09.15-20.32.26:901][  0]LogTextLocalizationManager: No localization for 'it-IT' exists, so 'en' will be used for the locale.
+[2017.09.15-20.32.28:699][  0]LogD3D11RHI: D3D11 adapters:
+[2017.09.15-20.32.28:734][  0]LogD3D11RHI:    0. 'Radeon(TM) RX 460 Graphics' (Feature Level 11_0)
+[2017.09.15-20.32.28:734][  0]LogD3D11RHI:       4044/0/8174 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x1002
+[2017.09.15-20.32.28:736][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.09.15-20.32.28:736][  0]LogD3D11RHI:       0/0/8174 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.09.15-20.32.28:736][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.09.15-20.32.28:749][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.09.15-20.32.28:750][  0]LogD3D11RHI:     GPU DeviceId: 0x67ef (for the marketing name, search the web for "GPU Device Id")
+[2017.09.15-20.32.28:750][  0]LogWindows: EnumDisplayDevices:
+[2017.09.15-20.32.28:750][  0]LogWindows:    0. 'Radeon(TM) RX 460 Graphics ' (P:1 D:1)
+[2017.09.15-20.32.28:750][  0]LogWindows:    1. 'Radeon(TM) RX 460 Graphics ' (P:0 D:1)
+[2017.09.15-20.32.28:751][  0]LogWindows:    2. 'Radeon(TM) RX 460 Graphics ' (P:0 D:1)
+[2017.09.15-20.32.28:751][  0]LogWindows:    3. 'Radeon(TM) RX 460 Graphics ' (P:0 D:0)
+[2017.09.15-20.32.28:751][  0]LogWindows:    4. 'Radeon(TM) RX 460 Graphics ' (P:0 D:0)
+[2017.09.15-20.32.28:752][  0]LogWindows: DebugString: FoundDriverCount:5 
+[2017.09.15-20.32.28:752][  0]LogD3D11RHI:     Adapter Name: Radeon(TM) RX 460 Graphics
+[2017.09.15-20.32.28:752][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 17.1.1 (internal:22.19.162.4, unified:22.19.162.4)
+[2017.09.15-20.32.28:752][  0]LogD3D11RHI:      Driver Date: 4-24-2017
+[2017.09.15-20.32.28:752][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.09.15-20.32.28:896][  0]LogD3D11RHI: Async texture creation enabled
+[2017.09.15-20.32.28:907][  0]LogD3D11RHI: GPU Timing Frequency: 25.000000 (Debug: 2 1)
+[2017.09.15-20.32.28:908][  0]LogShaderCompilers: Guid format shader working directory is 8 characters bigger than the processId version (D:/Davide/Desktop/PinballGame/MyProject/Intermediate/Shaders/WorkingDirectory/6928/).
+[2017.09.15-20.32.28:908][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Davide/AppData/Local/Temp/UnrealShaderWorkingDir/729C5F684A8672355904BFB99B6F936D/'.
+[2017.09.15-20.32.28:908][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.09.15-20.32.30:979][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.09.15-20.32.31:090][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.09.15-20.32.31:197][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.09.15-20.32.31:310][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.09.15-20.32.31:417][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.09.15-20.32.31:521][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.09.15-20.32.31:646][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.09.15-20.32.31:761][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.09.15-20.32.31:859][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.09.15-20.32.31:962][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.09.15-20.32.32:075][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.09.15-20.32.32:176][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.09.15-20.32.32:287][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.09.15-20.32.32:402][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.09.15-20.32.32:507][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.09.15-20.32.32:713][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.09.15-20.32.32:713][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.09.15-20.32.32:803][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.09.15-20.32.32:974][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.09.15-20.32.33:037][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.09.15-20.32.33:137][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.09.15-20.32.33:248][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.09.15-20.32.33:355][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.09.15-20.32.33:459][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.09.15-20.32.33:459][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.09.15-20.32.34:583][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.09.15-20.32.35:069][  0]LogDerivedDataCache: Loaded boot cache 0.49s 90MB C:/Users/Davide/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.09.15-20.32.35:069][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Davide/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.09.15-20.32.35:069][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Davide/Desktop/PinballGame/MyProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.09.15-20.32.35:069][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.09.15-20.32.35:069][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Davide/Desktop/PinballGame/MyProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.09.15-20.32.35:069][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.09.15-20.32.35:096][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.09.15-20.32.35:110][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Davide/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.09.15-20.32.35:128][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.09.15-20.32.35:129][  0]LogSlate: Using Freetype 2.6.0
+[2017.09.15-20.32.35:131][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.15-20.32.35:131][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.15-20.32.35:876][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.15-20.32.36:036][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.09.15-20.32.36:327][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.09.15-20.32.36:425][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.09.15-20.32.36:534][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.09.15-20.32.36:534][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.09.15-20.32.36:534][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.09.15-20.32.37:585][  0]LogNetVersion: MyProject , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1111101373)
+[2017.09.15-20.32.37:689][  0]LogAssetRegistry: FAssetRegistry took 0.0287 seconds to start up
+[2017.09.15-20.32.37:773][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.029652 seconds
+[2017.09.15-20.32.37:781][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.09.15-20.32.37:781][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.09.15-20.32.37:781][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.09.15-20.32.37:957][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.09.15-20.32.43:862][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.09.15-20.32.43:939][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.09.15-20.32.45:049][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.09.15-20.32.45:987][  0]SourceControl: Info Source control is disabled
+[2017.09.15-20.32.46:083][  0]SourceControl: Info Source control is disabled
+[2017.09.15-20.32.46:193][  0]SourceControl: Info Source control is disabled
+[2017.09.15-20.32.46:306][  0]SourceControl: Info Source control is disabled
+[2017.09.15-20.32.48:120][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.09.15-20.32.49:854][  0]LogEngine: Initializing Engine...
+[2017.09.15-20.32.49:856][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.09.15-20.32.50:262][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.09.15-20.32.50:262][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.09.15-20.32.50:609][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.09.15-20.32.50:639][  0]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.15-20.32.50:673][  0]LogInit: FAudioDevice initialized.
+[2017.09.15-20.32.50:794][  0]LogDerivedDataCache: Saved boot cache 0.12s 90MB C:/Users/Davide/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.09.15-20.32.50:830][  0]LogInit: Texture streaming: Enabled
+[2017.09.15-20.32.51:160][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.09.15-20.32.51:876][  0]LogInit: Transaction tracking system initialized
+[2017.09.15-20.32.53:513][  0]BlueprintLog: New page: Editor Load
+[2017.09.15-20.32.56:231][  0]LocalizationService: Info Localization service is disabled
+[2017.09.15-20.32.58:327][  0]LogConsoleResponse:Display: 
+[2017.09.15-20.32.58:803][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.09.15-20.32.58:804][  0]LogCook:Display: Mobile HDR setting 1
+[2017.09.15-20.32.58:969][  0]LogFileCache: Scanning file cache for directory 'D:/Davide/Desktop/PinballGame/MyProject/Content/' took 0.01s
+[2017.09.15-20.33.02:281][  0]SourceControl: Info Source control is disabled
+[2017.09.15-20.33.02:281][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.15-20.33.02:283][  0]LightingResults: New page: Lighting Build
+[2017.09.15-20.33.02:396][  0]MapCheck: New page: Map Check
+[2017.09.15-20.33.02:396][  0]LightingResults: New page: Lighting Build
+[2017.09.15-20.33.02:859][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.09.15-20.33.02:862][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.09.15-20.33.02:868][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.15-20.33.02:920][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.15-20.33.03:026][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 105.169ms to complete.
+[2017.09.15-20.33.03:026][  0]LogFileHelpers: Loading map 'Template_Default' took 0.745
+[2017.09.15-20.33.03:471][  0]LogCollectionManager: Loaded 0 collections in 0.003859 seconds
+[2017.09.15-20.33.03:734][  0]LogFileCache: Scanning file cache for directory 'D:/Davide/Desktop/PinballGame/MyProject/Saved/Collections/' took 0.01s
+[2017.09.15-20.33.03:734][  0]LogFileCache: Scanning file cache for directory 'D:/Davide/Desktop/PinballGame/MyProject/Content/Developers/Davide/Collections/' took 0.01s
+[2017.09.15-20.33.03:734][  0]LogFileCache: Scanning file cache for directory 'D:/Davide/Desktop/PinballGame/MyProject/Content/Collections/' took 0.01s
+[2017.09.15-20.33.03:734][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2017.09.15-20.33.03:762][  0]LogContentBrowser: Native class hierarchy populated in 0.0274 seconds. Added 2329 classes and 491 folders.
+[2017.09.15-20.33.04:018][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2017.09.15-20.33.04:254][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2017.09.15-20.33.04:415][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2017.09.15-20.33.04:613][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.09.15-20.33.04:619][  0]LogSlate: Took 0.001588 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.15-20.33.04:624][  0]LogSlate: Took 0.001643 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.09.15-20.33.04:634][  0]LogSlate: Took 0.001546 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.09.15-20.33.04:788][  0]LogRenderer: Reallocating scene render targets to support 1156x576 NumSamples 1 (Frame:1).
+[2017.09.15-20.33.05:054][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.09.15-20.33.05:240][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.09.15-20.33.05:240][  0]LogLoad: (Engine Initialization) Total time: 42.71 seconds
+[2017.09.15-20.33.05:240][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.24 seconds
+[2017.09.15-20.33.05:240][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.09.15-20.33.05:253][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.09.15-20.33.05:254][  0]LogOcInput: OculusInput pre-init called
+[2017.09.15-20.33.05:254][  0]LogHMD: Starting GearVRController plugin
+[2017.09.15-20.33.05:273][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.09.15-20.33.05:356][  1]LogAssetRegistry: Asset discovery search completed in 27.6904 seconds
+[2017.09.15-20.33.05:359][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.09.15-20.33.05:359][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000057 seconds (updated 0 objects)
+[2017.09.15-20.33.06:885][ 74]LogSlate: Took 0.001705 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.15-20.33.09:560][ 82]LogSlate: Took 0.000558 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.15-20.46.35:403][871]Cmd: MAP LOAD FILE="D:/Davide/Desktop/PinballGame/MyProject/Content/FlipperMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.15-20.46.35:451][871]LogSlate: Took 0.000370 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.15-20.46.35:467][871]LightingResults: New page: Lighting Build
+[2017.09.15-20.46.35:469][871]LoadErrors: New page: Loading map: FlipperMap.umap
+[2017.09.15-20.46.35:475][871]MapCheck: New page: Map Check
+[2017.09.15-20.46.35:475][871]LightingResults: New page: Lighting Build
+[2017.09.15-20.46.36:358][871]LogSlate: Took 0.000530 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.15-20.46.37:045][871]LogAIModule: Creating AISystem for world FlipperMap
+[2017.09.15-20.46.37:310][871]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.15-20.46.37:400][871]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.15-20.46.37:505][871]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 104.983ms to complete.
+[2017.09.15-20.46.37:505][871]LogFileHelpers: Loading map 'FlipperMap' took 2.104
+[2017.09.15-20.46.37:771][874]PIE:Warning: Warning Constraint in '/Engine/Transient.World_5:PersistentLevel.BP_Spinner_C_0.PhysicsConstraint' attempting to create a joint between objects that are both static.  No joint created.
+[2017.09.15-20.47.33:063][440]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0021 seconds. Added 112 classes and 0 folders.
+[2017.09.15-20.47.34:214][440]LogSlate: Took 0.001330 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.09.15-20.47.34:326][441]LogSlate: Took 0.001475 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.09.15-20.50.03:006][156]BlueprintLog: New page: Compile BP_DropTargetSet
+[2017.09.15-20.50.03:044][156]LogBlueprint:Error: [Compiler BP_DropTargetSet] Error This blueprint (self) is not a PinballGameMode_C, therefore ' Target ' must have a connection.
+[2017.09.15-20.50.03:047][156]LogBlueprint:Error: [Compiler BP_DropTargetSet] Error Variable node  Get Multiplier  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.09.15-20.50.03:377][156]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a PinballGameMode_C, therefore ' Target ' must have a connection.
+[2017.09.15-20.50.03:378][156]BlueprintEditorCompileResults:Error: Error Variable node  Get Multiplier  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.09.15-20.50.03:378][156]LogBlueprint:Warning: [Compiler BP_DropTargetSet] Warning [1060.85] Compile of BP_DropTargetSet failed. 2 Fatal Issue(s) 0 Warning(s) [in 371 ms] (/Game/Blueprints/BP_DropTargetSet.BP_DropTargetSet)
+[2017.09.15-20.50.48:202][ 97]BlueprintLog: New page: Compile BP_DropTargetSet
+[2017.09.15-20.50.49:518][201]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_DropTargetSet" FILE="D:/Davide/Desktop/PinballGame/MyProject/Content/Blueprints/BP_DropTargetSet.uasset" SILENT=true
+[2017.09.15-20.50.49:721][201]LogSavePackage: Save=167.82ms
+[2017.09.15-20.50.49:721][201]LogSavePackage: Moving 'D:/Davide/Desktop/PinballGame/MyProject/Saved/BP_DropTargetSet61F237F44D1EF68767FEA6B92299D50B.tmp' to 'D:/Davide/Desktop/PinballGame/MyProject/Content/Blueprints/BP_DropTargetSet.uasset'
+[2017.09.15-20.50.49:726][201]LogSavePackage:Display: Finished SavePackage D:/Davide/Desktop/PinballGame/MyProject/Content/Blueprints/BP_DropTargetSet.uasset
+[2017.09.15-20.51.09:729][563]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlipperMap" FILE="D:/Davide/Desktop/PinballGame/MyProject/Content/FlipperMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.09.15-20.51.10:229][563]LogSavePackage: Save=388.66ms
+[2017.09.15-20.51.10:229][563]LogSavePackage: Moving 'D:/Davide/Desktop/PinballGame/MyProject/Saved/FlipperMap03843488415CF9F550075AAE11548604.tmp' to 'D:/Davide/Desktop/PinballGame/MyProject/Content/FlipperMap.umap'
+[2017.09.15-20.51.10:233][563]LogSavePackage:Display: Finished SavePackage D:/Davide/Desktop/PinballGame/MyProject/Content/FlipperMap.umap
+[2017.09.15-20.51.10:269][563]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlipperMap_BuiltData" FILE="D:/Davide/Desktop/PinballGame/MyProject/Content/FlipperMap_BuiltData.uasset" SILENT=true
+[2017.09.15-20.51.10:445][563]LogSavePackage: Save=146.40ms
+[2017.09.15-20.51.10:445][563]LogSavePackage: Moving 'D:/Davide/Desktop/PinballGame/MyProject/Saved/FlipperMap_BuiltData5E36F5764E006BC35C182BB0B27F40F8.tmp' to 'D:/Davide/Desktop/PinballGame/MyProject/Content/FlipperMap_BuiltData.uasset'
+[2017.09.15-20.51.10:448][563]LogSavePackage:Display: Finished SavePackage D:/Davide/Desktop/PinballGame/MyProject/Content/FlipperMap_BuiltData.uasset
+[2017.09.15-20.51.10:925][604]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.15-20.51.11:033][604]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.09.15-20.51.11:033][604]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.15-20.51.11:037][604]PIE: New page: PIE session: FlipperMap (Sep 16, 2017, 12:51:11 AM)
+[2017.09.15-20.51.11:037][604]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FlipperMap
+[2017.09.15-20.51.11:056][604]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019164s)
+[2017.09.15-20.51.11:057][604]LogAIModule: Creating AISystem for world FlipperMap
+[2017.09.15-20.51.11:058][604]LogPlayLevel: PIE: World Init took: (0.001288s)
+[2017.09.15-20.51.11:058][604]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlipperMap.FlipperMap to /Game/UEDPIE_0_FlipperMap.FlipperMap (0.020812s)
+[2017.09.15-20.51.11:166][604]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.15-20.51.11:225][604]LogInit: FAudioDevice initialized.
+[2017.09.15-20.51.11:275][604]LogLoad: Game class is 'PinballGameMode_C'
+[2017.09.15-20.51.11:282][604]LogWorld: Bringing World /Game/UEDPIE_0_FlipperMap.FlipperMap up for play (max tick rate 0) at 2017.09.15-22.51.11
+[2017.09.15-20.51.11:283][604]LogWorld: Bringing up level for play took: 0.006202
+[2017.09.15-20.51.11:420][604]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0013 seconds. Added 11 classes and 0 folders.
+[2017.09.15-20.51.11:425][604]LogBlueprintUserMessages: [HighScoreWidget_193] deflo  ==  2900.0
+[2017.09.15-20.51.11:425][604]LogBlueprintUserMessages: [HighScoreWidget_193] vaccaloca  ==  2500.0
+[2017.09.15-20.51.11:425][604]LogBlueprintUserMessages: [HighScoreWidget_193] markito  ==  2000.0
+[2017.09.15-20.51.11:425][604]LogBlueprintUserMessages: [HighScoreWidget_193] deflo  ==  600.0
+[2017.09.15-20.51.11:425][604]PIE: Info Play in editor start time for /Game/UEDPIE_0_FlipperMap 0.72
+[2017.09.15-20.51.11:426][604]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.09.15-20.51.11:478][604]LogAudio:Warning: Detected orphaned looping sound 'victoryMusic_loop_01_01'.
+[2017.09.15-20.51.12:808][708]Cmd: LevelEditor.ToggleImmersive
+[2017.09.15-20.51.12:995][709]LogRenderer: Reallocating scene render targets to support 1544x812 NumSamples 1 (Frame:106).
+[2017.09.15-20.51.13:074][710]LogRenderer: Reallocating scene render targets to support 1920x1040 NumSamples 1 (Frame:108).
+[2017.09.15-20.51.45:061][284]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-20.51.45:061][284]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-20.51.46:774][425]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-20.51.46:774][425]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-20.51.48:307][552]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-20.51.48:307][552]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-20.51.51:092][784]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-20.51.51:092][784]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-20.51.52:460][898]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-20.51.52:460][898]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-20.51.53:850][  9]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-20.51.53:850][  9]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-20.51.57:993][334]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-20.51.57:993][334]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-20.51.58:896][406]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-20.51.58:896][406]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-20.52.21:248][713]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-20.52.21:248][713]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-20.52.21:538][725]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-20.52.21:539][725]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-20.52.21:765][737]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-20.52.21:765][737]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-20.52.31:269][139]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-20.52.31:269][139]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-20.52.31:634][155]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-20.52.31:634][155]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-20.52.40:933][541]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-20.52.40:933][541]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-20.52.41:917][582]LogBlueprintUserMessages: [None] 4
+[2017.09.15-20.52.41:918][582]LogBlueprintUserMessages: [HighScoreWidget_193] deflo  ==  2900.0
+[2017.09.15-20.52.41:918][582]LogBlueprintUserMessages: [HighScoreWidget_193] vaccaloca  ==  2500.0
+[2017.09.15-20.52.41:918][582]LogBlueprintUserMessages: [HighScoreWidget_193] markito  ==  2000.0
+[2017.09.15-20.52.41:918][582]LogBlueprintUserMessages: [HighScoreWidget_193] deflo  ==  600.0
+[2017.09.15-20.52.44:653][704]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.09.15-20.52.44:796][704]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.09.15-20.52.51:471][468]Cmd: SELECT NONE
+[2017.09.15-20.52.53:466][705]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.15-20.52.53:490][705]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.09.15-20.52.53:490][705]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.15-20.52.53:491][705]PIE: New page: PIE session: FlipperMap (Sep 16, 2017, 12:52:53 AM)
+[2017.09.15-20.52.53:491][705]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FlipperMap
+[2017.09.15-20.52.53:505][705]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014239s)
+[2017.09.15-20.52.53:506][705]LogAIModule: Creating AISystem for world FlipperMap
+[2017.09.15-20.52.53:507][705]LogPlayLevel: PIE: World Init took: (0.001574s)
+[2017.09.15-20.52.53:507][705]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlipperMap.FlipperMap to /Game/UEDPIE_0_FlipperMap.FlipperMap (0.016145s)
+[2017.09.15-20.52.53:571][705]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.15-20.52.53:591][705]LogInit: FAudioDevice initialized.
+[2017.09.15-20.52.53:630][705]LogLoad: Game class is 'PinballGameMode_C'
+[2017.09.15-20.52.53:635][705]LogWorld: Bringing World /Game/UEDPIE_0_FlipperMap.FlipperMap up for play (max tick rate 0) at 2017.09.15-22.52.53
+[2017.09.15-20.52.53:635][705]LogWorld: Bringing up level for play took: 0.004471
+[2017.09.15-20.52.53:638][705]LogBlueprintUserMessages: [HighScoreWidget_193] deflo  ==  2900.0
+[2017.09.15-20.52.53:638][705]LogBlueprintUserMessages: [HighScoreWidget_193] vaccaloca  ==  2500.0
+[2017.09.15-20.52.53:638][705]LogBlueprintUserMessages: [HighScoreWidget_193] markito  ==  2000.0
+[2017.09.15-20.52.53:638][705]LogBlueprintUserMessages: [HighScoreWidget_193] deflo  ==  600.0
+[2017.09.15-20.52.53:639][705]PIE: Info Play in editor start time for /Game/UEDPIE_0_FlipperMap 0.933
+[2017.09.15-20.52.53:639][705]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.09.15-20.52.53:641][705]LogAudio:Warning: Detected orphaned looping sound 'victoryMusic_loop_01_01'.
+[2017.09.15-20.53.03:970][571]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.09.15-20.53.04:021][571]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.09.15-20.54.23:514][283]BlueprintLog: New page: Compile Pinball_Player_controller
+[2017.09.15-20.54.23:556][283]LogBlueprint:Error: [Compiler Pinball_Player_controller] Error This blueprint (self) is not a PinballGameMode_C, therefore ' Target ' must have a connection.
+[2017.09.15-20.54.23:557][283]LogBlueprint:Error: [Compiler Pinball_Player_controller] Error Variable node  Set Score  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.09.15-20.54.24:069][283]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a PinballGameMode_C, therefore ' Target ' must have a connection.
+[2017.09.15-20.54.24:069][283]BlueprintEditorCompileResults:Error: Error Variable node  Set Score  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.09.15-20.54.24:069][283]LogBlueprint:Warning: [Compiler Pinball_Player_controller] Warning [1321.54] Compile of Pinball_Player_controller failed. 2 Fatal Issue(s) 0 Warning(s) [in 554 ms] (/Game/Blueprints/Pinball_Player_controller.Pinball_Player_controller)
+[2017.09.15-20.54.31:707][968]BlueprintLog: New page: Compile Pinball_Player_controller
+[2017.09.15-20.54.32:988][ 46]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pinball_Player_controller" FILE="D:/Davide/Desktop/PinballGame/MyProject/Content/Blueprints/Pinball_Player_controller.uasset" SILENT=true
+[2017.09.15-20.54.33:177][ 46]LogSavePackage: Save=154.17ms
+[2017.09.15-20.54.33:177][ 46]LogSavePackage: Moving 'D:/Davide/Desktop/PinballGame/MyProject/Saved/Pinball_Player_controllerBE663EE747719FFC7DF5AF8E49F9D2FE.tmp' to 'D:/Davide/Desktop/PinballGame/MyProject/Content/Blueprints/Pinball_Player_controller.uasset'
+[2017.09.15-20.54.33:182][ 46]LogSavePackage:Display: Finished SavePackage D:/Davide/Desktop/PinballGame/MyProject/Content/Blueprints/Pinball_Player_controller.uasset
+[2017.09.15-20.54.34:082][116]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.15-20.54.34:120][116]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.09.15-20.54.34:120][116]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.15-20.54.34:120][116]PIE: New page: PIE session: FlipperMap (Sep 16, 2017, 12:54:34 AM)
+[2017.09.15-20.54.34:120][116]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FlipperMap
+[2017.09.15-20.54.34:139][116]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018455s)
+[2017.09.15-20.54.34:140][116]LogAIModule: Creating AISystem for world FlipperMap
+[2017.09.15-20.54.34:140][116]LogPlayLevel: PIE: World Init took: (0.001481s)
+[2017.09.15-20.54.34:140][116]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlipperMap.FlipperMap to /Game/UEDPIE_0_FlipperMap.FlipperMap (0.020363s)
+[2017.09.15-20.54.34:222][116]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.15-20.54.34:245][116]LogInit: FAudioDevice initialized.
+[2017.09.15-20.54.34:428][116]LogLoad: Game class is 'PinballGameMode_C'
+[2017.09.15-20.54.34:433][116]LogWorld: Bringing World /Game/UEDPIE_0_FlipperMap.FlipperMap up for play (max tick rate 0) at 2017.09.15-22.54.34
+[2017.09.15-20.54.34:434][116]LogWorld: Bringing up level for play took: 0.005434
+[2017.09.15-20.54.34:439][116]LogBlueprintUserMessages: [HighScoreWidget_193] deflo  ==  2900.0
+[2017.09.15-20.54.34:439][116]LogBlueprintUserMessages: [HighScoreWidget_193] vaccaloca  ==  2500.0
+[2017.09.15-20.54.34:439][116]LogBlueprintUserMessages: [HighScoreWidget_193] markito  ==  2000.0
+[2017.09.15-20.54.34:439][116]LogBlueprintUserMessages: [HighScoreWidget_193] deflo  ==  600.0
+[2017.09.15-20.54.34:455][116]PIE: Info Play in editor start time for /Game/UEDPIE_0_FlipperMap -0.25
+[2017.09.15-20.54.34:456][116]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.09.15-20.54.34:461][116]LogAudio:Warning: Detected orphaned looping sound 'victoryMusic_loop_01_01'.
+[2017.09.15-20.54.42:495][661]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.09.15-20.54.42:562][661]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.09.15-20.54.44:761][857]LogEditorViewport: Clicking on Actor (LMB): BP_Bumper_C (BP_Bumper2)
+[2017.09.15-20.54.45:291][895]Cmd: DELETE
+[2017.09.15-20.54.45:291][895]Cmd: ACTOR DELETE
+[2017.09.15-20.54.45:292][895]LogEditorActor: Deleted Actor: BP_Bumper_C
+[2017.09.15-20.54.45:347][895]LogEditorActor: Deleted 1 Actors (0.055 secs)
+[2017.09.15-20.54.45:787][938]LogEditorViewport: Clicking on Actor (LMB): BP_Bumper_C (BP_Bumper)
+[2017.09.15-20.54.45:932][945]Cmd: DELETE
+[2017.09.15-20.54.45:932][945]Cmd: ACTOR DELETE
+[2017.09.15-20.54.45:933][945]LogEditorActor: Deleted Actor: BP_Bumper_C
+[2017.09.15-20.54.45:986][945]LogEditorActor: Deleted 1 Actors (0.054 secs)
+[2017.09.15-20.54.47:159][ 59]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.15-20.54.47:189][ 59]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.09.15-20.54.47:189][ 59]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.15-20.54.47:189][ 59]PIE: New page: PIE session: FlipperMap (Sep 16, 2017, 12:54:47 AM)
+[2017.09.15-20.54.47:189][ 59]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FlipperMap
+[2017.09.15-20.54.47:206][ 59]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017267s)
+[2017.09.15-20.54.47:207][ 59]LogAIModule: Creating AISystem for world FlipperMap
+[2017.09.15-20.54.47:207][ 59]LogPlayLevel: PIE: World Init took: (0.001208s)
+[2017.09.15-20.54.47:208][ 59]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlipperMap.FlipperMap to /Game/UEDPIE_0_FlipperMap.FlipperMap (0.018909s)
+[2017.09.15-20.54.47:279][ 59]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.15-20.54.47:298][ 59]LogInit: FAudioDevice initialized.
+[2017.09.15-20.54.47:334][ 59]LogLoad: Game class is 'PinballGameMode_C'
+[2017.09.15-20.54.47:338][ 59]LogWorld: Bringing World /Game/UEDPIE_0_FlipperMap.FlipperMap up for play (max tick rate 0) at 2017.09.15-22.54.47
+[2017.09.15-20.54.47:338][ 59]LogWorld: Bringing up level for play took: 0.004017
+[2017.09.15-20.54.47:341][ 59]LogBlueprintUserMessages: [HighScoreWidget_193] deflo  ==  2900.0
+[2017.09.15-20.54.47:341][ 59]LogBlueprintUserMessages: [HighScoreWidget_193] vaccaloca  ==  2500.0
+[2017.09.15-20.54.47:341][ 59]LogBlueprintUserMessages: [HighScoreWidget_193] markito  ==  2000.0
+[2017.09.15-20.54.47:341][ 59]LogBlueprintUserMessages: [HighScoreWidget_193] deflo  ==  600.0
+[2017.09.15-20.54.47:341][ 59]PIE: Info Play in editor start time for /Game/UEDPIE_0_FlipperMap 0.636
+[2017.09.15-20.54.47:342][ 59]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.09.15-20.54.47:357][ 59]LogAudio:Warning: Detected orphaned looping sound 'victoryMusic_loop_01_01'.
+[2017.09.15-20.54.49:561][250]Cmd: LevelEditor.ToggleImmersive
+[2017.09.15-20.54.55:234][718]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.09.15-20.54.55:333][718]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.09.15-20.55.38:485][875]BlueprintLog: New page: Compile Pinball_Player_controller
+[2017.09.15-20.55.39:241][902]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pinball_Player_controller" FILE="D:/Davide/Desktop/PinballGame/MyProject/Content/Blueprints/Pinball_Player_controller.uasset" SILENT=true
+[2017.09.15-20.55.39:429][902]LogSavePackage: Save=156.06ms
+[2017.09.15-20.55.39:429][902]LogSavePackage: Moving 'D:/Davide/Desktop/PinballGame/MyProject/Saved/Pinball_Player_controller8E7E45E643FC74AAD7A6839ABE174D8E.tmp' to 'D:/Davide/Desktop/PinballGame/MyProject/Content/Blueprints/Pinball_Player_controller.uasset'
+[2017.09.15-20.55.39:433][902]LogSavePackage:Display: Finished SavePackage D:/Davide/Desktop/PinballGame/MyProject/Content/Blueprints/Pinball_Player_controller.uasset
+[2017.09.15-20.56.17:045][917]BlueprintLog: New page: Compile Pinball_Player_controller
+[2017.09.15-20.56.17:942][958]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pinball_Player_controller" FILE="D:/Davide/Desktop/PinballGame/MyProject/Content/Blueprints/Pinball_Player_controller.uasset" SILENT=true
+[2017.09.15-20.56.18:144][958]LogSavePackage: Save=170.98ms
+[2017.09.15-20.56.18:144][958]LogSavePackage: Moving 'D:/Davide/Desktop/PinballGame/MyProject/Saved/Pinball_Player_controller52698E1C4D6B7C6930587F8EFD6986B5.tmp' to 'D:/Davide/Desktop/PinballGame/MyProject/Content/Blueprints/Pinball_Player_controller.uasset'
+[2017.09.15-20.56.18:149][958]LogSavePackage:Display: Finished SavePackage D:/Davide/Desktop/PinballGame/MyProject/Content/Blueprints/Pinball_Player_controller.uasset
+[2017.09.15-20.56.18:554][  3]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.15-20.56.18:582][  3]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.09.15-20.56.18:582][  3]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.15-20.56.18:583][  3]PIE: New page: PIE session: FlipperMap (Sep 16, 2017, 12:56:18 AM)
+[2017.09.15-20.56.18:583][  3]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FlipperMap
+[2017.09.15-20.56.18:595][  3]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012756s)
+[2017.09.15-20.56.18:596][  3]LogAIModule: Creating AISystem for world FlipperMap
+[2017.09.15-20.56.18:597][  3]LogPlayLevel: PIE: World Init took: (0.001205s)
+[2017.09.15-20.56.18:597][  3]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlipperMap.FlipperMap to /Game/UEDPIE_0_FlipperMap.FlipperMap (0.014345s)
+[2017.09.15-20.56.18:662][  3]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.15-20.56.18:684][  3]LogInit: FAudioDevice initialized.
+[2017.09.15-20.56.18:854][  3]LogLoad: Game class is 'PinballGameMode_C'
+[2017.09.15-20.56.18:860][  3]LogWorld: Bringing World /Game/UEDPIE_0_FlipperMap.FlipperMap up for play (max tick rate 0) at 2017.09.15-22.56.18
+[2017.09.15-20.56.18:860][  3]LogWorld: Bringing up level for play took: 0.005522
+[2017.09.15-20.56.18:864][  3]LogBlueprintUserMessages: [HighScoreWidget_193] deflo  ==  2900.0
+[2017.09.15-20.56.18:864][  3]LogBlueprintUserMessages: [HighScoreWidget_193] vaccaloca  ==  2500.0
+[2017.09.15-20.56.18:864][  3]LogBlueprintUserMessages: [HighScoreWidget_193] markito  ==  2000.0
+[2017.09.15-20.56.18:864][  3]LogBlueprintUserMessages: [HighScoreWidget_193] deflo  ==  600.0
+[2017.09.15-20.56.18:872][  3]PIE: Info Play in editor start time for /Game/UEDPIE_0_FlipperMap 0.166
+[2017.09.15-20.56.18:872][  3]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.09.15-20.56.18:878][  3]LogAudio:Warning: Detected orphaned looping sound 'victoryMusic_loop_01_01'.
+[2017.09.15-20.56.20:097][ 89]Cmd: LevelEditor.ToggleImmersive
+[2017.09.15-20.56.21:160][141]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.09.15-20.56.21:226][141]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.09.15-20.56.23:553][335]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.15-20.56.23:585][335]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.09.15-20.56.23:585][335]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.15-20.56.23:585][335]PIE: New page: PIE session: FlipperMap (Sep 16, 2017, 12:56:23 AM)
+[2017.09.15-20.56.23:585][335]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FlipperMap
+[2017.09.15-20.56.23:602][335]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017071s)
+[2017.09.15-20.56.23:603][335]LogAIModule: Creating AISystem for world FlipperMap
+[2017.09.15-20.56.23:604][335]LogPlayLevel: PIE: World Init took: (0.001562s)
+[2017.09.15-20.56.23:604][335]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlipperMap.FlipperMap to /Game/UEDPIE_0_FlipperMap.FlipperMap (0.019066s)
+[2017.09.15-20.56.23:740][335]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.15-20.56.23:777][335]LogInit: FAudioDevice initialized.
+[2017.09.15-20.56.23:816][335]LogLoad: Game class is 'PinballGameMode_C'
+[2017.09.15-20.56.23:822][335]LogWorld: Bringing World /Game/UEDPIE_0_FlipperMap.FlipperMap up for play (max tick rate 0) at 2017.09.15-22.56.23
+[2017.09.15-20.56.23:823][335]LogWorld: Bringing up level for play took: 0.005767
+[2017.09.15-20.56.23:828][335]LogBlueprintUserMessages: [HighScoreWidget_193] deflo  ==  2900.0
+[2017.09.15-20.56.23:828][335]LogBlueprintUserMessages: [HighScoreWidget_193] vaccaloca  ==  2500.0
+[2017.09.15-20.56.23:828][335]LogBlueprintUserMessages: [HighScoreWidget_193] markito  ==  2000.0
+[2017.09.15-20.56.23:828][335]LogBlueprintUserMessages: [HighScoreWidget_193] deflo  ==  600.0
+[2017.09.15-20.56.23:828][335]PIE: Info Play in editor start time for /Game/UEDPIE_0_FlipperMap 1.123
+[2017.09.15-20.56.23:829][335]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.09.15-20.56.23:833][335]LogAudio:Warning: Detected orphaned looping sound 'victoryMusic_loop_01_01'.
+[2017.09.15-20.56.24:683][403]Cmd: LevelEditor.ToggleImmersive
+[2017.09.15-20.56.28:842][716]LogBlueprintUserMessages: [Pinball_Player_controller_C_0] 2.0
+[2017.09.15-20.56.31:789][958]LogBlueprintUserMessages: [Pinball_Player_controller_C_0] 3.0
+[2017.09.15-20.56.34:441][181]LogBlueprintUserMessages: [Pinball_Player_controller_C_0] 4.0
+[2017.09.15-20.56.35:437][264]LogBlueprintUserMessages: [Pinball_Player_controller_C_0] 5.0
+[2017.09.15-20.56.37:217][415]LogBlueprintUserMessages: [Pinball_Player_controller_C_0] 6.0
+[2017.09.15-20.56.38:288][506]LogBlueprintUserMessages: [Pinball_Player_controller_C_0] 7.0
+[2017.09.15-20.56.39:440][604]LogBlueprintUserMessages: [Pinball_Player_controller_C_0] 8.0
+[2017.09.15-20.56.47:972][315]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.09.15-20.56.48:053][315]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.09.15-20.56.51:232][608]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.15-20.56.51:258][608]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.09.15-20.56.51:258][608]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.15-20.56.51:258][608]PIE: New page: PIE session: FlipperMap (Sep 16, 2017, 12:56:51 AM)
+[2017.09.15-20.56.51:258][608]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FlipperMap
+[2017.09.15-20.56.51:273][608]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014742s)
+[2017.09.15-20.56.51:274][608]LogAIModule: Creating AISystem for world FlipperMap
+[2017.09.15-20.56.51:274][608]LogPlayLevel: PIE: World Init took: (0.001035s)
+[2017.09.15-20.56.51:274][608]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlipperMap.FlipperMap to /Game/UEDPIE_0_FlipperMap.FlipperMap (0.016135s)
+[2017.09.15-20.56.51:354][608]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.15-20.56.51:370][608]LogInit: FAudioDevice initialized.
+[2017.09.15-20.56.51:402][608]LogLoad: Game class is 'PinballGameMode_C'
+[2017.09.15-20.56.51:406][608]LogWorld: Bringing World /Game/UEDPIE_0_FlipperMap.FlipperMap up for play (max tick rate 0) at 2017.09.15-22.56.51
+[2017.09.15-20.56.51:407][608]LogWorld: Bringing up level for play took: 0.004558
+[2017.09.15-20.56.51:410][608]LogBlueprintUserMessages: [HighScoreWidget_193] deflo  ==  2900.0
+[2017.09.15-20.56.51:410][608]LogBlueprintUserMessages: [HighScoreWidget_193] vaccaloca  ==  2500.0
+[2017.09.15-20.56.51:410][608]LogBlueprintUserMessages: [HighScoreWidget_193] markito  ==  2000.0
+[2017.09.15-20.56.51:410][608]LogBlueprintUserMessages: [HighScoreWidget_193] deflo  ==  600.0
+[2017.09.15-20.56.51:410][608]PIE: Info Play in editor start time for /Game/UEDPIE_0_FlipperMap 0.704
+[2017.09.15-20.56.51:410][608]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.09.15-20.56.51:425][608]LogAudio:Warning: Detected orphaned looping sound 'victoryMusic_loop_01_01'.
+[2017.09.15-20.56.52:743][723]Cmd: LevelEditor.ToggleImmersive
+[2017.09.15-20.57.00:917][400]LogBlueprintUserMessages: [Pinball_Player_controller_C_0] 2.0
+[2017.09.15-20.57.04:343][688]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-20.57.04:343][688]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-20.57.05:327][771]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-20.57.05:327][771]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-20.57.06:011][829]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-20.57.06:012][829]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-20.57.07:840][982]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-20.57.07:840][982]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-20.57.09:138][ 91]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-20.57.09:138][ 91]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-20.57.10:478][203]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-20.57.10:478][203]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-20.57.12:040][334]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-20.57.12:040][334]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-20.57.13:864][487]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-20.57.13:864][487]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-20.57.17:592][794]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-20.57.17:593][794]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-20.57.21:369][103]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-20.57.21:369][103]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-20.57.25:006][401]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-20.57.25:006][401]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-20.57.26:503][523]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-20.57.26:503][523]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-20.57.33:911][117]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-20.57.33:911][117]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-20.57.37:780][424]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-20.57.37:780][424]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-20.57.39:497][545]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-20.57.39:497][545]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-20.57.40:955][632]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-20.57.40:955][632]LogScript:Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [Pinball_FlipperLeft],
+[2017.09.15-20.57.44:512][880]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.09.15-20.57.44:599][880]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.09.15-20.58.57:503][534]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.15-20.58.57:530][534]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.09.15-20.58.57:530][534]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.15-20.58.57:530][534]PIE: New page: PIE session: FlipperMap (Sep 16, 2017, 12:58:57 AM)
+[2017.09.15-20.58.57:531][534]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FlipperMap
+[2017.09.15-20.58.57:545][534]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014198s)
+[2017.09.15-20.58.57:546][534]LogAIModule: Creating AISystem for world FlipperMap
+[2017.09.15-20.58.57:546][534]LogPlayLevel: PIE: World Init took: (0.001432s)
+[2017.09.15-20.58.57:547][534]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlipperMap.FlipperMap to /Game/UEDPIE_0_FlipperMap.FlipperMap (0.016018s)
+[2017.09.15-20.58.57:612][534]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.15-20.58.57:628][534]LogInit: FAudioDevice initialized.
+[2017.09.15-20.58.57:666][534]LogLoad: Game class is 'PinballGameMode_C'
+[2017.09.15-20.58.57:671][534]LogWorld: Bringing World /Game/UEDPIE_0_FlipperMap.FlipperMap up for play (max tick rate 0) at 2017.09.15-22.58.57
+[2017.09.15-20.58.57:672][534]LogWorld: Bringing up level for play took: 0.004985
+[2017.09.15-20.58.57:676][534]LogBlueprintUserMessages: [HighScoreWidget_193] deflo  ==  2900.0
+[2017.09.15-20.58.57:676][534]LogBlueprintUserMessages: [HighScoreWidget_193] vaccaloca  ==  2500.0
+[2017.09.15-20.58.57:676][534]LogBlueprintUserMessages: [HighScoreWidget_193] markito  ==  2000.0
+[2017.09.15-20.58.57:676][534]LogBlueprintUserMessages: [HighScoreWidget_193] deflo  ==  600.0
+[2017.09.15-20.58.57:676][534]PIE: Info Play in editor start time for /Game/UEDPIE_0_FlipperMap 0.971
+[2017.09.15-20.58.57:676][534]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.09.15-20.58.57:678][534]LogAudio:Warning: Detected orphaned looping sound 'victoryMusic_loop_01_01'.
+[2017.09.15-20.59.17:592][224]Cmd: LevelEditor.ToggleImmersive
+[2017.09.15-20.59.21:267][512]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.09.15-20.59.21:347][512]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FlipperMap.FlipperMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap' with GeneratedClass '/Game/FlipperMap.FlipperMap_C' with ClassGeneratedBy '/Game/FlipperMap.FlipperMap:PersistentLevel.FlipperMap'
+[2017.09.15-20.59.23:394][659]LogUObjectBase:Warning: Object is not registered
+[2017.09.15-20.59.23:701][659]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.308 s
+[2017.09.15-20.59.23:702][659]LogOutputDevice:Error: === Handled ensure: ===
+[2017.09.15-20.59.23:702][659]LogOutputDevice:Error: 
+[2017.09.15-20.59.23:702][659]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilities.cpp] [Line: 1037]
+[2017.09.15-20.59.23:702][659]LogOutputDevice:Error: Error: Invalid (but non-null) property associated with pin; cannot get variable value
+[2017.09.15-20.59.23:702][659]LogOutputDevice:Error: Stack: 
+[2017.09.15-20.59.23:702][659]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000C67BE2B6
+[2017.09.15-20.59.23:702][659]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000C656B8C2
+[2017.09.15-20.59.23:702][659]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000C6581E86
+[2017.09.15-20.59.23:702][659]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000C0937556
+[2017.09.15-20.59.23:702][659]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x00000000BFA7D27B
+[2017.09.15-20.59.23:702][659]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000BEE024AA
+[2017.09.15-20.59.23:702][659]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000BECA72CC
+[2017.09.15-20.59.23:702][659]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000BECAA6D9
+[2017.09.15-20.59.23:702][659]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000BEDC8035
+[2017.09.15-20.59.23:702][659]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000C292DB57
+[2017.09.15-20.59.23:702][659]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000C2934B61
+[2017.09.15-20.59.23:702][659]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000C2B548D3
+[2017.09.15-20.59.23:702][659]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000C298F604
+[2017.09.15-20.59.23:702][659]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000C29677FC
+[2017.09.15-20.59.23:702][659]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000C295814C
+[2017.09.15-20.59.23:702][659]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000C67B15B0
+[2017.09.15-20.59.23:702][659]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000C679B7D1
+[2017.09.15-20.59.23:702][659]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000C67B33DB
+[2017.09.15-20.59.23:702][659]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000C6797B22
+[2017.09.15-20.59.23:702][659]LogOutputDevice:Error: USER32.dll!0x0000000001B0BC50
+[2017.09.15-20.59.23:702][659]LogOutputDevice:Error: USER32.dll!0x0000000001B0B5CF
+[2017.09.15-20.59.23:702][659]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000C67B3CE6
+[2017.09.15-20.59.23:702][659]LogOutputDevice:Error: UE4Editor.exe!0x00000000406DDB44
+[2017.09.15-20.59.23:702][659]LogOutputDevice:Error: UE4Editor.exe!0x00000000406CF0B0
+[2017.09.15-20.59.23:702][659]LogOutputDevice:Error: UE4Editor.exe!0x00000000406CF12A
+[2017.09.15-20.59.23:702][659]LogOutputDevice:Error: UE4Editor.exe!0x00000000406E0CF9
+[2017.09.15-20.59.23:702][659]LogOutputDevice:Error: UE4Editor.exe!0x00000000406E25F7
+[2017.09.15-20.59.23:702][659]LogOutputDevice:Error: KERNEL32.DLL!0x0000000001FD2774
+[2017.09.15-20.59.23:702][659]LogOutputDevice:Error: ntdll.dll!0x0000000004460D51
+[2017.09.15-20.59.23:702][659]LogOutputDevice:Error: 
+[2017.09.15-20.59.23:713][659]LogStats:                SubmitErrorReport -  0.000 s
